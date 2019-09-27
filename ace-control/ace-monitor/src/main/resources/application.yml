@@ -7,4 +7,4 @@ spring:
         server-addr: 127.0.0.1:8848
 
 server:
-  port: 8764 #Æô¶¯¶Ë¿Ú
+  port: 8764 #ç«¯å£
