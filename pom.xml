@@ -22,6 +22,7 @@
     <modules>
         <module>ace-auth</module>
         <module>ace-control</module>
+        <module>ace-modules</module>
     </modules>
     <!--5.配置-->
     <properties>
