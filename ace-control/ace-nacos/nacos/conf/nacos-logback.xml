@@ -584,7 +584,7 @@
             <level value="INFO"/>
         </logger>
 
-        <logger name="org.apache.catalina.util.LifecycleBase">
+        <logger name="org.apache.catalina.com.ada.common.com.ada.common.util.LifecycleBase">
             <appender-ref ref="CONSOLE"/>
             <level value="ERROR"/>
         </logger>
@@ -594,7 +594,7 @@
             <level value="WARN"/>
         </logger>
 
-        <logger name="org.apache.tomcat.util.net.NioSelectorPool">
+        <logger name="org.apache.tomcat.com.ada.common.com.ada.common.util.net.NioSelectorPool">
             <appender-ref ref="CONSOLE"/>
             <level value="WARN"/>
         </logger>

@@ -26,6 +26,7 @@ spring:
     minIdle: 1
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
+     # 验证使用的SQL语句
     validationQuery: select 'x'
     testWhileIdle: true
     testOnBorrow: false
