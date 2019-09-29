@@ -12,11 +12,11 @@ import lombok.Setter;
 @Getter
 @Setter
 public class FrontUser {
-    public String id ;
-    public String userName ;
+    public String id;
+    public String userName;
     public String name;
     private String description;
-    private String image ;
+    private String image;
     //private List<PermissionInfo> menus;
     //private List<PermissionInfo> elements;
 }
