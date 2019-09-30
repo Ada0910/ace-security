@@ -1,4 +1,4 @@
-package com.ada.server.entity;
+package com.ada.server.vo;
 
 import lombok.Getter;
 import lombok.Setter;
