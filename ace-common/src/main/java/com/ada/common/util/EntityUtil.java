@@ -7,7 +7,6 @@ import org.springframework.web.context.request.ServletRequestAttributes;
 
 import javax.servlet.http.HttpServletRequest;
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.net.URLDecoder;
 import java.util.Date;
 
@@ -105,15 +104,7 @@ public class EntityUtil {
         for (int i = 0; i < fields.length; i++) {
             String field = fields[i];
             if (ReflectionUtil.hasField(entity, field)) {
-                try {
-                    ReflectionUtil.invokeSetter(entity, field, value[i]);
-                } catch (NoSuchMethodException e) {
-                    e.printStackTrace();
-                } catch (IllegalAccessException e) {
-                    e.printStackTrace();
-                } catch (InvocationTargetException e) {
-                    e.printStackTrace();
-                }
+                ReflectionUtil.invokeSetter(entity, field, value[i]);
             }
         }
     }
