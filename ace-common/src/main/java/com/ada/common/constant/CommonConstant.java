@@ -4,7 +4,7 @@ package com.ada.common.constant;
  * @author Ada
  * @ClassName :CommonConstant
  * @date 2019/10/3 20:15
- * @Description:
+ * @Description: 公共常量类
  */
 public class CommonConstant {
     public final static String RESOURCE_TYPE_MENU = "menu";

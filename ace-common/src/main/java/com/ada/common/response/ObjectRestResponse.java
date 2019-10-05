@@ -12,7 +12,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class ObjectRestResponse<T> extends BaseResponse {
-
     T data;
     boolean rel;
 

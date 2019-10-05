@@ -17,7 +17,7 @@ import java.util.Map;
  * @author Ada
  * @ClassName :BaseBiz
  * @date 2019/10/3 16:27
- * @Description:
+ * @Description: 基础的Mapper类
  */
 public abstract class BaseBiz<M extends Mapper<T>, T> {
 

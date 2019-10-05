@@ -1,5 +1,7 @@
 package com.ada.admin.controller;
 
+import com.ada.admin.entity.User;
+import com.ada.common.controller.BaseController;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -11,5 +13,5 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("user")
-public class UserController  {
+public class UserController /*extends BaseController<UserBiz, User> */{
 }

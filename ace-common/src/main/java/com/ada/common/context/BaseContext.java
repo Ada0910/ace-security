@@ -9,7 +9,7 @@ import java.util.Map;
  * @author Ada
  * @ClassName :BaseContext
  * @date 2019/10/3 20:11
- * @Description:
+ * @Description: 公共的内容处理程序
  */
 public class BaseContext {
     public static ThreadLocal<Map<String, Object>> threadLocal = new ThreadLocal<>();
