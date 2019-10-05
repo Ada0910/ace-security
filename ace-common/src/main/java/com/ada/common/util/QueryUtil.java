@@ -8,18 +8,18 @@ import java.util.Map;
 
 /**
  * @author Ada
- * @ClassName :Query
+ * @ClassName :QueryUtil
  * @date 2019/10/4 17:20
  * @Description:
  */
 @Getter
 @Setter
-public class Query extends LinkedHashMap<String, Object> {
+public class QueryUtil extends LinkedHashMap<String, Object> {
     private static final long serialVersionUID = 1L;
     private int page = 1;
     private int limit = 10;
 
-    public Query(Map<String, Object> params) {
+    public QueryUtil(Map<String, Object> params) {
         this.putAll(params);
         if (params.get("page") != null) {
             this.page = Integer.parseInt(params.get("page").toString());

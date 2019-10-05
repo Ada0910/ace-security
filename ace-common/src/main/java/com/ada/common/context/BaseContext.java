@@ -1,17 +1,17 @@
 package com.ada.common.context;
 
-import com.ada.common.constant.CommonConstants;
+import com.ada.common.constant.CommonConstant;
 
 import java.util.HashMap;
 import java.util.Map;
 
 /**
  * @author Ada
- * @ClassName :BaseContextHandler
+ * @ClassName :BaseContext
  * @date 2019/10/3 20:11
  * @Description:
  */
-public class BaseContextHandler {
+public class BaseContext {
     public static ThreadLocal<Map<String, Object>> threadLocal = new ThreadLocal<>();
 
     public static void set(String key, Object value) {
@@ -37,12 +37,12 @@ public class BaseContextHandler {
     }
 
     public static String getUserName() {
-        Object value = get(CommonConstants.CONTEXT_KEY_USERNAME);
+        Object value = get(CommonConstant.CONTEXT_KEY_USERNAME);
         return returnObjectValue(value);
     }
 
     public static String getUserID() {
-        Object value = get(CommonConstants.CONTEXT_KEY_USER_ID);
+        Object value = get(CommonConstant.CONTEXT_KEY_USER_ID);
         return returnObjectValue(value);
     }
 }

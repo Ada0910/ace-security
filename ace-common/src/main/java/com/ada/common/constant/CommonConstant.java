@@ -2,11 +2,11 @@ package com.ada.common.constant;
 
 /**
  * @author Ada
- * @ClassName :CommonConstants
+ * @ClassName :CommonConstant
  * @date 2019/10/3 20:15
  * @Description:
  */
-public class CommonConstants {
+public class CommonConstant {
     public final static String RESOURCE_TYPE_MENU = "menu";
     public final static String RESOURCE_TYPE_BTN = "button";
     // 用户token异常

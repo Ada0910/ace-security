@@ -1,8 +1,8 @@
 package com.ada.common.biz;
 
-import com.ada.common.msg.TableResultResponse;
+import com.ada.common.response.TableResultResponse;
 import com.ada.common.util.EntityUtil;
-import com.ada.common.util.Query;
+import com.ada.common.util.QueryUtil;
 import com.github.pagehelper.Page;
 import com.github.pagehelper.PageHelper;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -84,7 +84,7 @@ public abstract class BaseBiz<M extends Mapper<T>, T> {
         return mapper.selectCountByExample(example);
     }
 
-    public TableResultResponse<T> selectByQuery(Query query) {
+    public TableResultResponse<T> selectByQuery(QueryUtil query) {
         //Java 得到泛型中得到T.class
         Class<T> clazz = (Class<T>) ((ParameterizedType) getClass().getGenericSuperclass()).getActualTypeArguments()[1];
         Example example = new Example(clazz);

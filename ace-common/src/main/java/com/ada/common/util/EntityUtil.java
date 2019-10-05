@@ -1,6 +1,6 @@
 package com.ada.common.util;
 
-import com.ada.common.context.BaseContextHandler;
+import com.ada.common.context.BaseContext;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
@@ -43,10 +43,10 @@ public class EntityUtil {
         }
         //isBlank判断某字符串是否为空或长度为0或由空白符(whitespace)构成
         if (StringUtils.isBlank(name)) {
-            name = BaseContextHandler.getUserName();
+            name = BaseContext.getUserName();
         }
         if (StringUtils.isBlank(id)) {
-            id = BaseContextHandler.getUserID();
+            id = BaseContext.getUserID();
         }
 
         // 默认属性
@@ -77,10 +77,10 @@ public class EntityUtil {
         }
 
         if (StringUtils.isBlank(name)) {
-            name = BaseContextHandler.getUserName();
+            name = BaseContext.getUserName();
         }
         if (StringUtils.isBlank(id)) {
-            id = BaseContextHandler.getUserID();
+            id = BaseContext.getUserID();
         }
 
         // 默认属性

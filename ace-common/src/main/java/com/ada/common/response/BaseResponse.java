@@ -1,4 +1,4 @@
-package com.ada.common.msg;
+package com.ada.common.response;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -7,7 +7,7 @@ import lombok.Setter;
  * @author Ada
  * @ClassName :BaseResponse
  * @date 2019/10/4 17:08
- * @Description:
+ * @Description:基础响应信息
  */
 @Getter
 @Setter

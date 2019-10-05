@@ -1,4 +1,4 @@
-package com.ada.common.msg;
+package com.ada.common.vo;
 
 import lombok.Getter;
 import lombok.Setter;
@@ -9,11 +9,11 @@ import java.util.List;
  * @author Ada
  * @ClassName :TableData
  * @date 2019/10/4 17:16
- * @Description:
+ * @Description:获取表格的总条数和行数
  */
 @Getter
 @Setter
-class TableData<T> {
+public class TableData<T> {
     long total;
     List<T> rows;
 
