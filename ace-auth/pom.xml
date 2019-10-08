@@ -17,6 +17,7 @@
     <!--4.子模块-->
     <modules>
         <module>ace-auth-server</module>
+        <module>ace-auth-client</module>
     </modules>
     <!--5.配置-->
     <!--6.依赖-->
