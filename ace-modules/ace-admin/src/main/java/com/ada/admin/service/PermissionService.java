@@ -1,5 +1,6 @@
 package com.ada.admin.service;
 
+import com.ada.admin.biz.ElementBiz;
 import com.ada.admin.biz.MenuBiz;
 import com.ada.admin.biz.UserBiz;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -19,4 +20,7 @@ public class PermissionService {
 
     @Autowired
     private MenuBiz menuBiz;
+
+    @Autowired
+    private ElementBiz elementBiz;
 }

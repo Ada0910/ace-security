@@ -16,7 +16,7 @@ import org.springframework.transaction.annotation.Transactional;
  * @author Ada
  * @ClassName :UserBiz
  * @date 2019/10/5 16:41
- * @Description:
+ * @Description: rollbackFor, 该属性设置需要进行回滚的异常数组，当参数为Exception.class等异常数组时则进行事务回滚
  */
 @Service
 @Transactional(rollbackFor = Exception.class)
