@@ -35,11 +35,6 @@
             <version>1.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!--  <dependency>
-              <groupId>com.github.wxiaoqi</groupId>
-              <artifactId>ace-auth-common</artifactId>
-              <version>2.0-SNAPSHOT</version>
-          </dependency>-->
         <dependency>
             <groupId>io.github.openfeign</groupId>
             <artifactId>feign-okhttp</artifactId>
@@ -47,7 +42,7 @@
         <dependency>
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-openfeign-core</artifactId>
-            <version>2.0.0.M1</version>
+            <version>2.0.2.RELEASE</version>
             <scope>provided</scope>
         </dependency>
         <dependency>
@@ -60,6 +55,12 @@
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.ada</groupId>
+            <artifactId>ace-auth-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+            <scope>compile</scope>
         </dependency>
     </dependencies>
     <build>
