@@ -23,6 +23,4 @@ public class PermissionService {
 
     @Autowired
     private ElementBiz elementBiz;
-
-
 }
