@@ -2,11 +2,11 @@ package com.ada.auth.common.util;
 
 /**
  * @author Ada
- * @ClassName :IJWTInfo
+ * @ClassName :IJWTInfoUtil
  * @date 2019/10/10 23:28
  * @Description:
  */
-public interface IJWTInfo {
+public interface IJWTInfoUtil {
     /**
      * 获取用户名
      */

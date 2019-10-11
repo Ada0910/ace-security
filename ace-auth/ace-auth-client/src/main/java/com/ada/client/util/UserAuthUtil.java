@@ -1,6 +1,6 @@
 package com.ada.client.util;
 
-import com.ada.auth.common.util.IJWTInfo;
+import com.ada.auth.common.util.IJWTInfoUtil;
 import com.ada.client.config.UserAuthConfig;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Configuration;
@@ -17,7 +17,7 @@ public class UserAuthUtil {
     @Autowired
     private UserAuthConfig userAuthConfig;
 
-    public IJWTInfo getInfoFromToken(String token){
+    public IJWTInfoUtil getInfoFromToken(String token){
         return null;
     }
 }
