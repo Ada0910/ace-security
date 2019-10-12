@@ -1,5 +1,18 @@
-# cloud-platform 分布式微服务
-## ace-auth 服务鉴权中心模块
+cloud-platform 分布式微服务
+# 项目名称
+## 模块
+## 项目结构
+# 技术选型
+- 基础环境
+win10+IDEA+JDK1.8
+- 前端
+- 后台
+
+# 使用指南
+# 运行效果
+# 注意事项
+# 鸣谢
+https://gitee.com/geek_qi/cloud-platform/wikis/Home 附上我学习的链接
 # 规范
 ## pom文件规范
 引入的标签顺序为：
