@@ -1,5 +1,4 @@
-cloud-platform 分布式微服务
-# 项目名称
+# cloud-platform 分布式微服务
 ## 模块
 ## 项目结构
 # 技术选型
