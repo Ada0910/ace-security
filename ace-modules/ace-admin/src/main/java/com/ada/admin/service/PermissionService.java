@@ -160,7 +160,7 @@ public class PermissionService {
         return frontUser;
     }
 
-    public List<MenuTree> getMenusByUsername(String token) throws Exception {
+    public List<MenuTree> getMenusByUseName(String token) throws Exception {
         String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
         if (username == null) {
             return null;
