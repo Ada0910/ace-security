@@ -118,8 +118,8 @@ public class PermissionService {
         }
     }
 
-    public List<PermissionInfo> getPermissionByUsername(String username) {
-        User user = userBiz.getUserByUserName(username);
+    public List<PermissionInfo> getPermissionByUserName(String userName) {
+        User user = userBiz.getUserByUserName(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         List<PermissionInfo> result = new ArrayList<PermissionInfo>();
         PermissionInfo info = null;
@@ -140,15 +140,16 @@ public class PermissionService {
         return TreeUtil.bulid(trees, root);
     }
 
+    /**获取用户信息*/
     public FrontUser getUserInfo(String token) throws Exception {
-        String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
-        if (username == null) {
+        String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
+        if (userName == null) {
             return null;
         }
-        UserInfo user = this.getUserByUserName(username);
+        UserInfo user = this.getUserByUserName(userName);
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
-        List<PermissionInfo> permissionInfos = this.getPermissionByUsername(username);
+        List<PermissionInfo> permissionInfos = this.getPermissionByUserName(userName);
         Stream<PermissionInfo> menus = permissionInfos.parallelStream().filter((permission) -> {
             return permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
         });
