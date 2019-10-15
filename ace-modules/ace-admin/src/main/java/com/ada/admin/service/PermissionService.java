@@ -140,15 +140,19 @@ public class PermissionService {
         return TreeUtil.bulid(trees, root);
     }
 
+    /**
+     * 获取用户信息
+     */
     public FrontUser getUserInfo(String token) throws Exception {
-        String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
-        if (username == null) {
+        //获取用户名
+        String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
+        if (userName == null) {
             return null;
         }
-        UserInfo user = this.getUserByUserName(username);
+        UserInfo user = this.getUserByUserName(userName);
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
-        List<PermissionInfo> permissionInfos = this.getPermissionByUsername(username);
+        List<PermissionInfo> permissionInfos = this.getPermissionByUsername(userName);
         Stream<PermissionInfo> menus = permissionInfos.parallelStream().filter((permission) -> {
             return permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
         });

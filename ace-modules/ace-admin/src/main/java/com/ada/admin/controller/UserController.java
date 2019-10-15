@@ -33,6 +33,9 @@ public class UserController extends BaseController<UserBiz, User> {
     @Autowired
     private MenuBiz menuBiz;
 
+    /**
+     * ResponseEntity能够返回状态码和http响应头
+     */
     @RequestMapping(value = "/front/info", method = RequestMethod.GET)
     @ResponseBody
     public ResponseEntity<?> getUserInfo(String token) throws Exception {
