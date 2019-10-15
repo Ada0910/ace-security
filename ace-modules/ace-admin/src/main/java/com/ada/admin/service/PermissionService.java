@@ -82,6 +82,9 @@ public class PermissionService {
         return result;
     }
 
+    /**
+     * 允许访问的菜单
+     */
     public void menu2permission(List<Menu> menus, List<PermissionInfo> result) {
         PermissionInfo info;
         for (Menu menu : menus) {
@@ -118,8 +121,11 @@ public class PermissionService {
         }
     }
 
-    public List<PermissionInfo> getPermissionByUsername(String username) {
-        User user = userBiz.getUserByUserName(username);
+    /**
+     * 通过用户获取相应的元素(组件)
+     */
+    public List<PermissionInfo> getPermissionByUserName(String userName) {
+        User user = userBiz.getUserByUserName(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         List<PermissionInfo> result = new ArrayList<PermissionInfo>();
         PermissionInfo info = null;
@@ -141,7 +147,7 @@ public class PermissionService {
     }
 
     /**
-     * 获取用户信息
+     * 获取用户信息(对应名字的用户能使用哪些权限)
      */
     public FrontUser getUserInfo(String token) throws Exception {
         //获取用户名
@@ -152,11 +158,13 @@ public class PermissionService {
         UserInfo user = this.getUserByUserName(userName);
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
-        List<PermissionInfo> permissionInfos = this.getPermissionByUsername(userName);
+        List<PermissionInfo> permissionInfos = this.getPermissionByUserName(userName);
+        //返回menu菜单
         Stream<PermissionInfo> menus = permissionInfos.parallelStream().filter((permission) -> {
             return permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
         });
         frontUser.setMenus(menus.collect(Collectors.toList()));
+        //返回对应的元素
         Stream<PermissionInfo> elements = permissionInfos.parallelStream().filter((permission) -> {
             return !permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
         });
