@@ -172,12 +172,15 @@ public class PermissionService {
         return frontUser;
     }
 
+    /**
+     * 根据用户名获取相应的menu
+     */
     public List<MenuTree> getMenusByUseName(String token) throws Exception {
-        String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
-        if (username == null) {
+        String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
+        if (userName == null) {
             return null;
         }
-        User user = userBiz.getUserByUserName(username);
+        User user = userBiz.getUserByUserName(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         return getMenuTree(menus, AdminCommonConstant.ROOT);
     }

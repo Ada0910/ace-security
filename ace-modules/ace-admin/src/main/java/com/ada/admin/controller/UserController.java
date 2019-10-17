@@ -47,6 +47,7 @@ public class UserController extends BaseController<UserBiz, User> {
         }
     }
 
+    /**根据用户名获取相应的menu*/
     @RequestMapping(value = "/front/menus", method = RequestMethod.GET)
     public @ResponseBody
     List<MenuTree> getMenuByUserName(String token) throws Exception {
