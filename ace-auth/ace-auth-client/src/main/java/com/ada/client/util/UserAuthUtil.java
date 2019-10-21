@@ -22,14 +22,17 @@ public class UserAuthUtil {
     @Autowired
     private UserAuthConfig userAuthConfig;
 
-    public IJWTInfoUtil getInfoFromToken(String token)  throws Exception {
+    /**
+     * 从token中拿用户的登录信息
+     */
+    public IJWTInfoUtil getInfoFromToken(String token) throws Exception {
         try {
             return JWTHelperUtil.getInfoFromToken(token, userAuthConfig.getPubKeyByte());
-        }catch (ExpiredJwtException ex){
+        } catch (ExpiredJwtException ex) {
             throw new UserTokenException("User token expired!");
-        }catch (SignatureException ex){
+        } catch (SignatureException ex) {
             throw new UserTokenException("User token signature error!");
-        }catch (IllegalArgumentException ex){
+        } catch (IllegalArgumentException ex) {
             throw new UserTokenException("User token is null or empty!");
         }
     }

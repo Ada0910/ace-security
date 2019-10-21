@@ -82,6 +82,9 @@ public class PermissionService {
         return result;
     }
 
+    /**
+     * 允许访问的菜单
+     */
     public void menu2permission(List<Menu> menus, List<PermissionInfo> result) {
         PermissionInfo info;
         for (Menu menu : menus) {
@@ -118,6 +121,9 @@ public class PermissionService {
         }
     }
 
+    /**
+     * 通过用户获取相应的元素(组件)
+     */
     public List<PermissionInfo> getPermissionByUserName(String userName) {
         User user = userBiz.getUserByUserName(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
@@ -140,8 +146,11 @@ public class PermissionService {
         return TreeUtil.bulid(trees, root);
     }
 
-    /**获取用户信息*/
+    /**
+     * 获取用户信息(对应名字的用户能使用哪些权限)
+     */
     public FrontUser getUserInfo(String token) throws Exception {
+        //获取用户名
         String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
         if (userName == null) {
             return null;
@@ -150,10 +159,12 @@ public class PermissionService {
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
         List<PermissionInfo> permissionInfos = this.getPermissionByUserName(userName);
+        //返回menu菜单
         Stream<PermissionInfo> menus = permissionInfos.parallelStream().filter((permission) -> {
             return permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
         });
         frontUser.setMenus(menus.collect(Collectors.toList()));
+        //返回对应的元素
         Stream<PermissionInfo> elements = permissionInfos.parallelStream().filter((permission) -> {
             return !permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
         });
@@ -161,12 +172,15 @@ public class PermissionService {
         return frontUser;
     }
 
+    /**
+     * 根据用户名获取相应的menu
+     */
     public List<MenuTree> getMenusByUseName(String token) throws Exception {
-        String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
-        if (username == null) {
+        String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
+        if (userName == null) {
             return null;
         }
-        User user = userBiz.getUserByUserName(username);
+        User user = userBiz.getUserByUserName(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         return getMenuTree(menus, AdminCommonConstant.ROOT);
     }

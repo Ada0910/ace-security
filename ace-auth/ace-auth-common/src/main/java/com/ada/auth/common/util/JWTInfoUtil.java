@@ -9,19 +9,19 @@ import java.io.Serializable;
  * @Description:
  */
 public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
-    private String username;
+    private String userName;
     private String userId;
     private String name;
 
-    public JWTInfoUtil(String username, String userId, String name) {
-        this.username = username;
+    public JWTInfoUtil(String userName, String userId, String name) {
+        this.userName = userName;
         this.userId = userId;
         this.name = name;
     }
 
     @Override
     public String getUniqueName() {
-        return username;
+        return userName;
     }
 
     @Override
@@ -35,7 +35,7 @@ public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
     }
 
     public void setUsername(String username) {
-        this.username = username;
+        this.userName = userName;
     }
 
     public void setUserId(String userId) {
@@ -55,7 +55,7 @@ public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
             return false;
         }
         JWTInfoUtil jwtInfoUtil = (JWTInfoUtil) o;
-        if (username != null ? username.equals(jwtInfoUtil.username) : jwtInfoUtil.username != null) {
+        if (userName != null ? userName.equals(jwtInfoUtil.userName) : jwtInfoUtil.userName != null) {
             return false;
         }
         return userId != null ? userId.equals(jwtInfoUtil.userId) : jwtInfoUtil.userId == null;
@@ -63,7 +63,7 @@ public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
 
     @Override
     public int hashCode() {
-        int result = username != null ? username.hashCode() : 0;
+        int result = userName != null ? userName.hashCode() : 0;
         result = 31 * result + (userId != null ? userId.hashCode() : 0);
         return result;
     }

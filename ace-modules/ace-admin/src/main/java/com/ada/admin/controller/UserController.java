@@ -34,7 +34,7 @@ public class UserController extends BaseController<UserBiz, User> {
     private MenuBiz menuBiz;
 
     /**
-     * 获取用户信息
+     * ResponseEntity能够返回状态码和http响应头
      */
     @RequestMapping(value = "/front/info", method = RequestMethod.GET)
     @ResponseBody
@@ -47,6 +47,9 @@ public class UserController extends BaseController<UserBiz, User> {
         }
     }
 
+    /**
+     * 根据用户名获取相应的menu
+     */
     @RequestMapping(value = "/front/menus", method = RequestMethod.GET)
     public @ResponseBody
     List<MenuTree> getMenuByUserName(String token) throws Exception {
