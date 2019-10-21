@@ -30,7 +30,7 @@ public class RsaKeyHelperUtil {
         byte[] keyBytes = new byte[resourceAsStream.available()];
         dis.readFully(keyBytes);
         dis.close();
-        //获取公钥
+        //获得公钥
         X509EncodedKeySpec spec = new X509EncodedKeySpec(keyBytes);
         KeyFactory kf = KeyFactory.getInstance("RSA");
         return kf.generatePublic(spec);
@@ -55,9 +55,7 @@ public class RsaKeyHelperUtil {
      */
     public PublicKey getPublicKey(byte[] publicKey) throws Exception {
         X509EncodedKeySpec spec = new X509EncodedKeySpec(publicKey);
-        //指定的加密算法
         KeyFactory kf = KeyFactory.getInstance("RSA");
-        // 取公钥匙对象
         return kf.generatePublic(spec);
     }
 
@@ -73,13 +71,13 @@ public class RsaKeyHelperUtil {
     /**
      * 生成rsa公钥和密钥
      */
-    public void generateKey(String publicKeyFilename, String privateKeyFileName, String password) throws IOException, NoSuchAlgorithmException {
+    public void generateKey(String publicKeyFileName, String privateKeyFileName, String password) throws IOException, NoSuchAlgorithmException {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
         SecureRandom secureRandom = new SecureRandom(password.getBytes());
         keyPairGenerator.initialize(1024, secureRandom);
         KeyPair keyPair = keyPairGenerator.genKeyPair();
         byte[] publicKeyBytes = keyPair.getPublic().getEncoded();
-        FileOutputStream fos = new FileOutputStream(publicKeyFilename);
+        FileOutputStream fos = new FileOutputStream(publicKeyFileName);
         fos.write(publicKeyBytes);
         fos.close();
         byte[] privateKeyBytes = keyPair.getPrivate().getEncoded();
@@ -89,7 +87,7 @@ public class RsaKeyHelperUtil {
     }
 
     /**
-     * 生成rsa公钥
+     * 生存rsa公钥
      */
     public static byte[] generatePublicKey(String password) throws IOException, NoSuchAlgorithmException {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
@@ -100,7 +98,7 @@ public class RsaKeyHelperUtil {
     }
 
     /**
-     * 生成rsa公钥
+     * 生成rsa密钥
      */
     public static byte[] generatePrivateKey(String password) throws IOException, NoSuchAlgorithmException {
         KeyPairGenerator keyPairGenerator = KeyPairGenerator.getInstance("RSA");
