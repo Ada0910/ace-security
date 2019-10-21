@@ -56,6 +56,9 @@ public class UserController extends BaseController<UserBiz, User> {
         return permissionService.getMenusByUseName(token);
     }
 
+    /**
+     * 获取所有的MENU
+     */
     @RequestMapping(value = "/front/menu/all", method = RequestMethod.GET)
     public @ResponseBody
     List<Menu> getAllMenus() throws Exception {
