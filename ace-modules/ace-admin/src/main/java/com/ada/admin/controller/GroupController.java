@@ -54,58 +54,70 @@ public class GroupController extends BaseController<GroupBiz, Group> {
         return baseBiz.selectByExample(example);
     }
 
+    /**
+     * 变更群主所分配用户
+     */
     @RequestMapping(value = "/{id}/user", method = RequestMethod.PUT)
     @ResponseBody
-    public ObjectRestResponse modifiyUsers(@PathVariable int id, String members, String leaders){
+    public ObjectRestResponse modifiyUsers(@PathVariable int id, String members, String leaders) {
         baseBiz.modifyGroupUsers(id, members, leaders);
         return new ObjectRestResponse().rel(true);
     }
 
     @RequestMapping(value = "/{id}/user", method = RequestMethod.GET)
     @ResponseBody
-    public ObjectRestResponse<GroupUsers> getUsers(@PathVariable int id){
+    public ObjectRestResponse<GroupUsers> getUsers(@PathVariable int id) {
         return new ObjectRestResponse<GroupUsers>().rel(true).data(baseBiz.getGroupUsers(id));
     }
 
+    /**
+     * 变更群组关联的菜单
+     */
     @RequestMapping(value = "/{id}/authority/menu", method = RequestMethod.PUT)
     @ResponseBody
-    public ObjectRestResponse modifyMenuAuthority(@PathVariable  int id, String menuTrees){
-        String [] menus = menuTrees.split(",");
+    public ObjectRestResponse modifyMenuAuthority(@PathVariable int id, String menuTrees) {
+        String[] menus = menuTrees.split(",");
         baseBiz.modifyAuthorityMenu(id, menus);
         return new ObjectRestResponse().rel(true);
     }
 
     @RequestMapping(value = "/{id}/authority/menu", method = RequestMethod.GET)
     @ResponseBody
-    public ObjectRestResponse<List<AuthorityMenuTree>> getMenuAuthority(@PathVariable  int id){
+    public ObjectRestResponse<List<AuthorityMenuTree>> getMenuAuthority(@PathVariable int id) {
         return new ObjectRestResponse().data(baseBiz.getAuthorityMenu(id)).rel(true);
     }
 
+    /**
+     * 添加资源权限
+     */
     @RequestMapping(value = "/{id}/authority/element/add", method = RequestMethod.PUT)
     @ResponseBody
-    public ObjectRestResponse addElementAuthority(@PathVariable  int id,int menuId, int elementId){
-        baseBiz.modifyAuthorityElement(id,menuId,elementId);
+    public ObjectRestResponse addElementAuthority(@PathVariable int id, int menuId, int elementId) {
+        baseBiz.modifyAuthorityElement(id, menuId, elementId);
         return new ObjectRestResponse().rel(true);
     }
 
+    /**
+     * 移除有关的资源权限
+     */
     @RequestMapping(value = "/{id}/authority/element/remove", method = RequestMethod.PUT)
     @ResponseBody
-    public ObjectRestResponse removeElementAuthority(@PathVariable int id,int menuId, int elementId){
-        baseBiz.removeAuthorityElement(id,menuId,elementId);
+    public ObjectRestResponse removeElementAuthority(@PathVariable int id, int menuId, int elementId) {
+        baseBiz.removeAuthorityElement(id, menuId, elementId);
         return new ObjectRestResponse().rel(true);
     }
 
     @RequestMapping(value = "/{id}/authority/element", method = RequestMethod.GET)
     @ResponseBody
-    public ObjectRestResponse<List<Integer>> getElementAuthority(@PathVariable  int id){
+    public ObjectRestResponse<List<Integer>> getElementAuthority(@PathVariable int id) {
         return new ObjectRestResponse().data(baseBiz.getAuthorityElement(id)).rel(true);
     }
 
 
     @RequestMapping(value = "/tree", method = RequestMethod.GET)
     @ResponseBody
-    public List<GroupTree> tree(String name,String groupType) {
-        if(StringUtils.isBlank(name)&&StringUtils.isBlank(groupType)) {
+    public List<GroupTree> tree(String name, String groupType) {
+        if (StringUtils.isBlank(name) && StringUtils.isBlank(groupType)) {
             return new ArrayList<GroupTree>();
         }
         Example example = new Example(Group.class);
@@ -115,7 +127,7 @@ public class GroupController extends BaseController<GroupBiz, Group> {
         if (StringUtils.isNotBlank(groupType)) {
             example.createCriteria().andEqualTo("groupType", groupType);
         }
-        return  getTree(baseBiz.selectByExample(example), AdminCommonConstant.ROOT);
+        return getTree(baseBiz.selectByExample(example), AdminCommonConstant.ROOT);
     }
 
 
@@ -128,7 +140,7 @@ public class GroupController extends BaseController<GroupBiz, Group> {
             BeanUtils.copyProperties(group, node);
             trees.add(node);
         }
-        return TreeUtil.bulid(trees,root) ;
+        return TreeUtil.bulid(trees, root);
     }
 
 }
