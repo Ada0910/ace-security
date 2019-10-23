@@ -130,7 +130,6 @@ public class GroupController extends BaseController<GroupBiz, Group> {
         return getTree(baseBiz.selectByExample(example), AdminCommonConstant.ROOT);
     }
 
-
     private List<GroupTree> getTree(List<Group> groups, int root) {
         List<GroupTree> trees = new ArrayList<GroupTree>();
         GroupTree node = null;

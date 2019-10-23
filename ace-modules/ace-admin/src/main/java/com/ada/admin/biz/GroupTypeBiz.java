@@ -1,4 +1,4 @@
-package com.ada.admin;
+package com.ada.admin.biz;
 
 import com.ada.admin.entity.GroupType;
 import com.ada.admin.mapper.GroupTypeMapper;
