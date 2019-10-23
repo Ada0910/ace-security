@@ -1,6 +1,6 @@
 package com.ada.admin.controller;
 
-import com.ada.admin.GroupTypeBiz;
+import com.ada.admin.biz.GroupTypeBiz;
 import com.ada.admin.entity.GroupType;
 import com.ada.common.controller.BaseController;
 import org.springframework.stereotype.Controller;
