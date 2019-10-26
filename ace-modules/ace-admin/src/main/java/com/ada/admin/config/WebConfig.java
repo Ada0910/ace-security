@@ -40,11 +40,13 @@ public class WebConfig implements WebMvcConfigurer {
 
     @Bean
     ServiceAuthRestInterceptor getServiceAuthRestInterceptor() {
+
         return new ServiceAuthRestInterceptor();
     }
 
     @Bean
     UserAuthRestInterceptor getUserAuthRestInterceptor() {
+
         return new UserAuthRestInterceptor();
     }
 
