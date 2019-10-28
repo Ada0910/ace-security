@@ -40,7 +40,7 @@ public class UserRestController {
     @RequestMapping(value = "/user/validate", method = RequestMethod.POST)
     public @ResponseBody
     UserInfo validate(@RequestBody Map<String, String> body) {
-        return permissionService.validate(body.get("username"), body.get("password"));
+        return permissionService.validate(body.get("userName"), body.get("password"));
     }
 
 }
