@@ -1,5 +1,5 @@
 
-package com.ada.client.jwt;
+package com.ada.client.util;
 
 
 import com.ada.auth.common.util.IJWTInfoUtil;
