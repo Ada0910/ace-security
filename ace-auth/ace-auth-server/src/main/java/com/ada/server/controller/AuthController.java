@@ -20,5 +20,5 @@ public class AuthController {
     private String tokenHeader;
 
     //@Autowired
-   // private AuthSerice authService;
+   //private AuthSerice authService;
 }
