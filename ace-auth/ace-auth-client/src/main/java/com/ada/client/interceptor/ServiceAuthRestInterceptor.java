@@ -4,7 +4,7 @@ package com.ada.client.interceptor;
 import com.ada.auth.common.util.IJWTInfoUtil;
 import com.ada.client.annotation.IgnoreClientToken;
 import com.ada.client.config.ServiceAuthConfig;
-import com.ada.client.jwt.ServiceAuthUtil;
+import com.ada.client.util.ServiceAuthUtil;
 import com.ada.common.exception.auth.ClientForbiddenException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
