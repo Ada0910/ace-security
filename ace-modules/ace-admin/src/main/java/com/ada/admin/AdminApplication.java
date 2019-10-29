@@ -1,6 +1,7 @@
 package com.ada.admin;
 
 import com.ace.cache.EnableAceCache;
+import com.ada.client.EnableAceAuthClient;
 import com.spring4all.swagger.EnableSwagger2Doc;
 import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.SpringApplication;
@@ -13,14 +14,14 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-@EnableFeignClients({"com.ada.auth.client.feign"})
+@SpringBootApplication
+@EnableFeignClients({"com.ada.client.feign"})
 @EnableScheduling
 @EnableAceAuthClient
 @EnableAceCache
 @EnableTransactionManagement
 @MapperScan("com.ada.admin.mapper")
 @EnableSwagger2Doc
-@SpringBootApplication
 public class AdminApplication {
 
     public static void main(String[] args) {

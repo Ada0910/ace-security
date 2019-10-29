@@ -16,7 +16,7 @@ spring:
     url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_admin_v1?useUnicode=true&characterEncoding=UTF8
     username: root
     password: 123
-    # Ê¹ÓÃdruidÊı¾İÔ´
+    # ä½¿ç”¨druidæ•°æ®æº
     type: com.alibaba.druid.pool.DruidDataSource
     driver-class-name: com.mysql.jdbc.Driver
     filters: stat
@@ -24,15 +24,15 @@ spring:
     initialSize: 1
     maxWait: 60000
     minIdle: 1
-    #  Ã¿60ÃëÔËĞĞÒ»´Î¿ÕÏĞÁ¬½Ó»ØÊÕÆ÷
+    #  æ¯60ç§’è¿è¡Œä¸€æ¬¡ç©ºé—²è¿æ¥å›æ”¶å™¨
     timeBetweenEvictionRunsMillis: 60000
-    # ³ØÖĞµÄÁ¬½Ó¿ÕÏĞ30·ÖÖÓºó±»»ØÊÕ
+    # æ± ä¸­çš„è¿æ¥ç©ºé—²30åˆ†é’Ÿåè¢«å›æ”¶
     minEvictableIdleTimeMillis: 300000
-    # ÑéÖ¤Ê¹ÓÃµÄSQLÓï¾ä
+    # éªŒè¯ä½¿ç”¨çš„SQLè¯­å¥
     validationQuery: select 'x'
-    # Ö¸Ã÷Á¬½ÓÊÇ·ñ±»¿ÕÏĞÁ¬½Ó»ØÊÕÆ÷(Èç¹ûÓĞ)½øĞĞ¼ìÑé.Èç¹û¼ì²âÊ§°Ü,ÔòÁ¬½Ó½«±»´Ó³ØÖĞÈ¥³ı.
+    # æŒ‡æ˜è¿æ¥æ˜¯å¦è¢«ç©ºé—²è¿æ¥å›æ”¶å™¨(å¦‚æœæœ‰)è¿›è¡Œæ£€éªŒ.å¦‚æœæ£€æµ‹å¤±è´¥,åˆ™è¿æ¥å°†è¢«ä»æ± ä¸­å»é™¤.
     testWhileIdle: true
-    # ½è³öÁ¬½ÓÊ±²»Òª²âÊÔ£¬·ñÔòºÜÓ°ÏìĞÔÄÜ
+    # å€Ÿå‡ºè¿æ¥æ—¶ä¸è¦æµ‹è¯•ï¼Œå¦åˆ™å¾ˆå½±å“æ€§èƒ½
     testOnBorrow: false
     testOnReturn: false
     poolPreparedStatements: true
@@ -56,7 +56,7 @@ mybatis:
   xmlLocation: classpath:mapper/**/*.xml
   mapper-locations: "classpath*:mapper/*.xml"
 
-# ±ØĞëÅäÖÃ
+# å¿…é¡»é…ç½®
 feign:
   httpclient:
     enabled: false
@@ -75,11 +75,11 @@ ribbon:
 hystrix:
   threadpool:
     default:
-      # ²¢·¢Ö´ĞĞµÄ×î´óÏß³ÌÊı£¬Ä¬ÈÏ10
+      # å¹¶å‘æ‰§è¡Œçš„æœ€å¤§çº¿ç¨‹æ•°ï¼Œé»˜è®¤10
       coreSize: 1000
-      ##BlockingQueueµÄ×î´ó¶ÓÁĞÊı
+      ##BlockingQueueçš„æœ€å¤§é˜Ÿåˆ—æ•°
       maxQueueSize: 1000
-      ##¼´Ê¹maxQueueSizeÃ»ÓĞ´ïµ½£¬´ïµ½queueSizeRejectionThreshold¸ÃÖµºó£¬ÇëÇóÒ²»á±»¾Ü¾ø
+      ##å³ä½¿maxQueueSizeæ²¡æœ‰è¾¾åˆ°ï¼Œè¾¾åˆ°queueSizeRejectionThresholdè¯¥å€¼åï¼Œè¯·æ±‚ä¹Ÿä¼šè¢«æ‹’ç»
       queueSizeRejectionThreshold: 500
   command:
     default:
@@ -88,13 +88,13 @@ hystrix:
           thread:
             timeoutInMilliseconds: 110000
 
-# ÅäÖÃswagger
+# é…ç½®swagger
 swagger:
   enabled: true
   base-package: com.ada.admin
   title: ace-admin
   version: 1.0.0.SNAPSHOT
-  description: ¹ÜÀíºó¶Ë·şÎñ
+  description: ç®¡ç†åç«¯æœåŠ¡
   contact:
     name: admin
 
@@ -107,7 +107,7 @@ auth:
     secret: 123456
     token-header: x-client-token
 
-#redis-cache Ïà¹Ø
+#redis-cache ç›¸å…³
 redis:
   pool:
     maxActive: 300
@@ -117,7 +117,7 @@ redis:
   port:  ${REDIS_PORT:6379}
   password:
   timeout: 2000
-  # ·şÎñ»òÓ¦ÓÃÃû
+  # æœåŠ¡æˆ–åº”ç”¨å
   sysName: ace-admin
   enable: true
   database: 0

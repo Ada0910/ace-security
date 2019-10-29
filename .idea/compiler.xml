@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="ace-admin" />
+        <module name="ace-auth-client" />
+        <module name="ace-auth-common" />
+        <module name="ace-auth-server" />
+        <module name="ace-common" />
+        <module name="ace-interface" />
+        <module name="ace-monitor" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="ace-admin" options="-parameters" />
+      <module name="ace-auth-client" options="-parameters" />
+      <module name="ace-auth-common" options="-parameters" />
+      <module name="ace-auth-server" options="-parameters" />
+      <module name="ace-common" options="-parameters" />
+      <module name="ace-control" options="" />
+      <module name="ace-interface" options="-parameters" />
+      <module name="ace-modules" options="" />
+      <module name="ace-monitor" options="-parameters" />
+    </option>
+  </component>
+</project>

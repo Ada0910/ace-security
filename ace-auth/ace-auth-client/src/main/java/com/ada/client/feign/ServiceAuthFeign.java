@@ -1,4 +1,4 @@
-package com.ada.client.Feign;
+package com.ada.client.feign;
 
 import com.ada.common.response.ObjectRestResponse;
 import org.springframework.cloud.openfeign.FeignClient;

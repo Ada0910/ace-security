@@ -4,7 +4,7 @@ package com.ada.client.jwt;
 
 import com.ada.auth.common.util.IJWTInfoUtil;
 import com.ada.auth.common.util.JWTHelperUtil;
-import com.ada.client.Feign.ServiceAuthFeign;
+import com.ada.client.feign.ServiceAuthFeign;
 import com.ada.client.config.ServiceAuthConfig;
 import com.ada.common.exception.auth.ClientTokenException;
 import com.ada.common.response.BaseResponse;
