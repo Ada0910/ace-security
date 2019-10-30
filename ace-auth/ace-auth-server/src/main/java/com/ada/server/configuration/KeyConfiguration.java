@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @ClassName:KeyConfiguration
  * @author: Ada
  * @date 2019/10/29 17:38
- * @Description:
+ * @Description: 加密配置类
  */
 @Data
 @Configuration
