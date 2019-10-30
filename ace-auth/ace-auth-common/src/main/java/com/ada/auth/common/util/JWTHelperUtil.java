@@ -4,6 +4,8 @@ import com.ada.auth.common.constant.CommonConstant;
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
+import io.jsonwebtoken.SignatureAlgorithm;
+import org.joda.time.DateTime;
 
 /**
  * @ClassName:JWTHelper
@@ -13,6 +15,34 @@ import io.jsonwebtoken.Jwts;
  */
 public class JWTHelperUtil {
     private static RsaKeyHelperUtil rsaKeyHelper = new RsaKeyHelperUtil();
+
+    /**
+     * 密钥加密token
+     */
+    public static String generateToken(IJWTInfoUtil jwtInfo, String priKeyPath, int expire) throws Exception {
+        String compactJws = Jwts.builder()
+                .setSubject(jwtInfo.getUniqueName())
+                .claim(CommonConstant.JWT_KEY_USER_ID, jwtInfo.getId())
+                .claim(CommonConstant.JWT_KEY_NAME, jwtInfo.getName())
+                .setExpiration(DateTime.now().plusSeconds(expire).toDate())
+                .signWith(SignatureAlgorithm.RS256, rsaKeyHelper.getPrivateKey(priKeyPath))
+                .compact();
+        return compactJws;
+    }
+
+    /**
+     * 密钥加密token
+     */
+    public static String generateToken(IJWTInfoUtil jwtInfo, byte priKey[], int expire) throws Exception {
+        String compactJws = Jwts.builder()
+                .setSubject(jwtInfo.getUniqueName())
+                .claim(CommonConstant.JWT_KEY_USER_ID, jwtInfo.getId())
+                .claim(CommonConstant.JWT_KEY_NAME, jwtInfo.getName())
+                .setExpiration(DateTime.now().plusSeconds(expire).toDate())
+                .signWith(SignatureAlgorithm.RS256, rsaKeyHelper.getPrivateKey(priKey))
+                .compact();
+        return compactJws;
+    }
 
     /**
      * 公钥解析
