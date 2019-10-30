@@ -1,5 +1,6 @@
 package com.ada.server.controller;
 
+import com.ada.server.service.AuthService;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -19,6 +20,6 @@ public class AuthController {
     @Value("${jwt.token-header}")
     private String tokenHeader;
 
-    //@Autowired
-   // private AuthSerice authService;
+    @Autowired
+    AuthService authService;
 }
