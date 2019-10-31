@@ -13,8 +13,10 @@ import org.springframework.context.annotation.Configuration;
 public class ClientConfiguration {
     @Value("${client.id}")
     private String clientId;
+
     @Value("${client.secret}")
     private String clientSecret;
+
     @Value("${client.token-header}")
     private String clientTokenHeader;
 
