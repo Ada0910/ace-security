@@ -19,7 +19,7 @@ import org.springframework.stereotype.Component;
 public class JwtTokenUtil {
 
     @Value("${jwt.expire}")
-    private int expire;
+    private int expire;//过期时间
 
     @Autowired
     private KeyConfiguration keyConfiguration;

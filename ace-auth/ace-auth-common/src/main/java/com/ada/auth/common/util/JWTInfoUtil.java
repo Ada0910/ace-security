@@ -35,7 +35,7 @@ public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
     }
 
     public void setUsername(String username) {
-        this.userName = userName;
+        this.userName = username;
     }
 
     public void setUserId(String userId) {
