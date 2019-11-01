@@ -23,6 +23,9 @@ public interface AuthClientService {
 
     public void registryClient();
 
+    /**
+     * 校验
+     */
     public void validate(String clientId, String secret) throws Exception;
 
 }

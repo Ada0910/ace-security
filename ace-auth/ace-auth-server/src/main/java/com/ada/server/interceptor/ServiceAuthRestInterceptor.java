@@ -18,7 +18,7 @@ import javax.servlet.http.HttpServletResponse;
  * @ClassName:ServiceAuthRestInterceptor
  * @author: Ada
  * @date 2019/10/31 16:59
- * @Description:
+ * @Description: 需要在addInterceptors（）方法里面添加方可以生效
  */
 @SuppressWarnings("ALL")
 public class ServiceAuthRestInterceptor extends HandlerInterceptorAdapter {
@@ -30,14 +30,20 @@ public class ServiceAuthRestInterceptor extends HandlerInterceptorAdapter {
     @Autowired
     private ClientConfiguration clientConfiguration;
 
+    /**
+     * 预处理回调方法（先判断client的token信息是否在授权的客户端列表中）
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
+        //获取用户的token
         String token = request.getHeader(clientConfiguration.getClientTokenHeader());
+        //从token中拿到用户的信息
         IJWTInfoUtil infoFromToken = clientTokenUtil.getInfoFromToken(token);
         String uniqueName = infoFromToken.getUniqueName();
-        for(String client: authClientService.getAllowedClient(clientConfiguration.getClientId())){
-            if(client.equals(uniqueName)){
+        //判断Client是否在授权的客户端列表里面
+        for (String client : authClientService.getAllowedClient(clientConfiguration.getClientId())) {
+            if (client.equals(uniqueName)) {
                 return super.preHandle(request, response, handler);
             }
         }
