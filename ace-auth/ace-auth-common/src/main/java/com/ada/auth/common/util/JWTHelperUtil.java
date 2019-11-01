@@ -11,13 +11,13 @@ import org.joda.time.DateTime;
  * @ClassName:JWTHelper
  * @author: Ada
  * @date 2019/10/11 16:37
- * @Description:
+ * @Description: Token信息处理工具类
  */
 public class JWTHelperUtil {
     private static RsaKeyHelperUtil rsaKeyHelper = new RsaKeyHelperUtil();
 
     /**
-     * 密钥加密token
+     * 生成密钥加密token
      */
     public static String generateToken(IJWTInfoUtil jwtInfo, String priKeyPath, int expire) throws Exception {
         String compactJws = Jwts.builder()
@@ -31,7 +31,7 @@ public class JWTHelperUtil {
     }
 
     /**
-     * 密钥加密token
+     * 生成密钥加密token
      */
     public static String generateToken(IJWTInfoUtil jwtInfo, byte priKey[], int expire) throws Exception {
         String compactJws = Jwts.builder()
@@ -53,15 +53,6 @@ public class JWTHelperUtil {
     }
 
     /**
-     * 获取token中的用户信息
-     */
-    public static IJWTInfoUtil getInfoFromToken(String token, String pubKeyPath) throws Exception {
-        Jws<Claims> claimsJws = parserToken(token, pubKeyPath);
-        Claims body = claimsJws.getBody();
-        return new JWTInfoUtil(body.getSubject(), StringHelperUtil.getObjectValue(body.get(CommonConstant.JWT_KEY_USER_ID)), StringHelperUtil.getObjectValue(body.get(CommonConstant.JWT_KEY_NAME)));
-    }
-
-    /**
      * 公钥解析token
      */
     public static Jws<Claims> parserToken(String token, byte[] pubKey) throws Exception {
@@ -74,6 +65,15 @@ public class JWTHelperUtil {
      */
     public static IJWTInfoUtil getInfoFromToken(String token, byte[] pubKey) throws Exception {
         Jws<Claims> claimsJws = parserToken(token, pubKey);
+        Claims body = claimsJws.getBody();
+        return new JWTInfoUtil(body.getSubject(), StringHelperUtil.getObjectValue(body.get(CommonConstant.JWT_KEY_USER_ID)), StringHelperUtil.getObjectValue(body.get(CommonConstant.JWT_KEY_NAME)));
+    }
+
+    /**
+     * 获取token中的用户信息
+     */
+    public static IJWTInfoUtil getInfoFromToken(String token, String pubKeyPath) throws Exception {
+        Jws<Claims> claimsJws = parserToken(token, pubKeyPath);
         Claims body = claimsJws.getBody();
         return new JWTInfoUtil(body.getSubject(), StringHelperUtil.getObjectValue(body.get(CommonConstant.JWT_KEY_USER_ID)), StringHelperUtil.getObjectValue(body.get(CommonConstant.JWT_KEY_NAME)));
     }
