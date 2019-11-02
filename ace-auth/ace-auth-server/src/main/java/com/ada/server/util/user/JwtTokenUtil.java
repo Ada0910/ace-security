@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
  * @ClassName:JwtTokenUtil
  * @author: Ada
  * @date 2019/10/29 17:34
- * @Description:
+ * @Description: User Token工具类（生成加密的token和从token中获取信息）
  */
 @Component
 public class JwtTokenUtil {
@@ -27,11 +27,17 @@ public class JwtTokenUtil {
     @Autowired
     private RedisTemplate<String, Object> redisTemplate;
 
+    /**
+     * 生成加密的token
+     */
     public String generateToken(IJWTInfoUtil ijwtInfoUtil) throws Exception {
         return JWTHelperUtil.generateToken(ijwtInfoUtil, keyConfiguration.getUserPriKey(), expire);
 
     }
 
+    /**
+     * 从token中拿到用户的信息
+     */
     public IJWTInfoUtil getInfoFromToken(String token) throws Exception {
         return JWTHelperUtil.getInfoFromToken(token, keyConfiguration.getUserPubKey());
     }

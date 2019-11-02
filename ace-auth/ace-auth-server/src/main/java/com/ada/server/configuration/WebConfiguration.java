@@ -13,7 +13,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  * @ClassName:WebConfiguration
  * @author: Ada
  * @date 2019/10/31 16:48
- * @Description:
+ * @Description: web拦截类
  */
 @Configuration("admimWebConfig")
 @Primary
@@ -32,6 +32,7 @@ public class WebConfiguration implements WebMvcConfigurer {
     GlobalExceptionHandler getGlobalExceptionHandler() {
         return new GlobalExceptionHandler();
     }
+
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
         registry.addInterceptor(getServiceAuthRestInterceptor()).addPathPatterns("/service/**");

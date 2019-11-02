@@ -8,7 +8,7 @@ import org.springframework.context.annotation.Configuration;
  * @ClassName:UserConfiguration
  * @author: Ada
  * @date 2019/10/31 16:47
- * @Description:
+ * @Description: 用户配置类
  */
 @Configuration
 @Data

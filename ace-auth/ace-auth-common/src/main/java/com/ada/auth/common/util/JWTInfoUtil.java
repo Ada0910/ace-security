@@ -6,7 +6,7 @@ import java.io.Serializable;
  * @author Ada
  * @ClassName :JWTInfoUtil
  * @date 2019/10/11 21:53
- * @Description:
+ * @Description: 用户信息类
  */
 public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
     private String userName;

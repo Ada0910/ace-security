@@ -4,7 +4,7 @@ package com.ada.auth.common.util;
  * @author Ada
  * @ClassName :IJWTInfoUtil
  * @date 2019/10/10 23:28
- * @Description:
+ * @Description: 用户接口
  */
 public interface IJWTInfoUtil {
     /**

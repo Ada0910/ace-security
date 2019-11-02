@@ -26,6 +26,9 @@ public class UserAuthRestInterceptor extends HandlerInterceptorAdapter {
     @Autowired
     private UserConfiguration userConfiguration;
 
+    /**
+     * 预处理回调方法
+     */
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
         HandlerMethod handlerMethod = (HandlerMethod) handler;
