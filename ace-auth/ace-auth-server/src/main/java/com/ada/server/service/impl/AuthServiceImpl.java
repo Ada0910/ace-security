@@ -33,7 +33,7 @@ public class AuthServiceImpl implements AuthService {
     }
 
     /**
-     * 登录验证
+     * 通过用户名和密码登录验证
      */
     @Override
     public String login(JwtAuthenticationRequest authenticationRequest) throws Exception {
