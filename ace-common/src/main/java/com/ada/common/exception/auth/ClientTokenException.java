@@ -11,6 +11,7 @@ import com.ada.common.exception.BaseException;
  */
 public class ClientTokenException extends BaseException {
     public ClientTokenException(String message) {
+
         super(message, CommonConstant.EX_CLIENT_INVALID_CODE);
     }
 }

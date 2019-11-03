@@ -6,7 +6,7 @@ import java.util.List;
  * @ClassName:AuthClientService
  * @author:Ada
  * @date 2019/10/3011:01
- * @Description:
+ * @Description:客户端认证类
  */
 public interface AuthClientService {
     public String apply(String clientId, String secret) throws Exception;

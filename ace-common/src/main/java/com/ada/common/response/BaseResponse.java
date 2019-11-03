@@ -7,7 +7,7 @@ import lombok.Setter;
  * @author Ada
  * @ClassName :BaseResponse
  * @date 2019/10/4 17:08
- * @Description:基础响应信息
+ * @Description:响应信息基础类
  */
 @Getter
 @Setter

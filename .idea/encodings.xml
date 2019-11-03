@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-auth" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-auth/ace-auth-client" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-auth/ace-auth-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-auth/ace-auth-server" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-control" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-control/ace-monitor" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-control/ace-monitor/src/main/resources/application.yml" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-modules" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-modules/ace-admin" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/ace-modules/ace-interface" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

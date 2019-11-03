@@ -29,6 +29,9 @@ public class AuthController {
     @Autowired
     AuthService authService;
 
+    /**
+     * 创建认证的token
+     */
     @RequestMapping(value = "token", method = RequestMethod.POST)
     public ObjectRestResponse<String> createAuthenticationToken(@RequestBody JwtAuthenticationRequest authenticationRequest) throws Exception {
         log.info(authenticationRequest.getUserName() + " require logging...");
@@ -36,6 +39,9 @@ public class AuthController {
         return new ObjectRestResponse<>().data(token);
     }
 
+    /**
+     * 刷新
+     */
     @RequestMapping(value = "refresh", method = RequestMethod.GET)
     public ObjectRestResponse<String> refreshAndGetAuthenticationToken(
             HttpServletRequest request) throws Exception {
@@ -44,6 +50,9 @@ public class AuthController {
         return new ObjectRestResponse<>().data(refreshedToken);
     }
 
+    /**
+     * 校验
+     */
     @RequestMapping(value = "verify", method = RequestMethod.GET)
     public ObjectRestResponse<?> verify(String token) throws Exception {
         authService.validate(token);

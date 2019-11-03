@@ -36,6 +36,9 @@ public class AuthClientServiceImpl implements AuthClientService {
         this.context = context;
     }
 
+    /**
+     * 生成token
+     */
     @Override
     public String apply(String clientId, String secret) throws Exception {
         Client client = getClient(clientId, secret);
@@ -43,6 +46,9 @@ public class AuthClientServiceImpl implements AuthClientService {
 
     }
 
+    /**
+     * 获取client
+     */
     private Client getClient(String clientId, String secret) {
         Client client = new Client();
         client.setCode(clientId);
@@ -53,6 +59,9 @@ public class AuthClientServiceImpl implements AuthClientService {
         return client;
     }
 
+    /**
+     * 获取被授权的client
+     */
     @Override
     public List<String> getAllowedClient(String serviceId, String secret) {
         Client info = this.getClient(serviceId, secret);
@@ -73,6 +82,9 @@ public class AuthClientServiceImpl implements AuthClientService {
         return clients;
     }
 
+    /**
+     * 获取client
+     */
     private Client getClient(String clientId) {
         Client client = new Client();
         client.setCode(clientId);
@@ -80,6 +92,9 @@ public class AuthClientServiceImpl implements AuthClientService {
         return client;
     }
 
+    /**
+     * 自动注册
+     */
     @Override
     @Scheduled(cron = "0 0/1 * * * ?")
     public void registryClient() {
@@ -96,6 +111,9 @@ public class AuthClientServiceImpl implements AuthClientService {
         });
     }
 
+    /**
+     * 校验
+     */
     @Override
     public void validate(String clientId, String secret) throws Exception {
         Client client = new Client();

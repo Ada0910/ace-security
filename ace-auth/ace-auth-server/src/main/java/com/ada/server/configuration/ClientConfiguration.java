@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
  * @ClassName:ClientConfiguration
  * @author: Ada
  * @date 2019/10/30 10:59
- * @Description: Client配置
+ * @Description: Client配置类
  */
 @Configuration
 public class ClientConfiguration {
