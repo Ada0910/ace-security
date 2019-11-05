@@ -13,7 +13,7 @@ spring:
     max-active: 20
   datasource:
     name: test
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_auth_v1?useUnicode=true&characterEncoding=UTF8
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_auth_v1?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
     username: root
     password: 123
     # 使用druid数据源
@@ -44,10 +44,10 @@ spring:
       http:
         legacy:
           enabled: true
-    cloud:
-      nacos:
-        discovery:
-          server-addr: 127.0.0.1:8848
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
       sentinel:
         transport:
           dashboard: localhost:8080
