@@ -34,19 +34,22 @@ public class AuthClientRunner implements CommandLineRunner {
         log.info("初始化加载用户pubKey");
         try {
             refreshUserPubKey();
-        }catch(Exception e){
-            log.error("初始化加载用户pubKey失败,1分钟后自动重试!",e);
+        } catch (Exception e) {
+            log.error("初始化加载用户pubKey失败,1分钟后自动重试!", e);
         }
         log.info("初始化加载客户pubKey");
         try {
             refreshServicePubKey();
-        }catch(Exception e){
-            log.error("初始化加载客户pubKey失败,1分钟后自动重试!",e);
+        } catch (Exception e) {
+            log.error("初始化加载客户pubKey失败,1分钟后自动重试!", e);
         }
     }
 
+    /**
+     * 每一分钟刷新用户的公钥
+     */
     @Scheduled(cron = "0 0/1 * * * ?")
-    public void refreshUserPubKey(){
+    public void refreshUserPubKey() {
         BaseResponse resp = serviceAuthFeign.getUserPublicKey(serviceAuthConfig.getClientId(), serviceAuthConfig.getClientSecret());
         if (resp.getStatus() == HttpStatus.OK.value()) {
             ObjectRestResponse<byte[]> userResponse = (ObjectRestResponse<byte[]>) resp;
@@ -54,8 +57,11 @@ public class AuthClientRunner implements CommandLineRunner {
         }
     }
 
+    /**
+     * 每一分钟刷新client的公钥
+     */
     @Scheduled(cron = "0 0/1 * * * ?")
-    public void refreshServicePubKey(){
+    public void refreshServicePubKey() {
         BaseResponse resp = serviceAuthFeign.getServicePublicKey(serviceAuthConfig.getClientId(), serviceAuthConfig.getClientSecret());
         if (resp.getStatus() == HttpStatus.OK.value()) {
             ObjectRestResponse<byte[]> userResponse = (ObjectRestResponse<byte[]>) resp;

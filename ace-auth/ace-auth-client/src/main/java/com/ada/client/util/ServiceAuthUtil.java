@@ -4,8 +4,8 @@ package com.ada.client.util;
 
 import com.ada.auth.common.util.IJWTInfoUtil;
 import com.ada.auth.common.util.JWTHelperUtil;
-import com.ada.client.feign.ServiceAuthFeign;
 import com.ada.client.config.ServiceAuthConfig;
+import com.ada.client.feign.ServiceAuthFeign;
 import com.ada.common.exception.auth.ClientTokenException;
 import com.ada.common.response.BaseResponse;
 import com.ada.common.response.ObjectRestResponse;
@@ -19,11 +19,18 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 import java.util.List;
 
+/**
+ * @ClassName:ServiceAuthFeign
+ * @author: Ada
+ * @date 2019/10/23 16:38
+ * @Description:
+ */
 
 @Configuration
 @Slf4j
 @EnableScheduling
-public class ServiceAuthUtil{
+public class ServiceAuthUtil {
+
     @Autowired
     private ServiceAuthConfig serviceAuthConfig;
 
@@ -31,9 +38,13 @@ public class ServiceAuthUtil{
     private ServiceAuthFeign serviceAuthFeign;
 
     private List<String> allowedClient;
+
     private String clientToken;
 
 
+    /**
+     * 从token中获取用户信息
+     */
     public IJWTInfoUtil getInfoFromToken(String token) throws Exception {
         try {
             return JWTHelperUtil.getInfoFromToken(token, serviceAuthConfig.getPubKeyByte());
@@ -46,6 +57,9 @@ public class ServiceAuthUtil{
         }
     }
 
+    /**
+     * 每30秒刷新获取的client的Token
+     */
     @Scheduled(cron = "0/30 * * * * ?")
     public void refreshAllowedClient() {
         log.debug("refresh allowedClient.....");
@@ -56,6 +70,9 @@ public class ServiceAuthUtil{
         }
     }
 
+    /**
+     * 每10分钟刷新获取的client的Token
+     */
     @Scheduled(cron = "0 0/10 * * * ?")
     public void refreshClientToken() {
         log.debug("refresh client token.....");

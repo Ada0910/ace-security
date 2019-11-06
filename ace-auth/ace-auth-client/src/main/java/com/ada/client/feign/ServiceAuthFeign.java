@@ -12,7 +12,7 @@ import java.util.List;
  * @ClassName:ServiceAuthFeign
  * @author: Ada
  * @date 2019/10/23 16:38
- * @Description:
+ * @Description: 声明式接口（负载均衡）
  */
 @FeignClient(value = "${auth.serviceId}", configuration = {})
 public interface ServiceAuthFeign {
