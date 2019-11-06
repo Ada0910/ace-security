@@ -8,7 +8,7 @@ import javax.servlet.http.HttpServletRequest;
  * @author Ada
  * @ClassName :UserAuthConfig
  * @date 2019/10/10 22:02
- * @Description:
+ * @Description: 用户认证配置类
  */
 public class UserAuthConfig {
 

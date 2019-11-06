@@ -25,14 +25,25 @@ public class FeignOkHttpConfig {
     @Autowired
     OkHttpTokenInterceptor okHttpLoggingInterceptor;
 
+    //读超时时间
     private int feignOkHttpReadTimeout = 60;
+    //连接超时时间
     private int feignConnectTimeout = 60;
+    //写超时的时间
     private int feignWriteTimeout = 120;
 
     @Bean
     public okhttp3.OkHttpClient okHttpClient() {
-        return new okhttp3.OkHttpClient.Builder().readTimeout(feignOkHttpReadTimeout, TimeUnit.SECONDS).connectTimeout(feignConnectTimeout, TimeUnit.SECONDS)
-                .writeTimeout(feignWriteTimeout, TimeUnit.SECONDS).connectionPool(new ConnectionPool())
+        return new okhttp3.OkHttpClient.Builder()
+                //响应时间
+                .readTimeout(feignOkHttpReadTimeout, TimeUnit.SECONDS)
+                //连接超时
+                .connectTimeout(feignConnectTimeout, TimeUnit.SECONDS)
+                //写超时
+                .writeTimeout(feignWriteTimeout, TimeUnit.SECONDS)
+                //连接池
+                .connectionPool(new ConnectionPool())
+                //添加拦截
                 .addInterceptor(okHttpLoggingInterceptor)
                 .build();
     }

@@ -8,16 +8,21 @@ import javax.servlet.http.HttpServletRequest;
  * @ClassName:ServiceAuthConfig
  * @author: Ada
  * @date 2019/10/23 16:40
- * @Description:
+ * @Description: client配置类
  */
 public class ServiceAuthConfig {
+
     private byte[] pubKeyByte;
+
     @Value("${auth.client.id:null}")
     private String clientId;
+
     @Value("${auth.client.secret}")
     private String clientSecret;
+
     @Value("${auth.client.token-header}")
     private String tokenHeader;
+
     @Value("${spring.application.name}")
     private String applicationName;
 
