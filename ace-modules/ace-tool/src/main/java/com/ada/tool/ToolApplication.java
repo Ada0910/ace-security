@@ -1,13 +1,13 @@
-package com.ada.sidecar.client;
+package com.ada.tool;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AceSidecarClientDemoApplication {
+public class ToolApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AceSidecarClientDemoApplication.class, args);
+        SpringApplication.run(ToolApplication.class, args);
     }
 
 }

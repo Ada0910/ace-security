@@ -4,8 +4,8 @@
     <modelVersion>4.0.0</modelVersion>
     <parent>
         <groupId>com.ada</groupId>
-        <artifactId>ace-security</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <artifactId>ace-auth</artifactId>
+        <version>0.0.1-SNAPSHOT</version>
     </parent>
     <groupId>com.ada</groupId>
     <artifactId>ace-auth-common</artifactId>
