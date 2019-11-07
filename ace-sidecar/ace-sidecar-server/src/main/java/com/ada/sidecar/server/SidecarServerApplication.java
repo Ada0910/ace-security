@@ -4,10 +4,10 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class AceSidecarServerApplication {
+public class SidecarServerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(AceSidecarServerApplication.class, args);
+        SpringApplication.run(SidecarServerApplication.class, args);
     }
 
 }
