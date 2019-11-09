@@ -24,6 +24,8 @@
         <module>ace-control</module>
         <module>ace-modules</module>
         <module>ace-common</module>
+        <module>ace-gate</module>
+        <module>ace-sidecar</module>
     </modules>
     <!--5.配置-->
     <properties>
