@@ -2,7 +2,10 @@ package com.ada.tool.service.impl;
 
 import com.ada.api.vo.search.IndexObject;
 import com.ada.common.response.TableResultResponse;
+import com.ada.tool.dao.LuceneDao;
 import com.ada.tool.service.LuceneService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  * @author Ada
@@ -10,7 +13,10 @@ import com.ada.tool.service.LuceneService;
  * @date 2019/11/10 13:51
  * @Description:
  */
+@Service
 public class LuceneServiceImpl implements LuceneService {
+    @Autowired
+    private LuceneDao luceneDao;
     @Override
     public void save(IndexObject indexObject) {
 
@@ -33,6 +39,6 @@ public class LuceneServiceImpl implements LuceneService {
 
     @Override
     public TableResultResponse page(Integer pageNumber, Integer pageSize, String keyword) {
-        return null;
+        return luceneDao.page(pageNumber,pageSize,keyword);
     }
 }
