@@ -11,8 +11,13 @@
         <module name="ace-auth-common" />
         <module name="ace-auth-server" />
         <module name="ace-common" />
+        <module name="ace-gate" />
+        <module name="ace-generator" />
         <module name="ace-interface" />
         <module name="ace-monitor" />
+        <module name="ace-sidecar-client-demo" />
+        <module name="ace-sidecar-server" />
+        <module name="ace-tool" />
       </profile>
     </annotationProcessing>
   </component>
@@ -24,9 +29,15 @@
       <module name="ace-auth-server" options="-parameters" />
       <module name="ace-common" options="-parameters" />
       <module name="ace-control" options="" />
+      <module name="ace-gate" options="-parameters" />
+      <module name="ace-generator" options="-parameters" />
       <module name="ace-interface" options="-parameters" />
       <module name="ace-modules" options="" />
       <module name="ace-monitor" options="-parameters" />
+      <module name="ace-sidecar" options="" />
+      <module name="ace-sidecar-client-demo" options="-parameters" />
+      <module name="ace-sidecar-server" options="-parameters" />
+      <module name="ace-tool" options="-parameters" />
     </option>
   </component>
 </project>
