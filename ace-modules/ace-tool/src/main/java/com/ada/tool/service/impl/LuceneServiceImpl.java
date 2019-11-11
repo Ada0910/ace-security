@@ -17,24 +17,27 @@ import org.springframework.stereotype.Service;
 public class LuceneServiceImpl implements LuceneService {
     @Autowired
     private LuceneDao luceneDao;
+
+
     @Override
     public void save(IndexObject indexObject) {
-
+        luceneDao.create(indexObject);
     }
+
 
     @Override
     public void update(IndexObject indexObject) {
-
+        luceneDao.update(indexObject);
     }
 
     @Override
     public void delete(IndexObject indexObject) {
-
+        luceneDao.delete(indexObject);
     }
 
     @Override
     public void deleteAll() {
-
+        luceneDao.deleteAll();
     }
 
     @Override
