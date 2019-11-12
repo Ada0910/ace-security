@@ -18,12 +18,10 @@ public class LuceneServiceImpl implements LuceneService {
     @Autowired
     private LuceneDao luceneDao;
 
-
     @Override
     public void save(IndexObject indexObject) {
         luceneDao.create(indexObject);
     }
-
 
     @Override
     public void update(IndexObject indexObject) {
@@ -42,6 +40,6 @@ public class LuceneServiceImpl implements LuceneService {
 
     @Override
     public TableResultResponse page(Integer pageNumber, Integer pageSize, String keyword) {
-        return luceneDao.page(pageNumber,pageSize,keyword);
+        return luceneDao.page(pageNumber, pageSize, keyword);
     }
 }
