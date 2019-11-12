@@ -36,6 +36,7 @@ public class LuceneDao {
 
     private Directory directory = null;
     private Analyzer analyzer = null;
+    //路径
     private String indexDer = null;
 
     public void setIndexDer(String indexDer) {
@@ -139,19 +140,23 @@ public class LuceneDao {
         }
     }
 
-    /* 查询索引 */
+    /** 查询索引 */
     public TableResultResponse<IndexObject> page(Integer pageNumber, Integer pageSize, String keyword) {
 
         IndexReader indexReader = null;
         TableResultResponse<IndexObject> pageQuery = null;
+        //查询结果
         List<IndexObject> searchResults = new ArrayList<>();
         try {
+            //检索文件所在的地方
             indexReader = DirectoryReader.open(this.getDirectory());
             IndexSearcher indexSearcher = new IndexSearcher(indexReader);
-            Query query = QueryUtil.query(keyword, this.getAnalyzer(), "title", "descripton");
+            //检索title, description的内容
+            Query query = QueryUtil.query(keyword, this.getAnalyzer(), "title", "description");
             ScoreDoc lastScoreDoc = this.getLastScoreDoc(pageNumber, pageSize, query, indexSearcher);
             /*将上一页的最后一个document传递给searchAfter方法以得到下一页的结果 */
             TopDocs topDocs = indexSearcher.searchAfter(lastScoreDoc, query, pageSize);
+            //高亮
             Highlighter highlighter = this.addStringHighlighter(query);
             log.info("搜索词语：{}", keyword);
             log.info("总共的查询结果：{}", topDocs.totalHits);
@@ -163,6 +168,7 @@ public class LuceneDao {
                 searchResults.add(indexObject);
                 log.info("相关度得分：" + score);
             }
+            //排序
             Collections.sort(searchResults);
             pageQuery = new TableResultResponse<>(topDocs.totalHits, searchResults);
 
