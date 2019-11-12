@@ -1,4 +1,4 @@
-package com.ada.tool.util;
+package com.ada.tool.search.util;
 
 import com.ada.api.vo.search.IndexObject;
 import org.apache.lucene.analysis.Analyzer;

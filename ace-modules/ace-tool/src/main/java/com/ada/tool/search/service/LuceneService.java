@@ -1,4 +1,4 @@
-package com.ada.tool.service;
+package com.ada.tool.search.service;
 
 import com.ada.api.vo.search.IndexObject;
 import com.ada.common.response.TableResultResponse;

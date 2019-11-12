@@ -1,9 +1,9 @@
-package com.ada.tool.controller;
+package com.ada.tool.search.controller;
 
 import com.ada.api.vo.search.IndexObject;
 import com.ada.common.response.ObjectRestResponse;
 import com.ada.common.response.TableResultResponse;
-import com.ada.tool.service.LuceneService;
+import com.ada.tool.search.service.LuceneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

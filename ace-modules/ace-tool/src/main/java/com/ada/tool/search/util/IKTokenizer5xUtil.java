@@ -1,4 +1,4 @@
-package com.ada.tool.util;
+package com.ada.tool.search.util;
 
 import org.apache.lucene.analysis.Tokenizer;
 import org.apache.lucene.analysis.tokenattributes.CharTermAttribute;

@@ -1,10 +1,10 @@
-package com.ada.tool.dao;
+package com.ada.tool.search.dao;
 
 import com.ada.api.vo.search.IndexObject;
 import com.ada.common.response.TableResultResponse;
-import com.ada.tool.util.DocumentUtil;
-import com.ada.tool.util.IKAnalyzer5xUtil;
-import com.ada.tool.util.QueryUtil;
+import com.ada.tool.search.util.DocumentUtil;
+import com.ada.tool.search.util.IKAnalyzer5xUtil;
+import com.ada.tool.search.util.QueryUtil;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.*;
