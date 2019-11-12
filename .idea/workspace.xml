@@ -46,6 +46,12 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
+<<<<<<< HEAD
+        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-client/src/main/java/com/ada/client/config/FeignOkHttpConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="868">
+              <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+=======
         <entry file="file://$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/controller/GeneratorController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="805">
@@ -67,11 +73,23 @@
                 <element signature="e#1101#1102#0" expanded="true" />
                 <element signature="e#1161#1162#0" expanded="true" />
               </folding>
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
             </state>
           </provider>
         </entry>
       </file>
+<<<<<<< HEAD
       <file pinned="false" current-in-tab="true">
+=======
+<<<<<<< HEAD
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-client/src/main/java/com/ada/client/runner/AuthClientRunner.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
+=======
+      <file pinned="false" current-in-tab="false">
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
         <entry file="file://$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/util/GeneratorUtil.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="23">
@@ -79,6 +97,7 @@
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
             </state>
           </provider>
         </entry>
@@ -197,6 +216,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+=======
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -204,6 +233,125 @@
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="ace-security" type="462c0819:PsiDirectoryNode" />
             </path>
+<<<<<<< HEAD
+=======
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+=======
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+<<<<<<< HEAD
+              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="runner" type="462c0819:PsiDirectoryNode" />
+            </path>
+=======
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="generator" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
           </expand>
           <select />
         </subPane>
@@ -379,12 +527,21 @@
       <workItem from="1572748305791" duration="7964000" />
       <workItem from="1572877168560" duration="618000" />
       <workItem from="1572879707625" duration="72000" />
+<<<<<<< HEAD
+      <workItem from="1572879944401" duration="849000" />
+      <workItem from="1572961988199" duration="1665000" />
+      <workItem from="1573051325364" duration="1549000" />
+=======
       <workItem from="1572914175569" duration="6081000" />
       <workItem from="1572941708468" duration="5624000" />
       <workItem from="1573000416180" duration="7804000" />
       <workItem from="1573088894002" duration="17866000" />
+<<<<<<< HEAD
       <workItem from="1573174640524" duration="1858000" />
       <workItem from="1573519201249" duration="613000" />
+=======
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1569511885251</created>
@@ -607,12 +764,30 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="211255000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="175472000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.120619945" />
+=======
+    <option name="totallyTimeSpent" value="208784000" />
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
+<<<<<<< HEAD
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30115274" />
+=======
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13040346" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -634,7 +809,15 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.36740333" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
+<<<<<<< HEAD
+      <window_info anchor="bottom" id="Version Control" order="14" visible="true" weight="0.0787172" />
+=======
       <window_info anchor="bottom" id="Version Control" order="14" weight="0.05248619" />
+<<<<<<< HEAD
+=======
+      <window_info anchor="right" id="Coverage" side_tool="true" weight="0.24174175" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -714,6 +897,12 @@
     <option name="LAST_COMMIT_MESSAGE" value="pom" />
   </component>
   <component name="editorHistoryManager">
+<<<<<<< HEAD
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-common/src/main/java/com/ada/auth/common/util/IJWTInfoUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="8" column="17" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+=======
     <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/constant/CommonConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -735,6 +924,7 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
         </state>
       </provider>
     </entry>
@@ -1079,16 +1269,26 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/controller/GeneratorController.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="805">
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="558">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
+=======
+        <state relative-caret-position="345">
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
           <caret line="48" column="46" selection-start-line="48" selection-start-column="46" selection-end-line="48" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/service/GeneratorService.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="897">
           <caret line="54" column="34" selection-start-line="54" selection-start-column="34" selection-end-line="54" selection-end-column="34" />
           <folding>
@@ -1096,16 +1296,56 @@
             <element signature="e#1101#1102#0" expanded="true" />
             <element signature="e#1161#1162#0" expanded="true" />
           </folding>
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="-10">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+=======
+        <state relative-caret-position="-4726">
+          <caret line="49" column="25" lean-forward="true" selection-start-line="49" selection-start-column="25" selection-end-line="49" selection-end-column="25" />
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/util/GeneratorUtil.java">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="23">
           <caret line="46" column="23" selection-start-line="46" selection-start-column="23" selection-end-line="46" selection-end-column="23" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="411">
+          <caret line="29" column="18" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
+=======
+        <state relative-caret-position="280">
+          <caret line="45" column="23" lean-forward="true" selection-start-line="45" selection-start-column="23" selection-end-line="45" selection-end-column="23" />
+>>>>>>> 125034373fef1f931abdbd0d8709d304de4671bc
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+>>>>>>> da3e24b802580dbceef02eb65d8941103bd3b2b3
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-client/src/main/java/com/ada/client/config/FeignOkHttpConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="868">
+          <caret line="50" lean-forward="true" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.2.RELEASE/spring-boot-2.1.2.RELEASE.jar!/org/springframework/boot/CommandLineRunner.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="7" selection-start-line="7" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-client/src/main/java/com/ada/client/runner/AuthClientRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="22" column="50" lean-forward="true" selection-start-line="22" selection-start-column="50" selection-end-line="22" selection-end-column="50" />
         </state>
       </provider>
     </entry>

@@ -189,7 +189,7 @@ public class GeneratorUtil {
             return packagePath + "entity" + File.separator + className + ".java";
         }
         if (template.contains("controller.java.vm")) {
-            return packagePath + "rest" + File.separator + className + "Controller.java";
+            return packagePath + "controller" + File.separator + className + "Controller.java";
         }
         if (template.contains("mapper.xml.vm")) {
             return "main" + File.separator + "resources" + File.separator + "mapper" + File.separator + className + "Mapper.xml";
