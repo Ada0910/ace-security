@@ -1,4 +1,4 @@
-package com.ada.tool.util;
+package com.ada.tool.search.util;
 
 import com.ada.api.vo.search.IndexObject;
 import org.apache.lucene.analysis.Analyzer;
@@ -23,7 +23,7 @@ public class DocumentUtil {
         doc.add(new StoredField("id", indexObject.getId()));
         doc.add(new TextField("title", indexObject.getTitle(), Field.Store.YES));
         doc.add(new TextField("summary", indexObject.getKeywords(), Field.Store.YES));
-        doc.add(new TextField("descripton", indexObject.getDescripton(), Field.Store.YES));
+        doc.add(new TextField("description", indexObject.getDescripton(), Field.Store.YES));
         doc.add(new StoredField("postDate", indexObject.getPostDate()));
         doc.add(new StoredField("url", indexObject.getUrl()));
         return doc;
@@ -34,7 +34,7 @@ public class DocumentUtil {
         indexObject.setId(Long.parseLong(doc.get("id")));
         indexObject.setTitle(stringFormatHighlighterOut(analyzer, highlighter, doc, "title"));
         indexObject.setKeywords(stringFormatHighlighterOut(analyzer, highlighter, doc, "summary"));
-        indexObject.setDescripton(stringFormatHighlighterOut(analyzer, highlighter, doc, "descripton"));
+        indexObject.setDescripton(stringFormatHighlighterOut(analyzer, highlighter, doc, "description"));
         indexObject.setPostDate(doc.get("postDate"));
         indexObject.setUrl(doc.get("url"));
         indexObject.setScore(score);
@@ -42,7 +42,9 @@ public class DocumentUtil {
     }
 
 
-    /*关键字加亮*/
+    /**
+     * 关键字加亮
+     */
     private static String stringFormatHighlighterOut(Analyzer analyzer, Highlighter highlighter, Document document, String field) throws Exception {
         String fieldValue = document.get(field);
         if (fieldValue != null) {

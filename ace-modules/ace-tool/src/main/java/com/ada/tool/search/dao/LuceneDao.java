@@ -1,10 +1,10 @@
-package com.ada.tool.dao;
+package com.ada.tool.search.dao;
 
 import com.ada.api.vo.search.IndexObject;
 import com.ada.common.response.TableResultResponse;
-import com.ada.tool.util.DocumentUtil;
-import com.ada.tool.util.IKAnalyzer5xUtil;
-import com.ada.tool.util.QueryUtil;
+import com.ada.tool.search.util.DocumentUtil;
+import com.ada.tool.search.util.IKAnalyzer5xUtil;
+import com.ada.tool.search.util.QueryUtil;
 import org.apache.lucene.analysis.Analyzer;
 import org.apache.lucene.document.Document;
 import org.apache.lucene.index.*;
@@ -60,11 +60,14 @@ public class LuceneDao {
     }
 
 
-    /*创建索引*/
+    /**
+     * 创建索引
+     */
     public void create(IndexObject indexObject) {
-
+        //创建索引
         IndexWriter indexWriter = null;
         try {
+            //索引配置
             IndexWriterConfig config = new IndexWriterConfig(this.getAnalyzer());
             indexWriter = new IndexWriter(this.getDirectory(), config);
             indexWriter.addDocument(DocumentUtil.IndexObject2Document(indexObject));
@@ -86,7 +89,9 @@ public class LuceneDao {
     }
 
 
-    /* 删除索引 */
+    /**
+     * 删除索引
+     */
     public void deleteAll() {
         IndexWriter indexWriter = null;
         try {
@@ -112,18 +117,16 @@ public class LuceneDao {
         }
     }
 
-    /* 更新单条索引 */
+    /**
+     * 更新单条索引
+     */
     public void update(IndexObject indexObject) {
-
         IndexWriter indexWriter = null;
-
         try {
-
             Term term = new Term("id", indexObject.getId().toString());
             IndexWriterConfig config = new IndexWriterConfig(this.getAnalyzer());
             indexWriter = new IndexWriter(this.getDirectory(), config);
             indexWriter.updateDocument(term, DocumentUtil.IndexObject2Document(indexObject));
-
         } catch (Exception e) {
             e.printStackTrace();
             try {
@@ -140,7 +143,9 @@ public class LuceneDao {
         }
     }
 
-    /** 查询索引 */
+    /**
+     * 查询索引
+     */
     public TableResultResponse<IndexObject> page(Integer pageNumber, Integer pageSize, String keyword) {
 
         IndexReader indexReader = null;
@@ -184,7 +189,9 @@ public class LuceneDao {
         return pageQuery;
     }
 
-    /* 根据页码和分页大小获取上一次的最后一个ScoreDoc */
+    /**
+     * 根据页码和分页大小获取上一次的最后一个ScoreDoc
+     */
     private ScoreDoc getLastScoreDoc(Integer pageNumber, Integer pageSize, Query query, IndexSearcher searcher) throws IOException {
         if (pageNumber == 1) {
             return null;

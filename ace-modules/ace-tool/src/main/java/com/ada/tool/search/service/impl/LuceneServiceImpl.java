@@ -1,9 +1,9 @@
-package com.ada.tool.service.impl;
+package com.ada.tool.search.service.impl;
 
 import com.ada.api.vo.search.IndexObject;
 import com.ada.common.response.TableResultResponse;
-import com.ada.tool.dao.LuceneDao;
-import com.ada.tool.service.LuceneService;
+import com.ada.tool.search.dao.LuceneDao;
+import com.ada.tool.search.service.LuceneService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -18,12 +18,10 @@ public class LuceneServiceImpl implements LuceneService {
     @Autowired
     private LuceneDao luceneDao;
 
-
     @Override
     public void save(IndexObject indexObject) {
         luceneDao.create(indexObject);
     }
-
 
     @Override
     public void update(IndexObject indexObject) {
@@ -42,6 +40,6 @@ public class LuceneServiceImpl implements LuceneService {
 
     @Override
     public TableResultResponse page(Integer pageNumber, Integer pageSize, String keyword) {
-        return luceneDao.page(pageNumber,pageSize,keyword);
+        return luceneDao.page(pageNumber, pageSize, keyword);
     }
 }
