@@ -11,7 +11,6 @@ public class BaseServiceImpl<M extends Mapper<T>, T> implements BaseService<T> {
     @Autowired
     protected M mapper;
 
-
     @Override
     public T selectOne(T entity) {
         return mapper.selectOne(entity);
@@ -21,11 +20,6 @@ public class BaseServiceImpl<M extends Mapper<T>, T> implements BaseService<T> {
     public T selectById(Object id) {
         return mapper.selectByPrimaryKey(id);
     }
-
-//    @Override
-//    public List<T> selectListByIds(List<Object> ids) {
-//        return mapper.selectByIds(ids);
-//    }
 
     @Override
     public List<T> selectList(T entity) {
@@ -37,10 +31,6 @@ public class BaseServiceImpl<M extends Mapper<T>, T> implements BaseService<T> {
         return mapper.selectAll();
     }
 
-//    @Override
-//    public Long selectCountAll() {
-//        return mapper.selectCount();
-//    }
 
     @Override
     public Long selectCount(T entity) {

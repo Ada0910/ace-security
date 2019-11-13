@@ -1,12 +1,9 @@
 package com.ada.common.wrapper;
-
-
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletRequestWrapper;
 import java.util.Enumeration;
 import java.util.Map;
 import java.util.Vector;
-
 
 public class ParameterRequestWrapper extends HttpServletRequestWrapper {
 
