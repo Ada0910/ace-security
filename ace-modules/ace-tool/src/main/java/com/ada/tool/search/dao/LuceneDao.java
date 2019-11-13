@@ -147,7 +147,6 @@ public class LuceneDao {
      * 查询索引
      */
     public TableResultResponse<IndexObject> page(Integer pageNumber, Integer pageSize, String keyword) {
-
         IndexReader indexReader = null;
         TableResultResponse<IndexObject> pageQuery = null;
         //查询结果
@@ -213,6 +212,9 @@ public class LuceneDao {
     }
 
 
+    /**
+     * 删除索引
+     */
     public void delete(IndexObject indexObject) {
         IndexWriter indexWriter = null;
         try {

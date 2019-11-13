@@ -15,7 +15,7 @@ import java.io.StringReader;
  * @author Ada
  * @ClassName :DocumentUtil
  * @date 2019/11/11 22:14
- * @Description:
+ * @Description: 索引文档添加Field类
  */
 public class DocumentUtil {
     public static Document IndexObject2Document(IndexObject indexObject) {
