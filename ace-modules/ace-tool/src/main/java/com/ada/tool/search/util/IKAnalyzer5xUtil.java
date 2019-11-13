@@ -22,7 +22,6 @@ public class IKAnalyzer5xUtil extends Analyzer {
 
     /**
      * IK分词器Lucene  Analyzer接口实现类
-     * <p>
      * 默认细粒度切分算法
      */
     public IKAnalyzer5xUtil() {
@@ -31,8 +30,7 @@ public class IKAnalyzer5xUtil extends Analyzer {
 
     /**
      * IK分词器Lucene Analyzer接口实现类
-     *
-     * @param useSmart 当为true时，分词器进行智能切分
+     * useSmart 当为true时，分词器进行智能切分
      */
     public IKAnalyzer5xUtil(boolean useSmart) {
         super();
