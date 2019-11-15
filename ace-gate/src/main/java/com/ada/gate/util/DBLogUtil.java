@@ -59,18 +59,26 @@ public class DBLogUtil extends Thread {
             try {
                 bufferLogList.add(logInfoQueue.take());
                 logInfoQueue.drainTo(bufferLogList);
-                if(bufferLogList!= null){
-
+                if (bufferLogList != null && bufferLogList.size() > 0) {
+                    //写入日志
+                    for (LogInfo log : bufferLogList) {
+                        logServiceFeign.saveLog(log);
+                    }
                 }
-            }catch (Exception e){
+            } catch (Exception e) {
                 e.printStackTrace();
                 // 防止缓冲队列填充数据出现异常时不断刷屏
                 try {
                     Thread.sleep(1000);
                 } catch (Exception eee) {
                 }
-            }finally {
-
+            } finally {
+                if (bufferLogList != null && bufferLogList.size() > 0) {
+                    try {
+                        bufferLogList.clear();
+                    } catch (Exception e) {
+                    }
+                }
             }
         }
     }
