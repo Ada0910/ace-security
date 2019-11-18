@@ -35,6 +35,7 @@ public class RequestBodyRoutePredicateFactory
     public static final String REQUEST_BODY_ATTR = "requestBodyAttr";
 
     public RequestBodyRoutePredicateFactory() {
+
         super(Config.class);
     }
 
