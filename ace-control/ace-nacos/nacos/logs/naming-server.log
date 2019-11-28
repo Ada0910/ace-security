@@ -44,3 +44,19 @@ java.lang.IllegalStateException: unable to find local peer: 192.168.1.103:0, all
 
 2019-11-27 23:15:00,280 INFO [VIPSRV-DISTRO] distro threshold restored and stable now, enable health check. current ratio: 1.0
 
+2019-11-27 23:18:38,661 INFO [HEALTH-CHECK] health check is true
+
+2019-11-27 23:23:38,662 INFO [HEALTH-CHECK] health check is true
+
+2019-11-27 23:28:38,664 INFO [HEALTH-CHECK] health check is true
+
+2019-11-27 23:33:38,666 INFO [HEALTH-CHECK] health check is true
+
+2019-11-27 23:35:29,235 INFO [RESET-WEIGHT] false
+
+2019-11-27 23:35:29,415 INFO [NEW-DOM-RAFT] {"checksum":"c0752e08cb2cd891ad7d39c319122995","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":{"cancelled":false,"checkRTBest":9223372036854775807,"checkRTLast":-1,"checkRTLastLast":-1,"checkRTNormalized":2281,"checkRTWorst":0,"cluster":{"$ref":".."},"startTime":1574868929411},"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574868929239,"metadata":{},"name":"ace-auth","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8e2f4ec1b1eddfbb79c8d10b9869f400","useSpecifiedURL":false}
+
+2019-11-27 23:35:29,429 WARN [NACOS-DOM] received empty iplist config for dom: ace-auth
+
+2019-11-27 23:35:30,619 INFO [REFRESH-SERVER-SITE] server list is changed, old: [], new: [192.168.1.103:8848]
+

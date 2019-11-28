@@ -88,3 +88,15 @@
 
 2019-11-27 23:13:44,344 ERROR Responding with unauthorized error. Message - Full authentication is required to access this resource
 
+2019-11-27 23:23:08,252 INFO [capacityManagement] start correct usage
+
+2019-11-27 23:23:08,295 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-11-27 23:23:08,577 WARN clearConfigHistory start
+
+2019-11-27 23:33:08,296 INFO [capacityManagement] start correct usage
+
+2019-11-27 23:33:08,298 INFO [capacityManagement] end correct usage, cost: 0s
+
+2019-11-27 23:33:08,619 WARN clearConfigHistory start
+

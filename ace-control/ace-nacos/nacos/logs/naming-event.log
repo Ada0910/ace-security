@@ -1,0 +1,14 @@
+2019-11-27 23:35:29,430 INFO com.alibaba.nacos.naming.core.VirtualClusterDomain@7ed702c5 {POS} {IP-UPDATE} [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT], action: add
+
+2019-11-27 23:35:29,433 INFO ace-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT]
+
+2019-11-27 23:35:29,436 INFO [IP-UPDATED] dom: ace-auth, ips: 192.168.1.103:8080_true,
+
+2019-11-27 23:36:38,939 INFO com.alibaba.nacos.naming.core.VirtualClusterDomain@7ed702c5 {POS} {IP-UPDATE} [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT], action: remove
+
+2019-11-27 23:36:38,939 INFO dom: ace-auth {POS} {IP-REMV} new: [{"app":"","clusterName":"DEFAULT","enabled":true,"instanceId":"","ip":"192.168.1.103","lastBeat":1574868998938,"marked":false,"metadata":{},"port":8080,"serviceName":"","tenant":"","valid":true,"weight":1}] operatorIP: unknown
+
+2019-11-27 23:36:38,939 INFO ace-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT]
+
+2019-11-27 23:36:38,939 INFO [IP-UPDATED] dom: ace-auth, ips: 
+
