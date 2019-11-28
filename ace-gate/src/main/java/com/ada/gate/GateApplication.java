@@ -9,11 +9,11 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableDiscoveryClient
 @EnableAceAuthClient
-@EnableFeignClients({"com.ada.client.feign","com.ada.gate.feign"})
+@EnableFeignClients({"com.ada.client.feign", "com.ada.gate.feign"})
 @SpringBootApplication
 public class GateApplication {
-   // DBLogUtil.getInstance().start();
     public static void main(String[] args) {
+        DBLogUtil.getInstance().start();
         SpringApplication.run(GateApplication.class, args);
     }
 
