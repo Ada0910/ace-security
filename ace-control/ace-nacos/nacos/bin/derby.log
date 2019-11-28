@@ -1,10 +1,10 @@
 ----------------------------------------------------------------
-Wed Nov 27 23:13:02 CST 2019:
-Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-016e-ad6c-3c7d-0000141d03c8 
-on database directory F:\Code\ace-security\ace-control\ace-nacos\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@31cefde0 
+Tue Nov 19 15:21:23 GMT+08:00 2019:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.10.1.1 - (1458268): instance a816c00e-016e-8289-90a7-0000090bcb50 
+on database directory F:\Code\ace-security\ace-control\ace-nacos\nacos\data\derby-data with class loader org.springframework.boot.loader.LaunchedURLClassLoader@37f8bb67 
 Loaded from jar:file:/F:/Code/ace-security/ace-control/ace-nacos/nacos/target/nacos-server.jar!/BOOT-INF/lib/derby-10.10.1.1.jar!/
 java.vendor=Oracle Corporation
-java.runtime.version=1.8.0_211-b12
+java.runtime.version=1.8.0_144-b01
 user.dir=F:\Code\ace-security\ace-control\ace-nacos\nacos\bin
 os.name=Windows 10
 os.arch=amd64
