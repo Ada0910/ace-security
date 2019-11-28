@@ -53,6 +53,8 @@ import java.util.stream.Stream;
 @Configuration
 @Slf4j
 public class AccessGatewayFilter implements GlobalFilter {
+
+
     @Autowired
     @Lazy
     private IUserServiceFeign userService;

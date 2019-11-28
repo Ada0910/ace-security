@@ -1,24 +1,82 @@
-2019-09-26 23:28:45,036 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:10:45,017 INFO [NACOS-PUSH] clientMap size: 0
 
-2019-09-26 23:29:05,038 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:11:05,018 INFO [NACOS-PUSH] clientMap size: 0
 
-2019-09-26 23:29:25,039 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:11:14,575 INFO ace-auth is changed, add it to push queue.
 
-2019-09-26 23:29:45,040 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:11:25,020 INFO [NACOS-PUSH] clientMap size: 0
 
-2019-09-26 23:30:05,042 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:11:45,021 INFO [NACOS-PUSH] clientMap size: 0
 
-2019-09-26 23:30:25,043 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:12:03,723 INFO ace-admin is changed, add it to push queue.
 
-2019-09-26 23:30:45,053 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:12:05,024 INFO [NACOS-PUSH] clientMap size: 1
 
-2019-09-26 23:31:05,053 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:12:25,025 INFO [NACOS-PUSH] clientMap size: 1
 
-2019-09-26 23:31:25,055 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:12:45,027 INFO [NACOS-PUSH] clientMap size: 1
 
-2019-09-26 23:31:45,093 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:13:05,028 INFO [NACOS-PUSH] clientMap size: 1
 
-2019-09-26 23:32:05,097 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:13:25,029 INFO [NACOS-PUSH] clientMap size: 1
 
-2019-09-26 23:32:25,099 INFO [NACOS-PUSH] clientMap size: 0
+2019-11-19 15:13:45,030 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-19 15:14:05,032 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-19 15:14:25,033 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-19 15:14:45,034 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-19 15:15:05,036 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-19 15:15:25,038 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-19 15:15:35,788 INFO ace-auth is changed, add it to push queue.
+
+2019-11-19 15:15:35,791 INFO dom: ace-auth changed, schedule push for: 192.168.119.2:59954, agent: Nacos-Java-Client:v0.2.1, key: 192.168.119.2,59954,24463149407200
+
+2019-11-19 15:15:35,791 INFO send udp packet: 192.168.119.2,59954,24463149407200
+
+2019-11-19 15:15:35,815 INFO received ack: {"type": "push-ack", "lastRefTime":"24463149407200", "data":""} from: 192.168.119.2:, cost: 59954 ms, unacked: 24, total push: 0
+
+2019-11-19 15:15:35,845 INFO ace-admin is changed, add it to push queue.
+
+2019-11-19 15:15:45,039 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:16:05,042 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:16:25,043 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:16:45,045 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:17:05,047 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:17:25,049 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:17:45,050 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:18:05,051 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:18:25,053 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:18:45,054 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:21:30,014 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:21:50,015 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:22:10,017 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:22:26,025 INFO ace-auth is changed, add it to push queue.
+
+2019-11-19 15:22:30,018 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:22:50,020 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:23:10,021 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:23:30,023 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-19 15:23:33,032 INFO ace-auth is changed, add it to push queue.
 
