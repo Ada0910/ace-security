@@ -10,10 +10,6 @@
         <option value="$PROJECT_DIR$/ace-modules/ace-admin/pom.xml" />
         <option value="$PROJECT_DIR$/ace-auth/ace-auth-common/pom.xml" />
         <option value="$PROJECT_DIR$/ace-gate/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-client-demo/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-server/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-modules/ace-generator/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-modules/ace-tool/pom.xml" />
       </list>
     </option>
   </component>
