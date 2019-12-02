@@ -7,13 +7,13 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+@SpringBootApplication
 @EnableDiscoveryClient
 @EnableAceAuthClient
-@EnableFeignClients({"com.ada.client.feign","com.ada.gate.feign"})
-@SpringBootApplication
+@EnableFeignClients({"com.ada.client.feign", "com.ada.gate.feign"})
 public class GateApplication {
-   // DBLogUtil.getInstance().start();
     public static void main(String[] args) {
+        DBLogUtil.getInstance().start();
         SpringApplication.run(GateApplication.class, args);
     }
 

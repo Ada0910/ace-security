@@ -17,14 +17,14 @@ import java.util.List;
 @Slf4j
 public class UserServiceFallback implements IUserServiceFeign {
     @Override
-    public List<PermissionInfo> getPermissionByUsername(String userName) {
-        log.error("调用{}异常{}", "getPermissionByUsername", userName);
+    public List<PermissionInfo> getPermissionByUserName(String userName) {
+        log.error("调用{}异常{}", "getPermissionByUserName", userName);
         return null;
     }
 
     @Override
     public List<PermissionInfo> getAllPermissionInfo() {
-        log.error("调用{}异常", "getPermissionByUsername");
+        log.error("调用{}异常", "getPermissionByUserName");
         return null;
     }
 }

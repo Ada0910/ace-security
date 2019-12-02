@@ -27,34 +27,16 @@ import static org.springframework.cloud.gateway.filter.AdaptCachedBodyGlobalFilt
  * @date 2019/11/14 22:39
  * @Description:
  */
+
+
 public class RequestBodyRoutePredicateFactory
         extends AbstractRoutePredicateFactory<RequestBodyRoutePredicateFactory.Config> {
-
     protected static final Log LOGGER = LogFactory.getLog(ReadBodyPredicateFactory.class);
     private static final List<HttpMessageReader<?>> messageReaders = HandlerStrategies.withDefaults().messageReaders();
     public static final String REQUEST_BODY_ATTR = "requestBodyAttr";
 
     public RequestBodyRoutePredicateFactory() {
-
         super(Config.class);
-    }
-
-    public static class Config {
-        private String attr;
-
-        public String getAttr() {
-            return attr;
-        }
-
-        public void setAttr(String attr) {
-            this.attr = attr;
-        }
-    }
-
-    @Override
-    public Predicate<ServerWebExchange> apply(Config config) {
-        throw new UnsupportedOperationException(
-                "ReadBodyPredicateFactory is only async.");
     }
 
     @Override
@@ -75,24 +57,44 @@ public class RequestBodyRoutePredicateFactory
                 }
                 return Mono.just(true);
             } else {
-                return DataBufferUtils.join(exchange.getRequest().getBody()).flatMap(dataBuffer -> {
-                    DataBufferUtils.retain(dataBuffer);
-                    Flux<DataBuffer> cachedFlux = Flux.defer(() -> Flux.just(dataBuffer.slice(0, dataBuffer.readableByteCount())));
-                    ServerHttpRequest mutatedRequest = new ServerHttpRequestDecorator(exchange.getRequest()) {
-                        @Override
-                        public Flux<DataBuffer> getBody() {
-                            return cachedFlux;
-                        }
-                    };
-                    return ServerRequest.create(exchange.mutate().request(mutatedRequest).build(), messageReaders)
-                            .bodyToMono(String.class)
-                            .doOnNext(objectValue -> {
-                                exchange.getAttributes().put(REQUEST_BODY_ATTR, objectValue);
-                                exchange.getAttributes().put(CACHED_REQUEST_BODY_KEY, cachedFlux);
-                            })
-                            .map(objectValue -> true);
-                });
+                return DataBufferUtils.join(exchange.getRequest().getBody())
+                        .flatMap(dataBuffer -> {
+                            DataBufferUtils.retain(dataBuffer);
+                            Flux<DataBuffer> cachedFlux = Flux.defer(() -> Flux.just(dataBuffer.slice(0, dataBuffer.readableByteCount())));
+                            ServerHttpRequest mutatedRequest = new ServerHttpRequestDecorator(exchange.getRequest()) {
+                                @Override
+                                public Flux<DataBuffer> getBody() {
+                                    return cachedFlux;
+                                }
+                            };
+                            return ServerRequest.create(exchange.mutate().request(mutatedRequest).build(), messageReaders)
+                                    .bodyToMono(String.class)
+                                    .doOnNext(objectValue -> {
+                                        exchange.getAttributes().put(REQUEST_BODY_ATTR, objectValue);
+                                        exchange.getAttributes().put(CACHED_REQUEST_BODY_KEY, cachedFlux);
+                                    })
+                                    .map(objectValue -> true);
+                        });
+
             }
         };
+    }
+
+    @Override
+    public Predicate<ServerWebExchange> apply(Config config) {
+        throw new UnsupportedOperationException(
+                "ReadBodyPredicateFactory is only async.");
+    }
+
+    public static class Config {
+        private String attr;
+
+        public String getAttr() {
+            return attr;
+        }
+
+        public void setAttr(String attr) {
+            this.attr = attr;
+        }
     }
 }

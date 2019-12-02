@@ -54,7 +54,6 @@ import java.util.stream.Stream;
 @Slf4j
 public class AccessGatewayFilter implements GlobalFilter {
 
-
     @Autowired
     @Lazy
     private IUserServiceFeign userService;
@@ -195,7 +194,7 @@ public class AccessGatewayFilter implements GlobalFilter {
 
 
     private boolean checkUserPermission(PermissionInfo[] permissions, ServerWebExchange ctx, IJWTInfoUtil user) {
-        List<PermissionInfo> permissionInfos = userService.getPermissionByUsername(user.getUniqueName());
+        List<PermissionInfo> permissionInfos = userService.getPermissionByUserName(user.getUniqueName());
         PermissionInfo current = null;
         for (PermissionInfo info : permissions) {
             boolean anyMatch = permissionInfos.parallelStream().anyMatch(new Predicate<PermissionInfo>() {

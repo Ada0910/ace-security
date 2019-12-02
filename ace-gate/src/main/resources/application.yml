@@ -64,7 +64,7 @@ spring:
       dashboard: localhost:8080
 logging:
   level:
-    com.github.wxiaoqi.security.gate.v2: info
+    com.ada.gate.v2: info
 
 management:
   endpoints:

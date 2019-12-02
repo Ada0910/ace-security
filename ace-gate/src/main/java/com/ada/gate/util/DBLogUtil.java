@@ -16,7 +16,7 @@ import java.util.concurrent.LinkedBlockingDeque;
  * @Description:
  */
 @Slf4j
-public class DBLogUtil extends Thread {
+public  class DBLogUtil extends Thread {
     private static DBLogUtil dblog = null;
     private static BlockingDeque<LogInfo> logInfoQueue = new LinkedBlockingDeque<>(1024);
     private ILogServiceFeign logServiceFeign;
