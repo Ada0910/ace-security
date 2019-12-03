@@ -18,7 +18,7 @@ import java.util.List;
 @FeignClient(value = "ace-admin", fallback = UserServiceFallback.class)
 public interface IUserServiceFeign {
     @RequestMapping(value = "/api/user/un/{userName}/permissions", method = RequestMethod.GET)
-    public List<PermissionInfo> getPermissionByUsername(@PathVariable("userName") String userName);
+    public List<PermissionInfo> getPermissionByUserName(@PathVariable("userName") String userName);
 
     @RequestMapping(value = "/api/permissions", method = RequestMethod.GET)
     List<PermissionInfo> getAllPermissionInfo();
