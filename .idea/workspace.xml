@@ -256,7 +256,11 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+<<<<<<< HEAD
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575370420520" />
+=======
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575370076352" />
+>>>>>>> 21fa736a385c6b076e24e5085939e65b9e326c71
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -430,7 +434,10 @@
       <workItem from="1574044970848" duration="3297000" />
       <workItem from="1574146682331" duration="2471000" />
       <workItem from="1574901417092" duration="1577000" />
+<<<<<<< HEAD
       <workItem from="1575370403193" duration="280000" />
+=======
+>>>>>>> 21fa736a385c6b076e24e5085939e65b9e326c71
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1569511885251</created>
@@ -695,7 +702,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="243660000" />
+=======
+    <option name="totallyTimeSpent" value="243380000" />
+>>>>>>> 21fa736a385c6b076e24e5085939e65b9e326c71
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
