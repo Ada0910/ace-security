@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38ec881-1a9f-44a3-bbe7-85187be0d3d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/bin/logs/access_log.2019-11-27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-fatal.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-memory.log.2019-10-02.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-server.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/nacos.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-performance.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-push.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-raft.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-server.log.2019-10-02.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/handler/RequestBodyRoutePredicateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/handler/RequestBodyRoutePredicateFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="f38ec881-1a9f-44a3-bbe7-85187be0d3d5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/ace-auth/ace-auth-server/target/" />
@@ -179,9 +167,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="width" value="735" />
-    <option name="height" value="868" />
+    <option name="x" value="713" />
+    <option name="width" value="734" />
+    <option name="height" value="867" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -343,7 +331,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574901733295" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575370076352" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../springcloud" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -380,7 +368,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.GateApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ace-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.admin.AdminApplication" />
@@ -516,7 +504,7 @@
       <workItem from="1574044210042" duration="189000" />
       <workItem from="1574044970848" duration="3297000" />
       <workItem from="1574146682331" duration="2471000" />
-      <workItem from="1574901417092" duration="299000" />
+      <workItem from="1574901417092" duration="1577000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1569511885251</created>
@@ -781,7 +769,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242102000" />
+    <option name="totallyTimeSpent" value="243380000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
