@@ -214,3 +214,353 @@
 
 2019-11-27 23:36:39,955 INFO ace-auth is changed, add it to push queue.
 
+2019-11-28 22:43:30,026 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:43:50,053 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:44:10,054 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:44:30,055 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:44:50,056 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:45:10,058 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:45:30,059 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:45:50,060 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:46:10,061 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:46:30,061 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:46:50,065 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:47:10,066 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:47:30,067 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:47:50,067 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:48:10,067 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:48:30,069 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:48:50,070 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:49:10,071 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:49:30,072 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:49:50,072 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:50:10,073 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:50:30,073 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:50:50,074 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:51:10,075 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:51:23,212 INFO ace-auth is changed, add it to push queue.
+
+2019-11-28 22:51:30,077 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:51:50,078 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:52:10,079 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:52:30,084 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:52:50,092 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 22:53:01,061 INFO ace-admin is changed, add it to push queue.
+
+2019-11-28 22:53:10,094 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:53:30,095 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:53:50,096 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:54:10,097 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:54:30,099 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:54:50,100 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:55:10,101 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:55:30,103 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:55:50,104 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:56:10,105 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:56:30,107 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:56:50,108 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:57:10,109 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:57:30,111 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:57:50,111 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:58:10,112 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:58:30,114 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:58:50,114 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:59:10,115 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:59:30,117 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 22:59:50,117 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:00:10,119 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:00:30,120 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:00:50,120 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:01:10,122 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:01:30,122 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:01:50,124 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:02:10,125 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:02:30,127 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:02:50,128 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:03:10,128 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:03:30,132 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:03:50,134 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:04:10,135 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:04:30,136 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:04:50,292 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:05:10,292 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:05:30,294 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:05:50,295 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:06:10,296 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:06:30,307 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:06:50,308 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:07:10,310 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:07:30,324 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:07:50,326 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:08:10,327 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:08:30,328 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:08:50,329 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:09:10,331 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:09:30,331 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:09:50,346 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:10:10,347 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:10:30,347 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:10:50,349 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:11:10,350 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:11:30,350 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:11:50,352 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:12:10,352 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:12:30,353 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:12:50,355 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:13:10,356 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:13:30,357 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:13:50,485 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:14:10,485 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:14:30,561 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:14:50,564 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:15:10,566 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:15:30,567 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:15:50,568 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:16:10,569 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:16:30,570 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:16:50,570 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:17:10,571 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:17:30,572 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:17:50,573 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:18:10,574 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:18:30,576 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:18:50,578 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:19:10,578 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:19:30,586 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:19:50,588 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:20:10,590 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:20:30,591 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:20:50,591 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:21:10,592 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:21:30,594 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:21:50,595 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:22:10,596 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:22:30,597 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:22:50,597 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:23:10,598 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:23:30,599 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:23:50,600 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:24:10,602 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:24:30,604 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:24:50,605 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:25:10,607 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:25:30,607 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:25:50,609 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:26:10,610 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:26:30,611 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:26:50,612 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:27:10,613 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:27:30,613 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:27:50,614 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:28:10,615 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:28:30,616 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:28:50,617 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:29:10,618 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:29:30,620 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:29:50,621 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:30:10,623 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:30:30,625 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:30:50,627 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:31:10,627 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:31:30,629 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:31:50,631 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:32:10,633 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:32:30,633 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:32:50,662 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:33:10,665 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:33:30,666 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:33:50,674 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:34:10,677 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:34:30,678 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:34:50,683 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:35:10,684 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:35:30,684 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:35:50,685 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:36:10,888 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:36:30,888 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:36:50,889 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:37:10,895 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:37:30,897 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:37:50,918 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:38:10,919 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:38:30,920 INFO [NACOS-PUSH] clientMap size: 1
+
+2019-11-28 23:38:41,557 INFO ace-auth is changed, add it to push queue.
+
+2019-11-28 23:38:41,593 INFO dom: ace-auth changed, schedule push for: 192.168.1.103:61826, agent: Nacos-Java-Client:v0.2.1, key: 192.168.1.103,61826,13505716934900
+
+2019-11-28 23:38:41,593 INFO send udp packet: 192.168.1.103,61826,13505716934900
+
+2019-11-28 23:38:41,671 INFO received ack: {"type": "push-ack", "lastRefTime":"13505716934900", "data":""} from: 192.168.1.103:, cost: 61826 ms, unacked: 78, total push: 0
+
+2019-11-28 23:38:41,732 INFO ace-admin is changed, add it to push queue.
+
+2019-11-28 23:38:50,921 INFO [NACOS-PUSH] clientMap size: 0
+
+2019-11-28 23:39:10,922 INFO [NACOS-PUSH] clientMap size: 0
+

@@ -40,3 +40,31 @@
 
 2019-11-19 15:23:32,030 INFO [IP-UPDATED] dom: ace-auth, ips: 
 
+2019-11-28 22:51:22,192 INFO com.alibaba.nacos.naming.core.VirtualClusterDomain@51d24adb {POS} {IP-UPDATE} [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT], action: add
+
+2019-11-28 22:51:22,208 INFO ace-auth {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT]
+
+2019-11-28 22:51:22,212 INFO [IP-UPDATED] dom: ace-auth, ips: 192.168.1.103:8080_true,
+
+2019-11-28 22:53:00,029 INFO com.alibaba.nacos.naming.core.VirtualClusterDomain@39dd59c0 {POS} {IP-UPDATE} [192.168.1.103:8762:unknown_1.0_true_false_DEFAULT], action: add
+
+2019-11-28 22:53:00,058 INFO ace-admin {SYNC} {IP-NEW} cluster: DEFAULT, new ips size: 1, content: [192.168.1.103:8762:unknown_1.0_true_false_DEFAULT]
+
+2019-11-28 22:53:00,058 INFO [IP-UPDATED] dom: ace-admin, ips: 192.168.1.103:8762_true,
+
+2019-11-28 23:38:40,555 INFO com.alibaba.nacos.naming.core.VirtualClusterDomain@51d24adb {POS} {IP-UPDATE} [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT], action: remove
+
+2019-11-28 23:38:40,555 INFO dom: ace-auth {POS} {IP-REMV} new: [{"app":"","clusterName":"DEFAULT","enabled":true,"instanceId":"","ip":"192.168.1.103","lastBeat":1574955520530,"marked":false,"metadata":{},"port":8080,"serviceName":"","tenant":"","valid":true,"weight":1}] operatorIP: unknown
+
+2019-11-28 23:38:40,556 INFO ace-auth {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.103:8080:unknown_1.0_true_false_DEFAULT]
+
+2019-11-28 23:38:40,556 INFO [IP-UPDATED] dom: ace-auth, ips: 
+
+2019-11-28 23:38:40,730 INFO com.alibaba.nacos.naming.core.VirtualClusterDomain@39dd59c0 {POS} {IP-UPDATE} [192.168.1.103:8762:unknown_1.0_true_false_DEFAULT], action: remove
+
+2019-11-28 23:38:40,730 INFO dom: ace-admin {POS} {IP-REMV} new: [{"app":"","clusterName":"DEFAULT","enabled":true,"instanceId":"","ip":"192.168.1.103","lastBeat":1574955520730,"marked":false,"metadata":{},"port":8762,"serviceName":"","tenant":"","valid":true,"weight":1}] operatorIP: unknown
+
+2019-11-28 23:38:40,731 INFO ace-admin {SYNC} {IP-DEAD} cluster: DEFAULT, dead ips size: 1, content: [192.168.1.103:8762:unknown_1.0_true_false_DEFAULT]
+
+2019-11-28 23:38:40,731 INFO [IP-UPDATED] dom: ace-admin, ips: 
+

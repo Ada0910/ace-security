@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f38ec881-1a9f-44a3-bbe7-85187be0d3d5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/bin/logs/access_log.2019-11-27.log" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-fatal.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-memory.log.2019-10-02.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-server.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/nacos.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-performance.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-push.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-raft.log.2019-09-26.0" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-server.log.2019-10-02.0" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java" beforeDir="false" afterPath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/handler/RequestBodyRoutePredicateFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/handler/RequestBodyRoutePredicateFactory.java" afterDir="false" />
+    <list default="true" id="f38ec881-1a9f-44a3-bbe7-85187be0d3d5" name="Default Changelist" comment="update">
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/bin/logs/access_log.2019-11-28.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/bin/logs/access_log.2019-11-28.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/data/derby-data/log/log1.dat" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/data/derby-data/log/log1.dat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-fatal.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-fatal.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-memory.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-memory.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/config-server.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/nacos.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/nacos.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-event.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-event.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-performance.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-performance.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-push.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-push.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-raft.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-raft.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-server.log" beforeDir="false" afterPath="$PROJECT_DIR$/ace-control/ace-nacos/nacos/logs/naming-server.log" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -59,20 +59,7 @@
     <favorites_list name="ace-security" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/filter/AccessGatewayFilter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -86,7 +73,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>spring-boot-starter-web</find>
       <find>invokeSetter</find>
       <find>SETTER_PREFIX</find>
       <find>makeAccessible</find>
@@ -95,6 +81,12 @@
       <find>IKAnalyzer5xUtil</find>
       <find>/api/log/save</find>
       <find>api/log</find>
+      <find>ServerWebExchange</find>
+      <find>getPermissionByUsername</find>
+      <find>getAllPermissionInfo</find>
+      <find>spring-boot-starter-web</find>
+      <find>ServerCodecConfigurer</find>
+      <find>ModifyRequestBodyGatewayFilterFactory</find>
     </findStrings>
   </component>
   <component name="Git.Rebase.Settings">
@@ -111,10 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/ace-modules/ace-generator/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-modules/ace-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-auth/ace-auth-client/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-auth/ace-auth-common/pom.xml" />
         <option value="$PROJECT_DIR$/ace-modules/ace-generator/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/controller/HomeController.java" />
         <option value="$PROJECT_DIR$/ace-modules/ace-generator/src/main/java/com/ada/generator/entity/TableEntity.java" />
@@ -150,18 +138,22 @@
         <option value="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/service/BaseService.java" />
         <option value="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/wrapper/ParameterRequestWrapper.java" />
         <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/util/DBLog.java" />
-        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/GateApplication.java" />
         <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/ILogServiceFeign.java" />
-        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java" />
-        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/fallback/UserServiceFallback.java" />
-        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/util/DBLogUtil.java" />
         <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-server/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-server/src/main/java/com/ada/sidecar/server/SidecarServerApplication.java" />
         <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-client-demo/src/main/java/com/ada/sidecar/client/SidecarClientApplication.java" />
         <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-client-demo/src/main/java/com/ada/sidecar/client/entity/Message.java" />
         <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-client-demo/src/main/java/com/ada/sidecar/client/client/PythonFeignClient.java" />
         <option value="$PROJECT_DIR$/ace-sidecar/ace-sidecar-client-demo/src/main/java/com/ada/sidecar/client/controller/PythonController.java" />
+        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/util/DBLogUtil.java" />
+        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java" />
+        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/fallback/UserServiceFallback.java" />
+        <option value="$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserRestController.java" />
         <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/filter/AccessGatewayFilter.java" />
+        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/GateApplication.java" />
+        <option value="$PROJECT_DIR$/ace-gate/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/handler/RequestBodyRoutePredicateFactory.java" />
+        <option value="$PROJECT_DIR$/ace-gate/pom.xml" />
       </list>
     </option>
   </component>
@@ -174,14 +166,24 @@
   </component>
   <component name="MavenProjectNavigator">
     <treeState>
-      <expand />
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ace-gate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="ace-gate" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
+        </path>
+      </expand>
       <select />
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="712" />
-    <option name="width" value="735" />
-    <option name="height" value="868" />
+    <option name="x" value="951" />
+    <option name="width" value="978" />
+    <option name="height" value="1039" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -191,8 +193,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -203,137 +203,14 @@
             <path>
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-server" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-server" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gate" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gate" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="gate" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-sidecar" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -380,7 +257,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ServerApplication">
+  <component name="RunManager" selected="Spring Boot.GateApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ace-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.admin.AdminApplication" />
@@ -517,6 +394,9 @@
       <workItem from="1574044970848" duration="3297000" />
       <workItem from="1574146682331" duration="2471000" />
       <workItem from="1574901417092" duration="299000" />
+      <workItem from="1574950486187" duration="4588000" />
+      <workItem from="1575293795351" duration="5603000" />
+      <workItem from="1575385309642" duration="796000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1569511885251</created>
@@ -777,16 +657,37 @@
       <option name="project" value="LOCAL" />
       <updated>1574901573287</updated>
     </task>
-    <option name="localTasksCounter" value="38" />
+    <task id="LOCAL-00038" summary="update">
+      <created>1574950551688</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1574950551688</updated>
+    </task>
+    <task id="LOCAL-00039" summary="update">
+      <created>1574955545867</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1574955545867</updated>
+    </task>
+    <task id="LOCAL-00040" summary="update">
+      <created>1575301422303</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1575301422303</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="242102000" />
+    <option name="totallyTimeSpent" value="253089000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28530258" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.42250675" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -797,7 +698,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.48235294" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.053146854" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.43508288" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.66909623" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -808,11 +709,11 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.36740333" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="14" visible="true" weight="0.38950276" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.67784256" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.55115277" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.5505391" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32951483" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -821,9 +722,10 @@
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.24174175" />
+      <window_info anchor="right" id="SciView" order="12" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.63976943" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.4157682" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -834,7 +736,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.48235294" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.053146854" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.45718232" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1341108" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -845,11 +747,11 @@
       <window_info anchor="bottom" id="Messages" order="11" weight="0.36740333" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="bottom" id="Database Changes" order="13" />
-      <window_info anchor="bottom" id="Version Control" order="14" weight="0.17342657" />
+      <window_info anchor="bottom" id="Version Control" order="14" weight="0.19970846" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Maven" order="3" weight="0.55115277" />
+      <window_info anchor="right" id="Maven" order="3" weight="0.5505391" />
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="right" id="Database" order="5" weight="0.32951483" />
       <window_info anchor="right" id="Palette&#9;" order="6" />
@@ -858,6 +760,7 @@
       <window_info anchor="right" id="Capture Analysis" order="9" />
       <window_info anchor="right" id="Theme Preview" order="10" />
       <window_info anchor="right" id="Coverage" order="11" side_tool="true" weight="0.24174175" />
+      <window_info anchor="right" id="SciView" order="12" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -892,97 +795,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/resources/bootstrap.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-207" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="22" column="10" lean-forward="true" selection-start-line="22" selection-start-column="10" selection-end-line="22" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/search/dao/LuceneDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="41" column="16" selection-start-line="41" selection-start-column="16" selection-end-line="41" selection-end-column="16" />
-          <folding>
-            <element signature="e#1271#1272#0" expanded="true" />
-            <element signature="e#1311#1312#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/config/LuceneConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
-          <caret line="13" column="16" lean-forward="true" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/oss/constant/OSSConstant.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" column="1" lean-forward="true" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/search/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/oss/service/CloudStorageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-413">
-          <caret line="6" column="2" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="6" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/com/qcloud/cos_api/4.4/cos_api-4.4.jar!/com/qcloud/cos/sign/Credentials.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/config/CloudStorageConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="39" column="19" selection-start-line="39" selection-start-column="19" selection-end-line="39" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/oss/controller/OssController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="415">
-          <caret line="30" column="92" selection-start-line="30" selection-start-column="92" selection-end-line="30" selection-end-column="92" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/oss/service/OssService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="254">
-          <caret line="18" column="40" lean-forward="true" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-tool/src/main/java/com/ada/tool/oss/service/QiniuCloudStorageService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="760">
@@ -1015,13 +827,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-control/ace-monitor/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-control/ace-monitor/src/main/java/com/ada/monitor/MonitorApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/context/BaseContext.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1078,29 +883,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/java/com/ada/server/ServerApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/ElementController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-40">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/LogRestController.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1116,89 +900,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/GroupTypeController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/GateLogController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserRestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/ILogServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="17" column="51" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/fallback/UserServiceFallback.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
-          <caret line="26" column="55" selection-start-line="26" selection-start-column="55" selection-end-line="26" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-interface/src/main/java/com/ada/api/vo/log/LogInfo.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="158">
           <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/util/DBLogUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1239">
-          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/GateApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="30" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-sidecar/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-242" />
-      </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-sidecar/ace-sidecar-server/src/main/resources/application.properties" />
     <entry file="file://$PROJECT_DIR$/ace-sidecar/ace-sidecar-server/src/main/java/com/ada/sidecar/server/SidecarServerApplication.java">
@@ -1270,10 +977,198 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/ace-sidecar/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-550" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-372" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3906" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="606">
+          <caret line="61" column="7" selection-start-line="61" selection-start-column="7" selection-end-line="61" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/java/com/ada/server/ServerApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="10" selection-start-line="10" selection-end-line="10" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-control/ace-monitor/src/main/java/com/ada/monitor/MonitorApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-client/src/main/java/com/ada/client/EnableAceAuthClient.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="279">
+          <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/util/DBLogUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="93">
+          <caret line="18" column="7" selection-start-line="18" selection-start-column="7" selection-end-line="18" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#631#632#0" expanded="true" />
+            <element signature="e#678#679#0" expanded="true" />
+            <element signature="e#1082#1083#0" expanded="true" />
+            <element signature="e#1120#1121#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/GateLogController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/ElementController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="310">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/GroupTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="237">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/MenuController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserRestController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/resources/bootstrap.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-actuator-autoconfigure/2.1.2.RELEASE/spring-boot-actuator-autoconfigure-2.1.2.RELEASE.jar!/org/springframework/boot/actuate/autoconfigure/endpoint/web/ServletEndpointManagementContextConfiguration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2">
+          <caret line="66" column="40" selection-start-line="66" selection-start-column="40" selection-end-line="66" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/IUserServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/feign/ILogServiceFeign.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="12" column="52" lean-forward="true" selection-start-line="12" selection-start-column="52" selection-end-line="12" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/fallback/UserServiceFallback.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="26" column="49" selection-start-line="26" selection-start-column="49" selection-end-line="26" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/filter/AccessGatewayFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="128" column="7" selection-start-line="128" selection-start-column="7" selection-end-line="128" selection-end-column="7" />
+        <state relative-caret-position="-4247">
+          <caret line="55" lean-forward="true" selection-start-line="55" selection-end-line="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/GateApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-48">
+          <caret line="9" column="22" selection-start-line="9" selection-start-column="22" selection-end-line="9" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-93">
+          <caret line="66" column="11" selection-start-line="66" selection-start-column="11" selection-end-line="66" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/config/GatewayConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="332">
+          <caret line="15" column="20" selection-start-line="15" selection-start-column="20" selection-end-line="15" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="35">
+          <caret line="45" column="25" selection-start-line="45" selection-start-column="25" selection-end-line="45" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-gate/src/main/java/com/ada/gate/handler/RequestBodyRoutePredicateFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
