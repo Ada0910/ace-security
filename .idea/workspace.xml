@@ -1,20 +1,3 @@
-Skip to content
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
- 
-@Ada0910 
-1
-22Ada0910/ace-security
- Code Issues 0 Pull requests 0 Actions Projects 0 Wiki Security Insights Settings
-ace-security/.idea/workspace.xml
-@Ada0910 Ada0910 Create workspace.xml
-21fa736 4 hours ago
-1359 lines (1359 sloc)  69.2 KB
-  
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
@@ -184,9 +167,9 @@ ace-security/.idea/workspace.xml
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="713" />
-    <option name="width" value="734" />
-    <option name="height" value="867" />
+    <option name="x" value="712" />
+    <option name="width" value="735" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="1" id="Add" />
@@ -1374,15 +1357,3 @@ ace-security/.idea/workspace.xml
     </states>
   </component>
 </project>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About
