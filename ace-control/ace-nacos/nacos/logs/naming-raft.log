@@ -1666,3 +1666,2715 @@
 
 2019-11-27 23:36:51,681 INFO raw beat data size: 290, size of compressed data: 185
 
+2019-11-28 22:43:17,036 INFO Switch init start!
+
+2019-11-28 22:43:17,064 INFO add listener for switch or domain meta. 
+
+2019-11-28 22:43:17,227 INFO add listener for switch or domain meta. 
+
+2019-11-28 22:43:25,964 INFO initializing Raft sub-system
+
+2019-11-28 22:43:25,964 INFO raft notifier started
+
+2019-11-28 22:43:26,074 INFO finish loading all datums, size: 2 cost 99 ms.
+
+2019-11-28 22:43:26,074 INFO cache loaded, peer count: 1, datum count: 2, current term: 200
+
+2019-11-28 22:43:26,096 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin, value: {"checksum":"bd99ddc357c1d1b956f9e4de43c0dcae","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147522702,"metadata":{},"name":"ace-admin","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8999bfd51efd6a8c7254277ad43191b8","useSpecifiedURL":false}
+
+2019-11-28 22:43:26,097 INFO add listener: ace-admin
+
+2019-11-28 22:43:26,142 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-auth, value: {"checksum":"c0752e08cb2cd891ad7d39c319122995","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147473513,"metadata":{},"name":"ace-auth","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8e2f4ec1b1eddfbb79c8d10b9869f400","useSpecifiedURL":false}
+
+2019-11-28 22:43:26,142 INFO add listener: ace-auth
+
+2019-11-28 22:43:27,075 INFO finish to load data from disk, cost: 1102 ms.
+
+2019-11-28 22:43:27,083 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2019-11-28 22:43:28,095 INFO leader timeout, start voting,leader: {"heartbeatDueMs":4500,"ip":"192.168.1.103:8848","leaderDueMs":19695,"state":"LEADER","term":200,"voteFor":"192.168.1.103:8848"}, term: 200
+
+2019-11-28 22:43:32,592 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:43:32,601 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:43:37,611 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:43:37,612 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:43:42,621 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:43:42,622 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:43:47,628 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:43:47,629 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:43:52,638 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:43:52,639 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:43:57,646 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:43:57,647 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:44:02,657 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:02,657 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:44:07,664 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:07,665 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:44:12,673 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:12,674 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:44:17,684 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:17,685 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:44:22,694 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:22,696 INFO raw beat data size: 289, size of compressed data: 180
+
+2019-11-28 22:44:27,705 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:27,706 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:44:32,717 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:32,718 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:44:37,728 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:37,729 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:44:42,734 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:42,735 INFO raw beat data size: 289, size of compressed data: 187
+
+2019-11-28 22:44:47,740 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:47,741 INFO raw beat data size: 289, size of compressed data: 190
+
+2019-11-28 22:44:52,750 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:52,751 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:44:57,758 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:44:57,759 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:45:02,765 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:02,766 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:45:07,773 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:07,774 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:45:12,784 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:12,785 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:45:17,794 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:17,795 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:45:22,803 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:22,805 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:45:27,813 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:27,813 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:45:32,822 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:32,822 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:45:37,831 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:37,831 INFO raw beat data size: 289, size of compressed data: 187
+
+2019-11-28 22:45:42,838 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:42,838 INFO raw beat data size: 289, size of compressed data: 181
+
+2019-11-28 22:45:47,846 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:47,847 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:45:52,856 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:52,857 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:45:57,864 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:45:57,864 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:46:02,872 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:02,873 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:46:07,882 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:07,883 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:46:12,892 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:12,893 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:46:17,901 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:17,901 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:46:22,906 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:22,907 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:46:27,917 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:27,918 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:46:32,927 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:32,927 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:46:37,950 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:37,952 INFO raw beat data size: 289, size of compressed data: 189
+
+2019-11-28 22:46:42,959 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:42,960 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:46:47,967 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:47,967 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:46:52,980 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:52,981 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:46:57,990 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:46:57,992 INFO raw beat data size: 289, size of compressed data: 189
+
+2019-11-28 22:47:03,003 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:03,003 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:47:08,012 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:08,012 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:47:13,022 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:13,022 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:47:18,034 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:18,034 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:47:23,043 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:23,044 INFO raw beat data size: 289, size of compressed data: 180
+
+2019-11-28 22:47:28,051 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:28,051 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:47:33,060 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:33,061 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:47:38,070 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:38,072 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:47:43,080 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:43,081 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:47:48,089 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:48,089 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:47:53,101 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:53,101 INFO raw beat data size: 289, size of compressed data: 181
+
+2019-11-28 22:47:58,136 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:47:58,136 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:48:03,149 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:03,149 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:48:08,157 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:08,158 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:48:13,167 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:13,168 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:48:18,199 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:18,201 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:48:23,210 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:23,212 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:48:28,230 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:28,231 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:48:33,240 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:33,240 INFO raw beat data size: 289, size of compressed data: 185
+
+2019-11-28 22:48:38,265 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:38,266 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:48:43,276 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:43,276 INFO raw beat data size: 289, size of compressed data: 189
+
+2019-11-28 22:48:48,283 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:48,284 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:48:53,293 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:53,293 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:48:58,302 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:48:58,302 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:49:03,338 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:03,339 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:49:08,352 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:08,353 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:49:13,361 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:13,362 INFO raw beat data size: 289, size of compressed data: 177
+
+2019-11-28 22:49:18,370 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:18,372 INFO raw beat data size: 289, size of compressed data: 186
+
+2019-11-28 22:49:23,382 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:23,382 INFO raw beat data size: 289, size of compressed data: 187
+
+2019-11-28 22:49:28,392 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:28,392 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:49:33,400 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:33,400 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:49:38,407 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:38,408 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:49:43,417 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:43,418 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:49:48,428 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:48,428 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:49:53,436 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:53,437 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:49:58,444 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:49:58,445 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:50:03,454 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:03,454 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:50:08,461 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:08,461 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:50:13,472 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:13,472 INFO raw beat data size: 289, size of compressed data: 181
+
+2019-11-28 22:50:18,478 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:18,479 INFO raw beat data size: 289, size of compressed data: 181
+
+2019-11-28 22:50:23,488 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:23,489 INFO raw beat data size: 289, size of compressed data: 179
+
+2019-11-28 22:50:28,497 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:28,497 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:50:33,506 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:33,507 INFO raw beat data size: 289, size of compressed data: 187
+
+2019-11-28 22:50:38,514 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:38,515 INFO raw beat data size: 289, size of compressed data: 181
+
+2019-11-28 22:50:43,524 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:43,525 INFO raw beat data size: 289, size of compressed data: 187
+
+2019-11-28 22:50:48,535 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:48,536 INFO raw beat data size: 289, size of compressed data: 188
+
+2019-11-28 22:50:53,546 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:53,546 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:50:58,555 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:50:58,555 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:51:03,612 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:51:03,612 INFO raw beat data size: 289, size of compressed data: 182
+
+2019-11-28 22:51:08,757 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:51:08,757 INFO raw beat data size: 289, size of compressed data: 183
+
+2019-11-28 22:51:13,765 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:51:13,765 INFO raw beat data size: 289, size of compressed data: 187
+
+2019-11-28 22:51:18,774 INFO [RAFT] send beat with 2 keys.
+
+2019-11-28 22:51:18,774 INFO raw beat data size: 289, size of compressed data: 184
+
+2019-11-28 22:51:22,197 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:1
+
+2019-11-28 22:51:22,197 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=201
+
+2019-11-28 22:51:22,207 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.1.103#8080#DEFAULT#ace-auth","ip":"192.168.1.103","lastBeat":1574952682174,"marked":false,"metadata":{},"port":8080,"serviceName":"ace-auth","tenant":"","valid":true,"weight":1}]
+
+2019-11-28 22:51:23,783 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:23,785 INFO raw beat data size: 343, size of compressed data: 196
+
+2019-11-28 22:51:28,806 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:28,807 INFO raw beat data size: 343, size of compressed data: 190
+
+2019-11-28 22:51:33,820 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:33,820 INFO raw beat data size: 343, size of compressed data: 194
+
+2019-11-28 22:51:38,832 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:38,833 INFO raw beat data size: 343, size of compressed data: 191
+
+2019-11-28 22:51:43,843 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:43,843 INFO raw beat data size: 343, size of compressed data: 190
+
+2019-11-28 22:51:48,852 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:48,853 INFO raw beat data size: 343, size of compressed data: 190
+
+2019-11-28 22:51:54,245 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:54,246 INFO raw beat data size: 343, size of compressed data: 195
+
+2019-11-28 22:51:59,257 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:51:59,257 INFO raw beat data size: 343, size of compressed data: 193
+
+2019-11-28 22:52:04,265 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:04,265 INFO raw beat data size: 343, size of compressed data: 196
+
+2019-11-28 22:52:09,273 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:09,273 INFO raw beat data size: 343, size of compressed data: 191
+
+2019-11-28 22:52:14,297 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:14,298 INFO raw beat data size: 343, size of compressed data: 195
+
+2019-11-28 22:52:19,305 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:19,305 INFO raw beat data size: 343, size of compressed data: 189
+
+2019-11-28 22:52:24,314 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:24,315 INFO raw beat data size: 343, size of compressed data: 194
+
+2019-11-28 22:52:29,348 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:29,349 INFO raw beat data size: 343, size of compressed data: 190
+
+2019-11-28 22:52:34,426 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:34,426 INFO raw beat data size: 343, size of compressed data: 191
+
+2019-11-28 22:52:39,501 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:39,501 INFO raw beat data size: 343, size of compressed data: 196
+
+2019-11-28 22:52:44,515 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:44,515 INFO raw beat data size: 343, size of compressed data: 193
+
+2019-11-28 22:52:49,528 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:49,528 INFO raw beat data size: 343, size of compressed data: 192
+
+2019-11-28 22:52:54,537 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:54,538 INFO raw beat data size: 343, size of compressed data: 191
+
+2019-11-28 22:52:59,586 INFO [RAFT] send beat with 3 keys.
+
+2019-11-28 22:52:59,587 INFO raw beat data size: 343, size of compressed data: 188
+
+2019-11-28 22:53:00,029 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:1
+
+2019-11-28 22:53:00,030 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=201
+
+2019-11-28 22:53:00,054 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.1.103#8762#DEFAULT#ace-admin","ip":"192.168.1.103","lastBeat":1574952780028,"marked":false,"metadata":{},"port":8762,"serviceName":"ace-admin","tenant":"","valid":true,"weight":1}]
+
+2019-11-28 22:53:04,604 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:04,604 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:53:09,616 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:09,617 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:53:14,623 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:14,623 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:53:19,660 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:19,660 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:53:24,672 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:24,672 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:53:29,683 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:29,684 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 22:53:34,689 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:34,689 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:53:39,695 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:39,695 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:53:44,703 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:44,704 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 22:53:49,716 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:49,716 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:53:54,726 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:54,727 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:53:59,738 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:53:59,738 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:54:05,002 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:05,024 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 22:54:10,110 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:10,110 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:54:15,118 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:15,119 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:54:20,126 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:20,126 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 22:54:25,135 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:25,135 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 22:54:30,146 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:30,146 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:54:35,161 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:35,162 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:54:40,177 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:40,177 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:54:45,190 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:45,190 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 22:54:50,197 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:50,198 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 22:54:55,207 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:54:55,207 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:55:00,215 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:00,215 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:55:05,240 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:05,240 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:55:10,250 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:10,251 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:55:15,260 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:15,261 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:55:20,281 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:20,282 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:55:25,293 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:25,293 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:55:30,302 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:30,303 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 22:55:35,324 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:35,325 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:55:40,333 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:40,333 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:55:45,341 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:45,342 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:55:50,412 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:50,412 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 22:55:55,419 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:55:55,419 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:56:00,443 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:00,445 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:56:05,456 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:05,456 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:56:10,474 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:10,474 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:56:15,481 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:15,482 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:56:20,492 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:20,493 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 22:56:25,502 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:25,503 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 22:56:30,630 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:30,631 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:56:35,695 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:35,695 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:56:40,735 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:40,736 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:56:45,740 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:45,740 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 22:56:50,757 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:50,757 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:56:55,766 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:56:55,766 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 22:57:00,796 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:00,797 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:57:05,805 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:05,805 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:57:10,970 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:10,971 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:57:16,174 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:16,175 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:57:21,187 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:21,187 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 22:57:26,198 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:26,198 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:57:31,459 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:31,460 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 22:57:36,580 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:36,580 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:57:41,588 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:41,589 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 22:57:46,675 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:46,675 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:57:51,682 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:51,683 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:57:56,713 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:57:56,713 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 22:58:01,721 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:01,721 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:58:06,734 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:06,735 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 22:58:11,744 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:11,745 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:58:16,761 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:16,761 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:58:21,772 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:21,773 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 22:58:26,782 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:26,783 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 22:58:31,793 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:31,794 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:58:36,803 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:36,803 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 22:58:41,811 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:41,812 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 22:58:46,823 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:46,823 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 22:58:51,835 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:51,835 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:58:56,845 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:58:56,846 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:59:01,857 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:01,857 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 22:59:07,061 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:07,061 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:59:12,129 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:12,129 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:59:17,138 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:17,138 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 22:59:22,147 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:22,147 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 22:59:27,156 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:27,157 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:59:32,163 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:32,166 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:59:37,177 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:37,177 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 22:59:42,190 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:42,190 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:59:47,200 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:47,201 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 22:59:52,220 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:52,221 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 22:59:57,231 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 22:59:57,231 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:00:02,239 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:02,239 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:00:07,249 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:07,249 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:00:12,258 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:12,259 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:00:17,267 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:17,268 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 23:00:22,276 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:22,276 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:00:27,288 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:27,288 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:00:32,299 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:32,299 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:00:37,308 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:37,308 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:00:42,316 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:42,317 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:00:47,326 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:47,326 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:00:52,336 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:52,336 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:00:57,345 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:00:57,345 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:01:02,355 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:02,355 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:01:07,362 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:07,363 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:01:12,371 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:12,372 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:01:17,384 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:17,385 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:01:22,396 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:22,397 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:01:27,405 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:27,405 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:01:32,450 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:32,450 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:01:37,458 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:37,459 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:01:42,465 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:42,465 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:01:47,541 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:47,541 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:01:52,551 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:52,552 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:01:57,561 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:01:57,562 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:02:02,571 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:02,571 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:02:07,583 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:07,583 INFO raw beat data size: 398, size of compressed data: 189
+
+2019-11-28 23:02:12,590 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:12,591 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:02:17,598 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:17,598 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:02:22,625 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:22,626 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:02:27,635 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:27,635 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:02:32,647 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:32,648 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:02:37,659 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:37,659 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:02:42,671 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:42,671 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:02:47,679 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:47,679 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:02:52,691 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:52,691 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:02:57,701 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:02:57,702 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:03:02,707 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:02,708 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:03:07,715 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:07,716 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:03:12,746 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:12,747 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:03:17,782 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:17,782 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:03:22,904 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:22,904 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:03:28,131 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:28,131 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:03:33,203 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:33,203 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:03:38,425 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:38,425 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:03:43,431 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:43,432 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:03:48,460 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:48,460 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:03:53,469 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:53,469 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:03:58,478 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:03:58,479 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:04:03,489 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:03,489 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:04:08,498 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:08,499 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:04:13,506 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:13,507 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:04:18,517 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:18,517 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:04:23,527 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:23,527 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:04:28,537 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:28,537 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:04:33,551 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:33,551 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:04:38,558 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:38,558 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:04:43,566 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:43,566 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:04:49,086 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:49,086 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:04:54,143 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:54,145 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:04:59,157 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:04:59,158 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:05:04,464 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:04,465 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:05:09,472 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:09,472 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:05:14,481 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:14,481 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:05:19,490 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:19,491 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:05:24,537 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:24,538 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:05:29,548 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:29,548 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:05:34,703 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:34,704 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:05:39,712 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:39,712 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:05:44,725 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:44,725 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:05:49,759 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:49,759 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:05:54,767 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:54,768 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:05:59,778 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:05:59,778 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:06:04,795 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:04,796 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:06:09,814 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:09,814 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:06:14,865 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:14,866 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:06:19,891 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:19,891 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:06:24,899 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:24,899 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:06:29,907 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:29,907 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:06:35,021 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:35,024 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:06:40,037 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:40,037 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:06:45,264 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:45,264 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:06:50,385 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:50,385 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:06:55,399 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:06:55,399 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:07:00,408 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:00,409 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:07:05,652 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:05,653 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:07:10,666 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:10,667 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:07:15,679 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:15,679 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:07:20,690 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:20,690 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:07:25,714 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:25,714 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:07:30,725 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:30,725 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:07:35,854 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:35,854 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:07:40,886 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:40,886 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:07:45,897 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:45,897 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:07:50,907 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:50,907 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:07:55,915 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:07:55,915 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:08:00,928 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:00,928 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:08:05,935 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:05,936 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:08:10,945 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:10,945 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:08:16,198 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:16,199 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:08:21,221 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:21,221 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:08:26,228 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:26,229 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:08:31,243 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:31,244 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:08:36,254 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:36,254 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:08:41,263 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:41,263 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:08:46,273 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:46,273 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:08:51,282 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:51,282 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:08:56,289 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:08:56,289 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:09:01,350 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:01,351 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 23:09:06,408 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:06,408 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:09:11,417 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:11,418 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:09:16,427 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:16,427 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:09:21,438 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:21,438 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:09:26,447 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:26,447 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:09:31,455 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:31,455 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:09:36,467 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:36,467 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:09:41,475 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:41,475 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:09:46,486 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:46,486 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:09:51,514 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:51,514 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:09:56,525 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:09:56,526 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:10:01,573 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:01,574 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:10:06,583 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:06,584 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:10:11,600 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:11,601 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:10:16,607 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:16,607 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:10:21,616 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:21,617 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:10:26,622 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:26,622 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:10:31,631 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:31,632 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:10:36,640 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:36,641 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:10:41,649 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:41,649 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:10:46,661 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:46,662 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:10:51,669 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:51,669 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:10:56,677 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:10:56,677 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:11:01,687 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:01,687 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:11:06,697 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:06,697 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:11:11,708 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:11,708 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:11:16,718 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:16,719 INFO raw beat data size: 398, size of compressed data: 203
+
+2019-11-28 23:11:21,728 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:21,728 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:11:26,737 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:26,738 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:11:31,911 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:31,912 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:11:36,918 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:36,918 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:11:42,028 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:42,028 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:11:47,038 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:47,038 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:11:52,048 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:52,048 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:11:57,142 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:11:57,142 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:12:02,160 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:02,168 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:12:07,175 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:07,175 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:12:12,182 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:12,182 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:12:17,190 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:17,190 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:12:22,201 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:22,201 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:12:27,211 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:27,211 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:12:32,219 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:32,220 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:12:37,231 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:37,231 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:12:42,237 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:42,237 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:12:47,250 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:47,251 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:12:52,261 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:52,261 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:12:57,272 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:12:57,272 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:13:02,283 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:02,283 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:13:07,293 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:07,293 INFO raw beat data size: 398, size of compressed data: 189
+
+2019-11-28 23:13:12,329 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:12,330 INFO raw beat data size: 398, size of compressed data: 204
+
+2019-11-28 23:13:17,718 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:17,718 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:13:24,405 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:24,406 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:13:31,144 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:31,144 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:13:36,315 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:36,315 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:13:41,671 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:41,672 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:13:48,049 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:48,050 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:13:53,652 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:53,653 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:13:58,797 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:13:58,797 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:14:03,807 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:03,808 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:14:08,820 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:08,820 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:14:13,828 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:13,828 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:14:18,896 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:18,896 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:14:23,908 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:23,909 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:14:29,049 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:29,049 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:14:34,156 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:34,156 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:14:40,102 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:40,153 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:14:46,718 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:46,718 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:14:51,813 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:51,813 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:14:56,830 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:14:56,830 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:15:01,837 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:01,837 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:15:06,850 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:06,850 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:15:12,154 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:12,154 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:15:17,197 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:17,197 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:15:22,209 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:22,209 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:15:27,221 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:27,221 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:15:32,229 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:32,230 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:15:37,237 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:37,237 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:15:42,242 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:42,243 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:15:47,249 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:47,251 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:15:52,266 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:52,266 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:15:57,275 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:15:57,275 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:16:02,293 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:02,293 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 23:16:07,305 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:07,305 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:16:12,312 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:12,312 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:16:17,322 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:17,323 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:16:22,331 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:22,331 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:16:27,339 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:27,340 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:16:32,347 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:32,347 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:16:37,356 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:37,356 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:16:42,365 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:42,365 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:16:47,375 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:47,375 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:16:52,383 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:52,383 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:16:57,390 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:16:57,390 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:17:02,399 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:02,400 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:17:07,410 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:07,410 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:17:12,418 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:12,419 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:17:17,430 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:17,430 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:17:22,442 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:22,442 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:17:27,448 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:27,449 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:17:32,458 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:32,458 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:17:37,464 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:37,464 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:17:42,477 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:42,478 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:17:47,485 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:47,486 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:17:52,496 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:52,496 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:17:57,507 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:17:57,507 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:18:02,542 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:02,542 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:18:07,553 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:07,554 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:18:12,563 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:12,564 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:18:17,572 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:17,572 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:18:22,580 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:22,580 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:18:27,590 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:27,591 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:18:32,596 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:32,596 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:18:37,605 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:37,606 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:18:42,615 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:42,615 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:18:47,626 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:47,627 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:18:52,636 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:52,636 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:18:57,646 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:18:57,647 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:19:02,657 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:02,657 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:19:07,662 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:07,662 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:19:12,671 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:12,671 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:19:17,681 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:17,681 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:19:22,763 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:22,765 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:19:27,778 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:27,778 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:19:32,791 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:32,791 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:19:37,797 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:37,797 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:19:42,806 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:42,806 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:19:47,818 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:47,818 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:19:52,831 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:52,831 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:19:57,841 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:19:57,841 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:20:02,852 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:02,852 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:20:07,862 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:07,862 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:20:12,873 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:12,873 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:20:17,884 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:17,884 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:20:22,895 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:22,895 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:20:27,904 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:27,904 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:20:32,912 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:32,912 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:20:37,921 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:37,922 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 23:20:42,933 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:42,933 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:20:47,940 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:47,941 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:20:52,950 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:52,951 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:20:58,201 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:20:58,201 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:21:03,210 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:03,210 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:21:08,217 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:08,217 INFO raw beat data size: 398, size of compressed data: 203
+
+2019-11-28 23:21:13,226 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:13,226 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:21:18,236 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:18,236 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:21:23,248 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:23,248 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:21:28,258 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:28,259 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:21:33,273 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:33,273 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:21:38,284 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:38,285 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:21:43,378 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:43,379 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:21:48,391 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:48,392 INFO raw beat data size: 398, size of compressed data: 189
+
+2019-11-28 23:21:53,402 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:53,402 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:21:58,409 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:21:58,409 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:22:03,458 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:03,458 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:22:09,068 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:09,069 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:22:14,155 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:14,155 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:22:19,388 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:19,388 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:22:25,048 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:25,049 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:22:30,242 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:30,242 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:22:35,441 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:35,441 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:22:40,452 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:40,535 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:22:45,600 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:45,601 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:22:50,723 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:50,723 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:22:55,734 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:22:55,734 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:23:00,742 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:00,742 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:23:05,764 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:05,764 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:23:10,785 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:10,785 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:23:15,807 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:15,807 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:23:20,816 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:20,816 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:23:25,824 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:25,825 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:23:30,834 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:30,834 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:23:36,480 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:36,480 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:23:41,490 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:41,490 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:23:46,513 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:46,513 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:23:51,524 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:51,524 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:23:56,537 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:23:56,538 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:24:01,548 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:01,548 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:24:06,556 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:06,557 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:24:11,567 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:11,567 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:24:16,598 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:16,598 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:24:21,646 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:21,646 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:24:26,753 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:26,753 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:24:31,764 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:31,764 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:24:36,774 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:36,774 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:24:41,785 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:41,785 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:24:46,794 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:46,794 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:24:51,815 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:51,815 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:24:56,837 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:24:56,838 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:25:01,846 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:01,846 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:25:06,855 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:06,855 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:25:11,866 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:11,866 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:25:16,877 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:16,877 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:25:21,884 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:21,884 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:25:26,894 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:26,894 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:25:31,904 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:31,904 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:25:36,925 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:36,926 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:25:41,935 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:41,935 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:25:46,942 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:46,942 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:25:52,050 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:52,051 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:25:57,058 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:25:57,058 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:26:02,068 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:02,069 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:26:07,077 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:07,077 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:26:12,088 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:12,088 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:26:17,097 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:17,097 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:26:22,108 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:22,108 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:26:27,117 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:27,117 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:26:32,132 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:32,135 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:26:37,145 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:37,145 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:26:42,153 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:42,153 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:26:47,437 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:47,438 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:26:52,451 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:52,451 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:26:57,460 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:26:57,460 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:27:02,475 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:02,475 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:27:07,485 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:07,486 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:27:12,496 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:12,496 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:27:17,505 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:17,505 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:27:22,514 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:22,514 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:27:27,693 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:27,693 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:27:32,705 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:32,705 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:27:37,715 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:37,716 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:27:42,727 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:42,727 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:27:47,732 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:47,732 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:27:52,742 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:52,742 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:27:57,751 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:27:57,751 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:28:02,757 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:02,757 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:28:07,765 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:07,766 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:28:12,774 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:12,774 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:28:17,786 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:17,786 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:28:22,792 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:22,794 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:28:27,803 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:27,803 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:28:32,815 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:32,815 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:28:37,919 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:37,919 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:28:42,933 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:42,933 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:28:47,944 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:47,944 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:28:52,954 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:52,954 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:28:58,197 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:28:58,199 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:29:03,211 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:03,211 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:29:08,222 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:08,222 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:29:13,231 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:13,231 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:29:18,239 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:18,239 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:29:23,250 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:23,251 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:29:28,349 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:28,349 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:29:33,361 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:33,361 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:29:38,370 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:38,371 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:29:43,380 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:43,380 INFO raw beat data size: 398, size of compressed data: 204
+
+2019-11-28 23:29:48,410 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:48,410 INFO raw beat data size: 398, size of compressed data: 189
+
+2019-11-28 23:29:53,421 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:53,421 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:29:58,431 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:29:58,431 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:30:03,441 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:03,441 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:30:08,454 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:08,454 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:30:13,462 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:13,462 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:30:18,468 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:18,468 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:30:23,479 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:23,479 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:30:28,488 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:28,488 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:30:33,497 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:33,497 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:30:38,507 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:38,507 INFO raw beat data size: 398, size of compressed data: 189
+
+2019-11-28 23:30:43,516 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:43,517 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:30:48,522 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:48,523 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:30:53,530 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:53,530 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:30:58,537 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:30:58,537 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:31:03,549 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:03,550 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:31:08,558 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:08,559 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:31:13,569 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:13,569 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:31:18,581 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:18,581 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:31:23,591 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:23,591 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:31:28,602 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:28,605 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:31:33,613 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:33,613 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:31:38,625 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:38,625 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:31:43,637 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:43,637 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:31:48,645 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:48,645 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:31:53,656 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:53,656 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:31:58,667 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:31:58,668 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:32:03,677 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:03,677 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:32:08,690 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:08,690 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:32:13,699 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:13,699 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:32:18,708 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:18,708 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:32:23,723 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:23,724 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:32:28,732 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:28,732 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:32:33,741 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:33,741 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:32:39,123 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:39,123 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:32:44,207 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:44,207 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:32:49,769 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:49,769 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:32:55,275 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:32:55,276 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:33:00,294 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:00,294 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:33:05,304 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:05,304 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:33:10,328 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:10,328 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:33:15,339 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:15,339 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:33:20,394 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:20,395 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:33:25,404 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:25,405 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:33:30,579 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:30,579 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:33:35,865 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:35,865 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:33:40,892 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:40,892 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:33:46,110 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:46,111 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:33:51,574 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:51,574 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:33:56,701 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:33:56,701 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:34:01,707 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:01,707 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:34:06,717 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:06,717 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:34:11,726 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:11,728 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:34:16,743 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:16,743 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:34:21,752 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:21,753 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:34:26,772 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:26,772 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:34:31,790 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:31,791 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:34:36,800 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:36,800 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:34:41,811 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:41,811 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:34:46,820 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:46,821 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:34:51,831 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:51,831 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:34:56,840 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:34:56,841 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:35:01,852 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:01,852 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:35:06,863 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:06,863 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:35:11,873 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:11,873 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:35:16,887 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:16,887 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:35:22,056 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:22,056 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:35:27,234 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:27,235 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:35:32,242 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:32,242 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:35:37,255 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:37,257 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:35:42,452 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:42,452 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:35:47,462 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:47,462 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:35:52,615 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:52,615 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:35:57,900 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:35:57,901 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:36:02,912 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:02,912 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:36:07,922 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:07,922 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:36:12,931 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:12,931 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:36:17,937 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:17,937 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:36:22,946 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:22,946 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:36:27,954 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:27,954 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:36:32,966 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:32,966 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:36:37,979 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:37,979 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:36:42,986 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:42,986 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:36:47,998 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:47,998 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:36:53,007 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:53,007 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:36:58,016 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:36:58,016 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:37:03,037 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:03,038 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:37:08,046 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:08,046 INFO raw beat data size: 398, size of compressed data: 191
+
+2019-11-28 23:37:13,133 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:13,134 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:37:18,168 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:18,169 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:37:23,291 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:23,291 INFO raw beat data size: 398, size of compressed data: 196
+
+2019-11-28 23:37:28,807 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:28,807 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:37:33,889 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:33,890 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:37:38,899 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:38,899 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:37:43,924 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:43,924 INFO raw beat data size: 398, size of compressed data: 200
+
+2019-11-28 23:37:48,958 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:48,958 INFO raw beat data size: 398, size of compressed data: 193
+
+2019-11-28 23:37:54,080 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:54,080 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:37:59,085 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:37:59,085 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:38:04,099 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:04,099 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:38:09,106 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:09,106 INFO raw beat data size: 398, size of compressed data: 194
+
+2019-11-28 23:38:14,114 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:14,118 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:38:19,126 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:19,126 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:38:24,134 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:24,134 INFO raw beat data size: 398, size of compressed data: 199
+
+2019-11-28 23:38:29,146 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:29,146 INFO raw beat data size: 398, size of compressed data: 201
+
+2019-11-28 23:38:34,154 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:34,154 INFO raw beat data size: 398, size of compressed data: 190
+
+2019-11-28 23:38:39,167 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:39,167 INFO raw beat data size: 398, size of compressed data: 195
+
+2019-11-28 23:38:40,555 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:2
+
+2019-11-28 23:38:40,555 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=201
+
+2019-11-28 23:38:40,556 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: []
+
+2019-11-28 23:38:40,730 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:2
+
+2019-11-28 23:38:40,730 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=201
+
+2019-11-28 23:38:40,730 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: []
+
+2019-11-28 23:38:44,191 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:44,191 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:38:49,199 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:49,200 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:38:54,215 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:54,215 INFO raw beat data size: 398, size of compressed data: 192
+
+2019-11-28 23:38:59,535 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:38:59,535 INFO raw beat data size: 398, size of compressed data: 198
+
+2019-11-28 23:39:04,544 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:39:04,545 INFO raw beat data size: 398, size of compressed data: 202
+
+2019-11-28 23:39:09,589 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:39:09,589 INFO raw beat data size: 398, size of compressed data: 203
+
+2019-11-28 23:39:14,599 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:39:14,599 INFO raw beat data size: 398, size of compressed data: 197
+
+2019-11-28 23:39:19,608 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:39:19,608 INFO raw beat data size: 398, size of compressed data: 204
+
+2019-11-28 23:39:24,618 INFO [RAFT] send beat with 4 keys.
+
+2019-11-28 23:39:24,619 INFO raw beat data size: 398, size of compressed data: 204
+

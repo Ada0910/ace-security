@@ -1,8 +1,6 @@
-server:
-  port: 8762
-
 logging:
   level:
+    #        tk.mybatis: DEBUG
     com.ada.admin: DEBUG
 spring:
   application:
@@ -13,7 +11,7 @@ spring:
     default-property-inclusion: non_null
   datasource:
     name: test
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_admin_v1?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_admin_v1?useUnicode=true&characterEncoding=UTF8&&&serverTimezone=GMT%2B8
     username: root
     password: 123
     # 使用druid数据源
@@ -24,20 +22,24 @@ spring:
     initialSize: 1
     maxWait: 60000
     minIdle: 1
-    #  每60秒运行一次空闲连接回收器
     timeBetweenEvictionRunsMillis: 60000
-    # 池中的连接空闲30分钟后被回收
     minEvictableIdleTimeMillis: 300000
-    # 验证使用的SQL语句
     validationQuery: select 'x'
-    # 指明连接是否被空闲连接回收器(如果有)进行检验.如果检测失败,则连接将被从池中去除.
     testWhileIdle: true
-    # 借出连接时不要测试，否则很影响性能
     testOnBorrow: false
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-
+  #    rabbitmq:
+  #        host: ${RABBIT_MQ_HOST:localhost}
+  #        port:  ${RABBIT_MQ_PORT:5672}
+  #        username: guest
+  #        password: guest
+  #    sleuth:
+  #        enabled: true
+  #          http:
+  #            legacy:
+  #              enabled: true
   cloud:
     nacos:
       discovery:
@@ -45,7 +47,6 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8080
-
 sample:
   zipkin:
     # When enabled=false, traces log to the console. Comment to send to zipkin
@@ -55,6 +56,9 @@ mybatis:
   basepackage: com.ada.admin.mapper
   xmlLocation: classpath:mapper/**/*.xml
   mapper-locations: "classpath*:mapper/*.xml"
+
+server:
+  port: 8762
 
 # 必须配置
 feign:
@@ -75,18 +79,16 @@ ribbon:
 hystrix:
   threadpool:
     default:
-      # 并发执行的最大线程数，默认10
-      coreSize: 1000
-      ##BlockingQueue的最大队列数
-      maxQueueSize: 1000
-      ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
-      queueSizeRejectionThreshold: 500
+      coreSize: 1000 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1000 ##BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
   command:
     default:
       execution:
         isolation:
           thread:
             timeoutInMilliseconds: 110000
+
 
 # 配置swagger
 swagger:
@@ -129,3 +131,4 @@ management:
         include: '*'
   security:
     enabled: false
+

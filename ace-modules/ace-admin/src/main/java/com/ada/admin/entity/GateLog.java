@@ -24,7 +24,7 @@ public class GateLog {
 
     private String menu;
 
-    private String opt;
+    private String option;
 
     private String uri;
 

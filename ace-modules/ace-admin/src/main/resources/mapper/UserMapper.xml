@@ -3,7 +3,7 @@
 <mapper namespace="com.ada.admin.mapper.UserMapper">
     <resultMap id="BaseResultMap" type="com.ada.admin.entity.User">
         <id column="id" jdbcType="INTEGER" property="id"/>
-        <result column="username" jdbcType="VARCHAR" property="username"/>
+        <result column="userName" jdbcType="VARCHAR" property="userName"/>
         <result column="password" jdbcType="VARCHAR" property="password"/>
         <result column="name" jdbcType="VARCHAR" property="name"/>
         <result column="birthday" jdbcType="VARCHAR" property="birthday"/>
