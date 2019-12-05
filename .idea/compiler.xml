@@ -34,7 +34,6 @@
       <module name="ace-interface" options="-parameters" />
       <module name="ace-modules" options="" />
       <module name="ace-monitor" options="-parameters" />
-      <module name="ace-sidecar" options="" />
       <module name="ace-sidecar-client-demo" options="-parameters" />
       <module name="ace-sidecar-server" options="-parameters" />
       <module name="ace-tool" options="-parameters" />

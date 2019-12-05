@@ -2,9 +2,6 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
 <mapper namespace="com.ada.admin.mapper.ResourceAuthorityMapper">
   <resultMap id="BaseResultMap" type="com.ada.admin.entity.ResourceAuthority">
-    <!--
-      WARNING - @mbggenerated
-    -->
     <id column="id" jdbcType="INTEGER" property="id" />
     <result column="authority_id" jdbcType="VARCHAR" property="authorityId" />
     <result column="authority_type" jdbcType="VARCHAR" property="authorityType" />
