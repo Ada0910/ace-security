@@ -1666,3 +1666,1275 @@
 
 2019-11-27 23:36:51,681 INFO raw beat data size: 290, size of compressed data: 185
 
+2019-12-03 19:22:36,527 INFO Switch init start!
+
+2019-12-03 19:22:36,532 INFO add listener for switch or domain meta. 
+
+2019-12-03 19:22:36,607 INFO add listener for switch or domain meta. 
+
+2019-12-03 19:22:40,769 INFO initializing Raft sub-system
+
+2019-12-03 19:22:40,770 INFO raft notifier started
+
+2019-12-03 19:22:40,827 INFO finish loading all datums, size: 2 cost 52 ms.
+
+2019-12-03 19:22:40,827 INFO cache loaded, peer count: 1, datum count: 2, current term: 200
+
+2019-12-03 19:22:40,834 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin, value: {"checksum":"bd99ddc357c1d1b956f9e4de43c0dcae","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147522702,"metadata":{},"name":"ace-admin","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8999bfd51efd6a8c7254277ad43191b8","useSpecifiedURL":false}
+
+2019-12-03 19:22:40,834 INFO add listener: ace-admin
+
+2019-12-03 19:22:40,857 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-auth, value: {"checksum":"c0752e08cb2cd891ad7d39c319122995","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147473513,"metadata":{},"name":"ace-auth","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8e2f4ec1b1eddfbb79c8d10b9869f400","useSpecifiedURL":false}
+
+2019-12-03 19:22:40,857 INFO add listener: ace-auth
+
+2019-12-03 19:22:41,847 INFO finish to load data from disk, cost: 1073 ms.
+
+2019-12-03 19:22:41,851 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2019-12-03 19:22:45,866 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:22:45,873 INFO raw beat data size: 286, size of compressed data: 179
+
+2019-12-03 19:22:50,914 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:22:50,916 INFO raw beat data size: 286, size of compressed data: 182
+
+2019-12-03 19:22:55,923 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:22:55,923 INFO raw beat data size: 286, size of compressed data: 183
+
+2019-12-03 19:23:00,932 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:00,932 INFO raw beat data size: 286, size of compressed data: 180
+
+2019-12-03 19:23:05,938 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:05,938 INFO raw beat data size: 286, size of compressed data: 181
+
+2019-12-03 19:23:10,944 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:10,944 INFO raw beat data size: 286, size of compressed data: 176
+
+2019-12-03 19:23:15,952 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:15,952 INFO raw beat data size: 286, size of compressed data: 176
+
+2019-12-03 19:23:20,960 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:20,960 INFO raw beat data size: 286, size of compressed data: 178
+
+2019-12-03 19:23:25,967 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:25,967 INFO raw beat data size: 286, size of compressed data: 179
+
+2019-12-03 19:23:30,996 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:30,996 INFO raw beat data size: 286, size of compressed data: 182
+
+2019-12-03 19:23:36,010 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:23:36,011 INFO raw beat data size: 286, size of compressed data: 182
+
+2019-12-03 19:23:40,909 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:1
+
+2019-12-03 19:23:40,909 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=200
+
+2019-12-03 19:23:40,911 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8080#DEFAULT#ace-auth","ip":"192.168.56.1","lastBeat":1575372220882,"marked":false,"metadata":{},"port":8080,"serviceName":"ace-auth","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:23:41,026 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:23:41,026 INFO raw beat data size: 340, size of compressed data: 190
+
+2019-12-03 19:23:46,042 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:23:46,042 INFO raw beat data size: 340, size of compressed data: 191
+
+2019-12-03 19:23:51,057 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:23:51,057 INFO raw beat data size: 340, size of compressed data: 191
+
+2019-12-03 19:23:56,072 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:23:56,072 INFO raw beat data size: 340, size of compressed data: 192
+
+2019-12-03 19:24:01,088 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:01,088 INFO raw beat data size: 340, size of compressed data: 186
+
+2019-12-03 19:24:06,104 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:06,104 INFO raw beat data size: 340, size of compressed data: 193
+
+2019-12-03 19:24:11,120 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:11,120 INFO raw beat data size: 340, size of compressed data: 184
+
+2019-12-03 19:24:16,136 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:16,136 INFO raw beat data size: 340, size of compressed data: 186
+
+2019-12-03 19:24:21,153 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:21,153 INFO raw beat data size: 340, size of compressed data: 193
+
+2019-12-03 19:24:26,169 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:26,169 INFO raw beat data size: 340, size of compressed data: 183
+
+2019-12-03 19:24:31,186 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:31,186 INFO raw beat data size: 340, size of compressed data: 182
+
+2019-12-03 19:24:36,206 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:36,206 INFO raw beat data size: 340, size of compressed data: 190
+
+2019-12-03 19:24:41,223 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:41,223 INFO raw beat data size: 340, size of compressed data: 193
+
+2019-12-03 19:24:46,238 INFO [RAFT] send beat with 3 keys.
+
+2019-12-03 19:24:46,238 INFO raw beat data size: 340, size of compressed data: 187
+
+2019-12-03 19:24:49,253 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:1
+
+2019-12-03 19:24:49,253 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=200
+
+2019-12-03 19:24:49,254 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8762#DEFAULT#ace-admin","ip":"192.168.56.1","lastBeat":1575372289253,"marked":false,"metadata":{},"port":8762,"serviceName":"ace-admin","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:24:51,245 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:24:51,245 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:24:56,253 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:24:56,253 INFO raw beat data size: 395, size of compressed data: 190
+
+2019-12-03 19:25:01,259 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:01,259 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:25:06,268 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:06,268 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:25:11,274 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:11,274 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:25:16,281 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:16,281 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:25:21,288 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:21,288 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:25:26,299 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:26,299 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:25:31,305 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:31,305 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:25:36,316 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:36,316 INFO raw beat data size: 395, size of compressed data: 189
+
+2019-12-03 19:25:41,325 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:25:41,325 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:25:42,683 INFO data added/updated, key=com.alibaba.nacos.naming.domains.meta.public##ace-gateway, term=300
+
+2019-12-03 19:25:42,683 INFO signalPublish cost 29 ms, key: com.alibaba.nacos.naming.domains.meta.public##ace-gateway
+
+2019-12-03 19:25:42,685 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-gateway, value: {"checksum":"1ee9b49299890ae684de6698386995d0","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1575372342650,"metadata":{},"name":"ace-gateway","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"f4d90c414e16310c65373900cd7f9d17","useSpecifiedURL":false}
+
+2019-12-03 19:25:42,685 INFO add listener: ace-gateway
+
+2019-12-03 19:25:42,686 INFO datum com.alibaba.nacos.naming.iplist.public##ace-gateway updated:1
+
+2019-12-03 19:25:42,686 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-gateway, term=300
+
+2019-12-03 19:25:42,686 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-gateway, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8765#DEFAULT#ace-gateway","ip":"192.168.56.1","lastBeat":1575372342643,"marked":false,"metadata":{},"port":8765,"serviceName":"ace-gateway","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:25:46,343 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:25:46,344 INFO raw beat data size: 507, size of compressed data: 208
+
+2019-12-03 19:25:51,352 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:25:51,352 INFO raw beat data size: 507, size of compressed data: 202
+
+2019-12-03 19:25:56,361 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:25:56,361 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:26:01,367 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:01,367 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:26:06,374 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:06,374 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:26:11,382 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:11,382 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:26:16,388 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:16,388 INFO raw beat data size: 507, size of compressed data: 203
+
+2019-12-03 19:26:21,398 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:21,398 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:26:26,405 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:26,406 INFO raw beat data size: 507, size of compressed data: 199
+
+2019-12-03 19:26:31,416 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:31,416 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:26:36,422 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:36,422 INFO raw beat data size: 507, size of compressed data: 209
+
+2019-12-03 19:26:41,433 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:41,434 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:26:46,441 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:46,441 INFO raw beat data size: 507, size of compressed data: 203
+
+2019-12-03 19:26:51,457 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:51,457 INFO raw beat data size: 507, size of compressed data: 203
+
+2019-12-03 19:26:56,464 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:26:56,464 INFO raw beat data size: 507, size of compressed data: 208
+
+2019-12-03 19:27:01,471 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:01,471 INFO raw beat data size: 507, size of compressed data: 208
+
+2019-12-03 19:27:06,477 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:06,477 INFO raw beat data size: 507, size of compressed data: 199
+
+2019-12-03 19:27:11,485 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:11,485 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:27:16,501 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:16,502 INFO raw beat data size: 507, size of compressed data: 203
+
+2019-12-03 19:27:21,516 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:21,516 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:27:26,530 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:26,530 INFO raw beat data size: 507, size of compressed data: 202
+
+2019-12-03 19:27:31,546 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:31,546 INFO raw beat data size: 507, size of compressed data: 207
+
+2019-12-03 19:27:36,562 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:36,562 INFO raw beat data size: 507, size of compressed data: 201
+
+2019-12-03 19:27:41,579 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:41,579 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:27:46,595 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:46,595 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:27:51,614 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:51,614 INFO raw beat data size: 507, size of compressed data: 212
+
+2019-12-03 19:27:56,633 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:27:56,633 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:28:01,650 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:01,651 INFO raw beat data size: 507, size of compressed data: 211
+
+2019-12-03 19:28:06,669 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:06,669 INFO raw beat data size: 507, size of compressed data: 198
+
+2019-12-03 19:28:11,684 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:11,684 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:28:16,702 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:16,702 INFO raw beat data size: 507, size of compressed data: 210
+
+2019-12-03 19:28:21,718 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:21,718 INFO raw beat data size: 507, size of compressed data: 210
+
+2019-12-03 19:28:26,729 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:26,729 INFO raw beat data size: 507, size of compressed data: 207
+
+2019-12-03 19:28:31,736 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:31,736 INFO raw beat data size: 507, size of compressed data: 204
+
+2019-12-03 19:28:36,753 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:36,768 INFO raw beat data size: 507, size of compressed data: 207
+
+2019-12-03 19:28:41,776 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:41,776 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:28:46,782 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:46,783 INFO raw beat data size: 507, size of compressed data: 207
+
+2019-12-03 19:28:51,793 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:51,793 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:28:56,817 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:28:56,833 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:29:01,855 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:01,855 INFO raw beat data size: 507, size of compressed data: 203
+
+2019-12-03 19:29:06,862 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:06,862 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:29:11,871 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:11,871 INFO raw beat data size: 507, size of compressed data: 210
+
+2019-12-03 19:29:16,878 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:16,878 INFO raw beat data size: 507, size of compressed data: 202
+
+2019-12-03 19:29:21,885 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:21,885 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:29:26,893 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:26,893 INFO raw beat data size: 507, size of compressed data: 207
+
+2019-12-03 19:29:31,901 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:31,902 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:29:36,909 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:36,909 INFO raw beat data size: 507, size of compressed data: 198
+
+2019-12-03 19:29:41,916 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:41,916 INFO raw beat data size: 507, size of compressed data: 201
+
+2019-12-03 19:29:46,924 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:46,924 INFO raw beat data size: 507, size of compressed data: 205
+
+2019-12-03 19:29:51,931 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:51,931 INFO raw beat data size: 507, size of compressed data: 207
+
+2019-12-03 19:29:56,939 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:29:56,939 INFO raw beat data size: 507, size of compressed data: 211
+
+2019-12-03 19:30:01,945 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:30:01,945 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:30:06,953 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:30:06,953 INFO raw beat data size: 507, size of compressed data: 209
+
+2019-12-03 19:30:11,959 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:30:11,959 INFO raw beat data size: 507, size of compressed data: 206
+
+2019-12-03 19:30:16,966 INFO [RAFT] send beat with 6 keys.
+
+2019-12-03 19:30:16,966 INFO raw beat data size: 507, size of compressed data: 201
+
+2019-12-03 19:32:47,982 INFO Switch init start!
+
+2019-12-03 19:32:47,989 INFO add listener for switch or domain meta. 
+
+2019-12-03 19:32:48,074 INFO add listener for switch or domain meta. 
+
+2019-12-03 19:32:51,833 INFO initializing Raft sub-system
+
+2019-12-03 19:32:51,834 INFO raft notifier started
+
+2019-12-03 19:32:51,883 INFO finish loading all datums, size: 3 cost 45 ms.
+
+2019-12-03 19:32:51,883 INFO cache loaded, peer count: 1, datum count: 3, current term: 300
+
+2019-12-03 19:32:51,887 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin, value: {"checksum":"bd99ddc357c1d1b956f9e4de43c0dcae","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147522702,"metadata":{},"name":"ace-admin","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8999bfd51efd6a8c7254277ad43191b8","useSpecifiedURL":false}
+
+2019-12-03 19:32:51,887 INFO add listener: ace-admin
+
+2019-12-03 19:32:51,906 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-auth, value: {"checksum":"c0752e08cb2cd891ad7d39c319122995","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147473513,"metadata":{},"name":"ace-auth","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8e2f4ec1b1eddfbb79c8d10b9869f400","useSpecifiedURL":false}
+
+2019-12-03 19:32:51,906 INFO add listener: ace-auth
+
+2019-12-03 19:32:51,907 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-gateway, value: {"checksum":"1ee9b49299890ae684de6698386995d0","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1575372342650,"metadata":{},"name":"ace-gateway","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"f4d90c414e16310c65373900cd7f9d17","useSpecifiedURL":false}
+
+2019-12-03 19:32:51,907 INFO add listener: ace-gateway
+
+2019-12-03 19:32:52,883 INFO finish to load data from disk, cost: 1046 ms.
+
+2019-12-03 19:32:52,894 INFO timer started: leader timeout ms: 15000, heart-beat timeout ms: 5000
+
+2019-12-03 19:32:54,130 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:1
+
+2019-12-03 19:32:54,130 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=300
+
+2019-12-03 19:32:54,130 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: [{"app":"","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8762#DEFAULT#ace-admin","ip":"192.168.56.1","lastBeat":1575372774121,"marked":false,"metadata":{},"port":8762,"serviceName":"ace-admin","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:32:55,713 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:1
+
+2019-12-03 19:32:55,713 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=300
+
+2019-12-03 19:32:55,713 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: [{"app":"","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8080#DEFAULT#ace-auth","ip":"192.168.56.1","lastBeat":1575372775713,"marked":false,"metadata":{},"port":8080,"serviceName":"ace-auth","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:32:57,398 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:32:57,403 INFO raw beat data size: 450, size of compressed data: 200
+
+2019-12-03 19:33:02,410 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:02,410 INFO raw beat data size: 450, size of compressed data: 197
+
+2019-12-03 19:33:07,417 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:07,417 INFO raw beat data size: 450, size of compressed data: 199
+
+2019-12-03 19:33:12,425 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:12,426 INFO raw beat data size: 450, size of compressed data: 190
+
+2019-12-03 19:33:17,432 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:17,432 INFO raw beat data size: 450, size of compressed data: 197
+
+2019-12-03 19:33:22,444 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:22,444 INFO raw beat data size: 450, size of compressed data: 197
+
+2019-12-03 19:33:27,453 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:27,453 INFO raw beat data size: 450, size of compressed data: 186
+
+2019-12-03 19:33:32,459 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:32,459 INFO raw beat data size: 450, size of compressed data: 201
+
+2019-12-03 19:33:37,466 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:37,466 INFO raw beat data size: 450, size of compressed data: 201
+
+2019-12-03 19:33:42,472 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:42,472 INFO raw beat data size: 450, size of compressed data: 201
+
+2019-12-03 19:33:47,480 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:47,481 INFO raw beat data size: 450, size of compressed data: 193
+
+2019-12-03 19:33:52,495 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:52,517 INFO raw beat data size: 450, size of compressed data: 199
+
+2019-12-03 19:33:57,819 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:33:57,819 INFO raw beat data size: 450, size of compressed data: 202
+
+2019-12-03 19:34:01,693 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:2
+
+2019-12-03 19:34:01,693 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=300
+
+2019-12-03 19:34:01,693 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: []
+
+2019-12-03 19:34:02,829 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:34:02,830 INFO raw beat data size: 450, size of compressed data: 208
+
+2019-12-03 19:34:07,838 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:34:07,838 INFO raw beat data size: 450, size of compressed data: 203
+
+2019-12-03 19:34:12,847 INFO [RAFT] send beat with 5 keys.
+
+2019-12-03 19:34:12,847 INFO raw beat data size: 450, size of compressed data: 203
+
+2019-12-03 19:34:13,715 INFO datum deleted, key: com.alibaba.nacos.naming.domains.meta.public##ace-gateway
+
+2019-12-03 19:34:13,715 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##ace-gateway, value: {"checksum":"1ee9b49299890ae684de6698386995d0","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1575372342650,"metadata":{},"name":"ace-gateway","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"f4d90c414e16310c65373900cd7f9d17","useSpecifiedURL":false}
+
+2019-12-03 19:34:17,853 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:34:17,853 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:34:18,465 INFO datum deleted, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin
+
+2019-12-03 19:34:18,465 INFO [RAFT-NOTIFIER] datum is deleted, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin, value: {"checksum":"bd99ddc357c1d1b956f9e4de43c0dcae","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1574147522702,"metadata":{},"name":"ace-admin","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8999bfd51efd6a8c7254277ad43191b8","useSpecifiedURL":false}
+
+2019-12-03 19:34:18,467 INFO datum deleted, key: com.alibaba.nacos.naming.iplist.public##ace-admin
+
+2019-12-03 19:34:22,863 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:22,863 INFO raw beat data size: 287, size of compressed data: 181
+
+2019-12-03 19:34:27,871 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:27,871 INFO raw beat data size: 287, size of compressed data: 187
+
+2019-12-03 19:34:32,878 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:32,878 INFO raw beat data size: 287, size of compressed data: 186
+
+2019-12-03 19:34:37,886 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:37,886 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:34:42,897 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:42,897 INFO raw beat data size: 287, size of compressed data: 186
+
+2019-12-03 19:34:47,904 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:47,904 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:34:52,910 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:52,910 INFO raw beat data size: 287, size of compressed data: 180
+
+2019-12-03 19:34:57,917 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:34:57,917 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:35:02,923 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:02,923 INFO raw beat data size: 287, size of compressed data: 180
+
+2019-12-03 19:35:07,930 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:07,930 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:35:12,937 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:12,937 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:35:17,944 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:17,944 INFO raw beat data size: 287, size of compressed data: 186
+
+2019-12-03 19:35:22,951 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:22,951 INFO raw beat data size: 287, size of compressed data: 190
+
+2019-12-03 19:35:27,959 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:27,959 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:35:32,965 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:32,965 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:35:37,971 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:37,971 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:35:42,980 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:42,980 INFO raw beat data size: 287, size of compressed data: 181
+
+2019-12-03 19:35:47,992 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:47,993 INFO raw beat data size: 287, size of compressed data: 180
+
+2019-12-03 19:35:53,000 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:53,000 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:35:58,008 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:35:58,008 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:36:03,019 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:03,019 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:36:08,030 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:08,030 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:36:13,044 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:13,044 INFO raw beat data size: 287, size of compressed data: 180
+
+2019-12-03 19:36:18,057 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:18,057 INFO raw beat data size: 287, size of compressed data: 178
+
+2019-12-03 19:36:23,073 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:23,073 INFO raw beat data size: 287, size of compressed data: 187
+
+2019-12-03 19:36:28,088 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:28,089 INFO raw beat data size: 287, size of compressed data: 177
+
+2019-12-03 19:36:33,103 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:33,104 INFO raw beat data size: 287, size of compressed data: 188
+
+2019-12-03 19:36:38,121 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:38,121 INFO raw beat data size: 287, size of compressed data: 175
+
+2019-12-03 19:36:43,137 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:43,137 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:36:48,153 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:48,153 INFO raw beat data size: 287, size of compressed data: 184
+
+2019-12-03 19:36:53,169 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:53,169 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:36:58,184 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:36:58,184 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:37:03,201 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:03,201 INFO raw beat data size: 287, size of compressed data: 180
+
+2019-12-03 19:37:08,218 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:08,218 INFO raw beat data size: 287, size of compressed data: 181
+
+2019-12-03 19:37:09,586 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:2
+
+2019-12-03 19:37:09,586 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=300
+
+2019-12-03 19:37:09,586 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: []
+
+2019-12-03 19:37:13,234 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:13,234 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:37:18,252 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:18,252 INFO raw beat data size: 287, size of compressed data: 184
+
+2019-12-03 19:37:23,266 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:23,266 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:37:28,272 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:28,272 INFO raw beat data size: 287, size of compressed data: 187
+
+2019-12-03 19:37:33,279 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:33,279 INFO raw beat data size: 287, size of compressed data: 185
+
+2019-12-03 19:37:38,291 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:38,291 INFO raw beat data size: 287, size of compressed data: 188
+
+2019-12-03 19:37:43,298 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:43,298 INFO raw beat data size: 287, size of compressed data: 187
+
+2019-12-03 19:37:48,305 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:48,305 INFO raw beat data size: 287, size of compressed data: 181
+
+2019-12-03 19:37:49,962 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:3
+
+2019-12-03 19:37:49,962 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=300
+
+2019-12-03 19:37:49,962 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8080#DEFAULT#ace-auth","ip":"192.168.56.1","lastBeat":1575373069958,"marked":false,"metadata":{},"port":8080,"serviceName":"ace-auth","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:37:53,311 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:53,311 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:37:58,319 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:37:58,319 INFO raw beat data size: 287, size of compressed data: 184
+
+2019-12-03 19:38:03,326 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:03,326 INFO raw beat data size: 287, size of compressed data: 188
+
+2019-12-03 19:38:08,332 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:08,332 INFO raw beat data size: 287, size of compressed data: 182
+
+2019-12-03 19:38:13,339 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:13,340 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:38:18,346 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:18,349 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:38:23,356 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:23,357 INFO raw beat data size: 287, size of compressed data: 184
+
+2019-12-03 19:38:28,364 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:28,365 INFO raw beat data size: 287, size of compressed data: 183
+
+2019-12-03 19:38:33,372 INFO [RAFT] send beat with 2 keys.
+
+2019-12-03 19:38:33,372 INFO raw beat data size: 287, size of compressed data: 178
+
+2019-12-03 19:38:35,999 INFO data added/updated, key=com.alibaba.nacos.naming.domains.meta.public##ace-admin, term=400
+
+2019-12-03 19:38:36,000 INFO signalPublish cost 43 ms, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin
+
+2019-12-03 19:38:36,001 INFO [RAFT-NOTIFIER] datum is changed, key: com.alibaba.nacos.naming.domains.meta.public##ace-admin, value: {"checksum":"bd99ddc357c1d1b956f9e4de43c0dcae","clusterMap":{"DEFAULT":{"defCkport":80,"defIPPort":80,"defaultCheckPort":80,"defaultPort":80,"healthCheckTask":null,"healthChecker":{"type":"TCP"},"metadata":{},"name":"DEFAULT","nodegroup":"","serviceName":"","sitegroup":"","submask":"0.0.0.0/0","syncKey":"","useIPPort4Check":true}},"enableClientBeat":true,"enableHealthCheck":false,"enabled":true,"ipDeleteTimeout":30000,"lastModifiedMillis":1575373115950,"metadata":{},"name":"ace-admin","namespaceId":"public","owners":[""],"protectThreshold":0,"resetWeight":false,"selector":{"type":"none"},"token":"8999bfd51efd6a8c7254277ad43191b8","useSpecifiedURL":false}
+
+2019-12-03 19:38:36,001 INFO add listener: ace-admin
+
+2019-12-03 19:38:36,003 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:1
+
+2019-12-03 19:38:36,003 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=400
+
+2019-12-03 19:38:36,003 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: [{"app":"DEFAULT","clusterName":"DEFAULT","enabled":true,"instanceId":"192.168.56.1#8762#DEFAULT#ace-admin","ip":"192.168.56.1","lastBeat":1575373115932,"marked":false,"metadata":{},"port":8762,"serviceName":"ace-admin","tenant":"","valid":true,"weight":1}]
+
+2019-12-03 19:38:38,379 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:38:38,379 INFO raw beat data size: 395, size of compressed data: 199
+
+2019-12-03 19:38:43,387 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:38:43,387 INFO raw beat data size: 395, size of compressed data: 199
+
+2019-12-03 19:38:48,396 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:38:48,396 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:38:53,402 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:38:53,404 INFO raw beat data size: 395, size of compressed data: 188
+
+2019-12-03 19:38:58,411 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:38:58,412 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:39:03,419 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:03,419 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:39:08,427 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:08,430 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:39:13,439 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:13,439 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:39:18,446 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:18,446 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:39:23,453 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:23,453 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:39:28,460 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:28,461 INFO raw beat data size: 395, size of compressed data: 188
+
+2019-12-03 19:39:33,468 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:33,468 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:39:38,476 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:38,476 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:39:43,484 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:43,484 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:39:48,491 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:48,491 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:39:53,497 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:53,497 INFO raw beat data size: 395, size of compressed data: 190
+
+2019-12-03 19:39:58,505 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:39:58,505 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:40:03,513 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:03,513 INFO raw beat data size: 395, size of compressed data: 189
+
+2019-12-03 19:40:08,523 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:08,523 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:40:13,539 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:13,539 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:40:18,554 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:18,554 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:40:23,569 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:23,569 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:40:28,583 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:28,583 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:40:33,599 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:33,599 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:40:38,613 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:38,613 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:40:43,630 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:43,630 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:40:48,646 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:48,646 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:40:53,663 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:53,663 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:40:58,678 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:40:58,678 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:41:03,694 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:03,694 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:41:08,711 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:08,711 INFO raw beat data size: 395, size of compressed data: 187
+
+2019-12-03 19:41:13,726 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:13,726 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:41:18,744 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:18,744 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:41:23,760 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:23,760 INFO raw beat data size: 395, size of compressed data: 187
+
+2019-12-03 19:41:28,770 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:28,770 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:41:33,831 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:33,831 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:41:38,844 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:38,844 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:41:43,850 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:43,850 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:41:48,857 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:48,857 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:41:53,864 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:53,864 INFO raw beat data size: 395, size of compressed data: 190
+
+2019-12-03 19:41:58,870 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:41:58,870 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:42:03,877 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:03,877 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:42:08,886 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:08,886 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:42:13,895 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:13,895 INFO raw beat data size: 395, size of compressed data: 189
+
+2019-12-03 19:42:18,902 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:18,902 INFO raw beat data size: 395, size of compressed data: 186
+
+2019-12-03 19:42:23,908 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:23,908 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:42:28,915 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:28,915 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:42:33,921 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:33,921 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:42:38,927 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:38,927 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:42:43,933 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:43,933 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:42:48,940 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:48,940 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:42:53,950 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:53,950 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:42:58,958 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:42:58,958 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:43:03,964 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:03,964 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:43:08,971 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:08,971 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:43:13,980 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:13,980 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:43:18,989 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:18,989 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:43:23,995 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:23,997 INFO raw beat data size: 395, size of compressed data: 185
+
+2019-12-03 19:43:29,004 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:29,004 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:43:34,014 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:34,014 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:43:39,027 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:39,027 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:43:44,041 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:44,041 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:43:49,056 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:49,056 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:43:54,072 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:54,072 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:43:59,088 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:43:59,088 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:44:04,103 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:04,103 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:44:09,120 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:09,120 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:44:14,137 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:14,137 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:44:19,153 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:19,153 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:44:24,167 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:24,167 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:44:29,184 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:29,184 INFO raw beat data size: 395, size of compressed data: 185
+
+2019-12-03 19:44:34,206 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:34,206 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:44:39,223 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:39,223 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:44:44,240 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:44,240 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:44:49,256 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:49,256 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:44:54,269 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:54,269 INFO raw beat data size: 395, size of compressed data: 187
+
+2019-12-03 19:44:59,291 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:44:59,291 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:45:04,298 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:04,298 INFO raw beat data size: 395, size of compressed data: 187
+
+2019-12-03 19:45:09,304 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:09,304 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:45:14,310 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:14,310 INFO raw beat data size: 395, size of compressed data: 187
+
+2019-12-03 19:45:19,339 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:19,339 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:45:24,345 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:24,345 INFO raw beat data size: 395, size of compressed data: 189
+
+2019-12-03 19:45:29,359 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:29,359 INFO raw beat data size: 395, size of compressed data: 187
+
+2019-12-03 19:45:34,366 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:34,367 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:45:39,374 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:39,374 INFO raw beat data size: 395, size of compressed data: 189
+
+2019-12-03 19:45:42,842 INFO datum com.alibaba.nacos.naming.iplist.public##ace-auth updated:4
+
+2019-12-03 19:45:42,842 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-auth, term=400
+
+2019-12-03 19:45:42,844 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-auth, value: []
+
+2019-12-03 19:45:44,382 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:44,382 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:45:46,112 INFO datum com.alibaba.nacos.naming.iplist.public##ace-admin updated:2
+
+2019-12-03 19:45:46,112 INFO data added/updated, key=com.alibaba.nacos.naming.iplist.public##ace-admin, term=400
+
+2019-12-03 19:45:46,112 INFO [NACOS-RAFT] datum is changed, key: com.alibaba.nacos.naming.iplist.public##ace-admin, value: []
+
+2019-12-03 19:45:49,391 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:49,391 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:45:54,398 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:54,400 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:45:59,406 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:45:59,406 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:46:04,413 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:04,413 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:46:09,420 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:09,420 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:46:14,426 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:14,426 INFO raw beat data size: 395, size of compressed data: 199
+
+2019-12-03 19:46:19,432 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:19,432 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:46:24,439 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:24,439 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:46:29,446 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:29,446 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:46:34,453 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:34,453 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:46:39,459 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:39,459 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:46:44,468 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:44,468 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:46:49,478 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:49,478 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:46:54,486 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:54,486 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:46:59,493 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:46:59,493 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:47:04,500 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:04,500 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:47:09,507 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:09,507 INFO raw beat data size: 395, size of compressed data: 191
+
+2019-12-03 19:47:14,515 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:14,515 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:47:19,525 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:19,525 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:47:24,540 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:24,540 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:47:29,556 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:29,556 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:47:34,571 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:34,571 INFO raw beat data size: 395, size of compressed data: 198
+
+2019-12-03 19:47:39,584 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:39,584 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:47:44,598 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:44,598 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:47:49,614 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:49,614 INFO raw beat data size: 395, size of compressed data: 192
+
+2019-12-03 19:47:54,631 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:54,631 INFO raw beat data size: 395, size of compressed data: 201
+
+2019-12-03 19:47:59,648 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:47:59,648 INFO raw beat data size: 395, size of compressed data: 195
+
+2019-12-03 19:48:04,665 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:04,665 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:48:09,682 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:09,682 INFO raw beat data size: 395, size of compressed data: 193
+
+2019-12-03 19:48:14,698 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:14,698 INFO raw beat data size: 395, size of compressed data: 194
+
+2019-12-03 19:48:19,714 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:19,714 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:48:24,731 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:24,731 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:48:29,748 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:29,748 INFO raw beat data size: 395, size of compressed data: 196
+
+2019-12-03 19:48:34,764 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:34,764 INFO raw beat data size: 395, size of compressed data: 200
+
+2019-12-03 19:48:39,771 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:39,771 INFO raw beat data size: 395, size of compressed data: 197
+
+2019-12-03 19:48:44,777 INFO [RAFT] send beat with 4 keys.
+
+2019-12-03 19:48:44,777 INFO raw beat data size: 395, size of compressed data: 197
+
