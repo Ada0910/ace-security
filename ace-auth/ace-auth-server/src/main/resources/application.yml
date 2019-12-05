@@ -13,7 +13,7 @@ spring:
     max-active: 20
   datasource:
     name: test
-    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_auth_v1?useUnicode=true&characterEncoding=UTF8&serverTimezone=GMT%2B8
+    url: jdbc:mysql://${MYSQL_HOST:localhost}:${MYSQL_PORT:3306}/ag_auth_v1?useUnicode=true&characterEncoding=UTF8&&serverTimezone=GMT%2B8
     username: root
     password: 123
     # 使用druid数据源
@@ -26,39 +26,86 @@ spring:
     minIdle: 1
     timeBetweenEvictionRunsMillis: 60000
     minEvictableIdleTimeMillis: 300000
-     # 验证使用的SQL语句
     validationQuery: select 'x'
     testWhileIdle: true
     testOnBorrow: false
     testOnReturn: false
     poolPreparedStatements: true
     maxOpenPreparedStatements: 20
-
   rabbitmq:
     host: ${RABBIT_MQ_HOST:localhost}
     port:  ${RABBIT_MQ_PORT:5672}
     username: guest
     password: guest
-    sleuth:
-      enabled: true
-      http:
-        legacy:
-          enabled: true
+  sleuth:
+    enabled: true
+    http:
+      legacy:
+        enabled: true
   cloud:
     nacos:
       discovery:
         server-addr: 127.0.0.1:8848
-      sentinel:
-        transport:
-          dashboard: localhost:8080
+    sentinel:
+      transport:
+        dashboard: localhost:8080
 mybatis:
-  basepackage: com.ada.server.mapper
+  basepackage: com.ada.auth.mapper
   xmlLocation: classpath:mapper/**/*.xml
   mapper-locations: "classpath*:mapper/*.xml"
-logging:
-  level:
-    com.ada.server: DEBUG
+
+server:
+  port: 9777 #启动端口
+
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+
+ribbon:
+  eureka:
+    enabled: true
+  ReadTimeout: 60000
+  ConnectTimeout: 60000
+  MaxAutoRetries: 0
+  MaxAutoRetriesNextServer: 1
+  OkToRetryOnAllOperations: false
+
+hystrix:
+  threadpool:
+    default:
+      coreSize: 1000 ##并发执行的最大线程数，默认10
+      maxQueueSize: 1000 ##BlockingQueue的最大队列数
+      queueSizeRejectionThreshold: 500 ##即使maxQueueSize没有达到，达到queueSizeRejectionThreshold该值后，请求也会被拒绝
+  command:
+    default:
+      execution:
+        isolation:
+          thread:
+            timeoutInMilliseconds: 10000
+
 jwt:
   token-header: Authorization
   expire: 14400
   rsa-secret: xx1WET12^%3^(WE45
+
+client:
+  id: ace-auth
+  secret: 123456
+  token-header: x-client-token
+  expire: 14400
+  rsa-secret: x2318^^(*WRYQWR(QW&T
+
+logging:
+  level:
+    #        tk.mybatis: DEBUG
+    com.ada.auth: DEBUG
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  security:
+    enabled: false

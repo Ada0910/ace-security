@@ -27,8 +27,9 @@ public class ClientController {
     @Autowired
     private KeyConfiguration keyConfiguration;
 
-    public ObjectRestResponse getAccessToken(String clientId, String secret)throws Exception {
-        return new ObjectRestResponse<String>().data(authClientService.apply(clientId,secret));
+    @RequestMapping(value = "/token", method = RequestMethod.POST)
+    public ObjectRestResponse getAccessToken(String clientId, String secret) throws Exception {
+        return new ObjectRestResponse<String>().data(authClientService.apply(clientId, secret));
     }
     @RequestMapping(value = "/myClient")
     public ObjectRestResponse getAllowedClient(String serviceId, String secret) {
