@@ -10,7 +10,7 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 @MapperScan("com.ada.server.mapper")
 @EnableDiscoveryClient
 @EnableFeignClients
-@EnableAutoConfiguration
+@SpringApplication
 public class ServerApplication {
     public static void main(String[] args) {
         SpringApplication.run(ServerApplication.class, args);
