@@ -259,7 +259,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="712" />
     <option name="width" value="735" />
     <option name="height" value="868" />
@@ -279,23 +279,6 @@
             <path>
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-auth-server" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -321,7 +304,7 @@
     <property name="project.structure.proportion" value="0.1544021" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
     <property name="show.run.dashboard.notification" value="false" />
   </component>
   <component name="RecentsManager">
@@ -486,7 +469,7 @@
       <workItem from="1574146682331" duration="2471000" />
       <workItem from="1574901417092" duration="1577000" />
       <workItem from="1575542223938" duration="6433000" />
-      <workItem from="1575855605035" duration="305000" />
+      <workItem from="1575855605035" duration="1040000" />
     </task>
     <task id="LOCAL-00001" summary="commit">
       <created>1569511885251</created>
@@ -751,10 +734,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="250118000" />
+    <option name="totallyTimeSpent" value="250853000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="7" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.34365994" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
