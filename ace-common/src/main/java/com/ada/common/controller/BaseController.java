@@ -72,7 +72,7 @@ public class BaseController<Biz extends BaseBiz, Entity> {
         return baseBiz.selectByQuery(queryUtil);
     }
 
-    public String getCurrentUserName() {
-        return BaseContext.getUserName();
+    public String getCurrentUsername() {
+        return BaseContext.getUsername();
     }
 }

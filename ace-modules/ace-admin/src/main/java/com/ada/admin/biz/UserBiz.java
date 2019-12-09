@@ -45,9 +45,9 @@ public class UserBiz extends BaseBiz<UserMapper, User> {
      * 根据用户名获取用户信息
      */
     @Cache(key = "user{1}")
-    public User getUserByUserName(String userName) {
+    public User getUserByUsername(String userName) {
         User user = new User();
-        user.setUserName(userName);
+        user.setUsername(userName);
         return mapper.selectOne(user);
     }
 }

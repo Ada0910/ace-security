@@ -40,7 +40,7 @@ public class BaseContext {
         return map.get(key);
     }
 
-    public static String getUserName() {
+    public static String getUsername() {
         Object value = get(CommonConstant.CONTEXT_KEY_USERNAME);
         return returnObjectValue(value);
     }
@@ -67,7 +67,7 @@ public class BaseContext {
         set(CommonConstant.CONTEXT_KEY_USER_ID, userID);
     }
 
-    public static void setUserName(String userName) {
+    public static void setUsername(String userName) {
         set(CommonConstant.CONTEXT_KEY_USERNAME, userName);
     }
 
@@ -112,8 +112,8 @@ public class BaseContext {
         public void testSetUserInfo() {
             BaseContext.setUserID("test");
             assertEquals(BaseContext.getUserID(), "test");
-            BaseContext.setUserName("test2");
-            assertEquals(BaseContext.getUserName(), "test2");
+            BaseContext.setUsername("test2");
+            assertEquals(BaseContext.getUsername(), "test2");
         }
     }
 }

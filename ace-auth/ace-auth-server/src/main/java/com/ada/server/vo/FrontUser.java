@@ -13,7 +13,7 @@ import lombok.Setter;
 @Setter
 public class FrontUser {
     public String id;
-    public String userName;
+    public String username;
     public String name;
     private String description;
     private String image;

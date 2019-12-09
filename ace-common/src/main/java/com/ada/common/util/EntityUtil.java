@@ -38,12 +38,12 @@ public class EntityUtil {
         if (request != null) {
             id = StringUtils.trimToEmpty(request.getHeader("userId"));
             hostIp = StringUtils.defaultIfBlank(request.getHeader("userHost"), ClientUtil.getClientIp(request));
-            name = StringUtils.trimToEmpty(request.getHeader("userName"));
+            name = StringUtils.trimToEmpty(request.getHeader("userame"));
             name = URLDecoder.decode(name);
         }
         //isBlank判断某字符串是否为空或长度为0或由空白符(whitespace)构成
         if (StringUtils.isBlank(name)) {
-            name = BaseContext.getUserName();
+            name = BaseContext.getUsername();
         }
         if (StringUtils.isBlank(id)) {
             id = BaseContext.getUserID();
@@ -71,13 +71,13 @@ public class EntityUtil {
         String id = "";
         if (request != null) {
             hostIp = StringUtils.defaultIfBlank(request.getHeader("userHost"), ClientUtil.getClientIp(request));
-            name = StringUtils.trimToEmpty(request.getHeader("userName"));
+            name = StringUtils.trimToEmpty(request.getHeader("username"));
             name = URLDecoder.decode(name);
             id = StringUtils.trimToEmpty(request.getHeader("userId"));
         }
 
         if (StringUtils.isBlank(name)) {
-            name = BaseContext.getUserName();
+            name = BaseContext.getUsername();
         }
         if (StringUtils.isBlank(id)) {
             id = BaseContext.getUserID();
