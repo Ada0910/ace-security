@@ -9,5 +9,25 @@
 *.cmd linguist-language=Java 
 
 build 
-/.idea
-/./ace-security/ace-control/ace-nacos/nacos
+.idea
+/target/
+*.gitattributes;
+*.gitignore;
+*.hprof;
+*.idea;
+*.iml;
+*.mvn;
+*.pyc;
+*.pyo;
+*.rbc;
+*.yarb;
+*~;.DS_Store;
+.git;
+.hg;
+.svn;
+CVS;__pycache__;
+_svn;
+mvnw;
+mvnw.*;
+vssver.scc;
+vssver2.scc;
