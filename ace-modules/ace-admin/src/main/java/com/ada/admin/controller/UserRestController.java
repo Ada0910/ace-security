@@ -33,7 +33,7 @@ public class UserRestController {
     @Cache(key = "permission:u{1}")
     @RequestMapping(value = "/user/un/{userName}/permissions", method = RequestMethod.GET)
     public @ResponseBody
-    List<PermissionInfo> getPermissionByUserName(@PathVariable("userName") String userName) {
+    List<PermissionInfo> getPermissionByUserName(@PathVariable("username") String userName) {
         return permissionService.getPermissionByUserName(userName);
     }
 

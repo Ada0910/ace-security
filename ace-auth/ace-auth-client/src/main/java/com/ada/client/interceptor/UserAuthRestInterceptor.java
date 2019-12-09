@@ -49,7 +49,7 @@ public class UserAuthRestInterceptor extends HandlerInterceptorAdapter {
             }
         }
         IJWTInfoUtil infoFromToken = userAuthUtil.getInfoFromToken(token);
-        BaseContext.setUserName(infoFromToken.getUniqueName());
+        BaseContext.setUsername(infoFromToken.getUniqueName());
         BaseContext.setName(infoFromToken.getName());
         BaseContext.setUserID(infoFromToken.getId());
         return super.preHandle(request, response, handler);

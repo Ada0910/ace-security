@@ -14,11 +14,11 @@ import lombok.Setter;
 public class JwtAuthenticationRequest {
     private static final long serialVersionUID = -8445943548965154778L;
 
-    private String userName;
+    private String username;
     private String password;
 
     public JwtAuthenticationRequest(String userName, String password) {
-        this.userName = userName;
+        this.username = userName;
         this.password = password;
     }
 

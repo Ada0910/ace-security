@@ -40,7 +40,7 @@ public class AuthServiceImpl implements AuthService {
         //验证用户名和密码是否正确
         UserInfo info = userService.validate(authenticationRequest);
         if (!StringUtils.isEmpty(info.getId())) {
-            return jwtTokenUtil.generateToken(new JWTInfoUtil(info.getUserName(), info.getId() + "", info.getName()));
+            return jwtTokenUtil.generateToken(new JWTInfoUtil(info.getUsername(), info.getId() + "", info.getName()));
         }
         throw new UserInvalidException("用户不存在或账户密码错误!");
     }

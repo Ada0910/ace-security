@@ -51,9 +51,9 @@ public class PermissionService {
     /**
      * 通过用户名来获取用户
      */
-    public UserInfo getUserByUserName(String userName) {
+    public UserInfo getUserByUsername(String userName) {
         UserInfo info = new UserInfo();
-        User user = userBiz.getUserByUserName(userName);
+        User user = userBiz.getUserByUsername(userName);
         BeanUtils.copyProperties(user, info);
         info.setId(user.getId().toString());
         return info;
@@ -64,7 +64,7 @@ public class PermissionService {
      */
     public UserInfo validate(String userName, String password) {
         UserInfo info = new UserInfo();
-        User user = userBiz.getUserByUserName(userName);
+        User user = userBiz.getUserByUsername(userName);
         if (encoder.matches(password, user.getPassword())) {
             BeanUtils.copyProperties(user, info);
             info.setId(user.getId().toString());
@@ -125,7 +125,7 @@ public class PermissionService {
      * 通过用户获取相应的元素(组件)
      */
     public List<PermissionInfo> getPermissionByUserName(String userName) {
-        User user = userBiz.getUserByUserName(userName);
+        User user = userBiz.getUserByUsername(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         List<PermissionInfo> result = new ArrayList<PermissionInfo>();
         PermissionInfo info = null;
@@ -155,7 +155,7 @@ public class PermissionService {
         if (userName == null) {
             return null;
         }
-        UserInfo user = this.getUserByUserName(userName);
+        UserInfo user = this.getUserByUsername(userName);
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
         List<PermissionInfo> permissionInfos = this.getPermissionByUserName(userName);
@@ -180,7 +180,7 @@ public class PermissionService {
         if (userName == null) {
             return null;
         }
-        User user = userBiz.getUserByUserName(userName);
+        User user = userBiz.getUserByUsername(userName);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         return getMenuTree(menus, AdminCommonConstant.ROOT);
     }

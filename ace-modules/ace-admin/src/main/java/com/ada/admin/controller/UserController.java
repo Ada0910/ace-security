@@ -52,7 +52,7 @@ public class UserController extends BaseController<UserBiz, User> {
      */
     @RequestMapping(value = "/front/menus", method = RequestMethod.GET)
     public @ResponseBody
-    List<MenuTree> getMenuByUserName(String token) throws Exception {
+    List<MenuTree> getMenuByUsername(String token) throws Exception {
         return permissionService.getMenusByUseName(token);
     }
 
