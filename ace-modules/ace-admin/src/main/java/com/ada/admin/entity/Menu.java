@@ -35,7 +35,13 @@ public class Menu {
 
     private String type;
 
+    @Column(name = "order_num")
+    private int orderNum;
+
     private String description;
+
+    @Column(name = "enabled")
+    private String enabled;
 
     @Column(name = "crt_time")
     private Date crtTime;
@@ -78,5 +84,6 @@ public class Menu {
     private String attr8;
 
     private String path;
+
 
 }

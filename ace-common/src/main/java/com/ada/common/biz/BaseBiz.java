@@ -24,7 +24,7 @@ import java.util.Map;
 public abstract class BaseBiz<M extends Mapper<T>, T> {
 
     @Autowired
-    protected M mapper;
+    public M mapper;
 
     public void setMapper(M mapper) {
         this.mapper = mapper;

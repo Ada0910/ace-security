@@ -5,6 +5,7 @@ import com.ace.cache.annotation.CacheClear;
 import com.ada.admin.entity.User;
 import com.ada.admin.mapper.MenuMapper;
 import com.ada.admin.mapper.UserMapper;
+import com.ada.client.util.UserAuthUtil;
 import com.ada.common.biz.BaseBiz;
 import com.ada.common.constant.UserConstant;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,10 +24,13 @@ import org.springframework.transaction.annotation.Transactional;
 public class UserBiz extends BaseBiz<UserMapper, User> {
 
     @Autowired
+    private UserMapper userMapper;
+
+    @Autowired
     private MenuMapper menuMapper;
 
-   /* @Autowired
-    private UserAuthUtil userAuthUtil;*/
+    @Autowired
+    private UserAuthUtil userAuthUtil;
 
     @Override
     public void insertSelective(User user) {
