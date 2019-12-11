@@ -172,11 +172,6 @@
             <groupId>org.springframework.cloud</groupId>
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-        </dependency>
     </dependencies>
 
     <!--7.构建-->
@@ -219,8 +214,6 @@
                 <configuration>
                     <source>1.8</source>
                     <target>1.8</target>
-                    <!-- fork:如果没有该配置，这个devtools不会起作用，即应用不会restart -->
-                    <fork>true</fork>
                 </configuration>
             </plugin>
         </plugins>

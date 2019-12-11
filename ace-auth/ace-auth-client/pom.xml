@@ -52,11 +52,6 @@
             <scope>provided</scope>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-devtools</artifactId>
-            <scope>runtime</scope>
-        </dependency>
-        <dependency>
             <groupId>com.ada</groupId>
             <artifactId>ace-auth-common</artifactId>
             <version>0.0.1-SNAPSHOT</version>
@@ -73,10 +68,6 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
-                <configuration>
-                    <!-- fork:如果没有该配置，这个devtools不会起作用，即应用不会restart -->
-                    <fork>true</fork>
-                </configuration>
             </plugin>
         </plugins>
     </build>

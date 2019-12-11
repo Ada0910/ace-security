@@ -76,7 +76,7 @@
                 <artifactId>httpclient</artifactId>
                 <version>4.5.8</version>
             </dependency>
-
+            
         </dependencies>
     </dependencyManagement>
 
@@ -91,6 +91,7 @@
                     <source>1.8</source>
                     <target>${maven.compile.target}</target>
                     <encoding>${project.build.sourceEncoding}</encoding>
+                  <!--  <fork>true</fork>-->
                 </configuration>
             </plugin>
             <plugin>
