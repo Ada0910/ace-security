@@ -16,11 +16,15 @@ import java.util.List;
 @FeignClient(name = "ace-sidecar-server")
 public interface PythonFeignClient {
 
-    //parse param like /message?id=12
+    /**
+     * parse param like /message?id=12
+     */
     @RequestMapping("/message/{id}")
     List<Message> getMsg(@RequestParam("id") Long id);
 
-    //parse url like /test
+    /**
+     * parse url like /test
+     */
     @RequestMapping("/test")
     String getTest();
 }
