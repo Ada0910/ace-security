@@ -21,28 +21,40 @@ public class User {
     @Id
     private Integer id;
 
+    @Column(name = "username")
     private String username;
 
+    @Column(name = "password")
     private String password;
 
+    @Column(name = "name")
     private String name;
 
+    @Column(name = "birthday")
     private String birthday;
 
+    @Column(name = "address")
     private String address;
 
     @Column(name = "mobile_phone")
     private String mobilePhone;
 
+    @Column(name = "email")
     private String email;
 
     @Column(name = "tel_phone")
     private String telPhone;
 
+    @Column(name = "sex")
     private String sex;
 
+    @Column(name = "type")
     private String type;
 
+    @Column(name = "status")
+    private String status;
+
+    @Column(name = "description")
     private String description;
 
     @Column(name = "crt_time")
@@ -69,20 +81,28 @@ public class User {
     @Column(name = "upd_host")
     private String updHost;
 
+    @Column(name = "attr1")
     private String attr1;
 
+    @Column(name = "attr2")
     private String attr2;
 
+    @Column(name = "attr3")
     private String attr3;
 
+    @Column(name = "attr4")
     private String attr4;
 
+    @Column(name = "attr5")
     private String attr5;
 
+    @Column(name = "attr6")
     private String attr6;
 
+    @Column(name = "attr7")
     private String attr7;
 
+    @Column(name = "attr8")
     private String attr8;
 
 

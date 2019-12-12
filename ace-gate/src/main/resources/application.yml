@@ -52,6 +52,7 @@ spring:
             - Path=/api/auth/**
           filters:
             - StripPrefix=2
+        ################################
         - id: ace-admin
           uri: lb://ace-admin
           order: 8001

@@ -24,6 +24,9 @@ import org.springframework.transaction.annotation.Transactional;
 public class UserBiz extends BaseBiz<UserMapper, User> {
 
     @Autowired
+    private UserMapper userMapper;
+
+    @Autowired
     private MenuMapper menuMapper;
 
     @Autowired

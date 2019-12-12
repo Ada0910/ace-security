@@ -47,7 +47,6 @@
                 </exclusion>
             </exclusions>
         </dependency>
-
         <!--luncene-->
         <dependency>
             <groupId>org.apache.lucene</groupId>
