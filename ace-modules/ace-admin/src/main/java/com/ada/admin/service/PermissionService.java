@@ -158,6 +158,8 @@ public class PermissionService {
         UserInfo user = this.getUserByUsername(userName);
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
+
+        //根据用户名的权限获取用户权限列表
         List<PermissionInfo> permissionInfos = this.getPermissionByUserName(userName);
         //返回menu菜单
         Stream<PermissionInfo> menus = permissionInfos.parallelStream().filter((permission) -> {

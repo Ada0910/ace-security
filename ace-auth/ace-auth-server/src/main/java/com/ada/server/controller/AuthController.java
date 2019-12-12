@@ -30,7 +30,7 @@ public class AuthController {
     AuthService authService;
 
     /**
-     * 创建认证的token
+     * 创建认证的token(首页登录认证)
      */
     @RequestMapping(value = "token", method = RequestMethod.POST)
     public ObjectRestResponse<String> createAuthenticationToken(@RequestBody JwtAuthenticationRequest authenticationRequest) throws Exception {
