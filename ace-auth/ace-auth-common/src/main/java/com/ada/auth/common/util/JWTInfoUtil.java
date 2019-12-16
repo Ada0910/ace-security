@@ -13,8 +13,8 @@ public class JWTInfoUtil implements Serializable, IJWTInfoUtil {
     private String userId;
     private String name;
 
-    public JWTInfoUtil(String userName, String userId, String name) {
-        this.username = userName;
+    public JWTInfoUtil(String username, String userId, String name) {
+        this.username = username;
         this.userId = userId;
         this.name = name;
     }
