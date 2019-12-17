@@ -67,8 +67,8 @@ public class BaseContext {
         set(CommonConstant.CONTEXT_KEY_USER_ID, userID);
     }
 
-    public static void setUsername(String userName) {
-        set(CommonConstant.CONTEXT_KEY_USERNAME, userName);
+    public static void setUsername(String username) {
+        set(CommonConstant.CONTEXT_KEY_USERNAME, username);
     }
 
     private static String returnObjectValue(Object value) {
