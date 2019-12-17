@@ -39,6 +39,7 @@ public class AuthServiceImpl implements AuthService {
     public String login(JwtAuthenticationRequest authenticationRequest) throws Exception {
         //验证用户名和密码是否正确
         UserInfo info = userService.validate(authenticationRequest);
+        //生成包含用户信息下token
         if (!StringUtils.isEmpty(info.getId())) {
             return jwtTokenUtil.generateToken(new JWTInfoUtil(info.getUsername(), info.getId() + "", info.getName()));
         }

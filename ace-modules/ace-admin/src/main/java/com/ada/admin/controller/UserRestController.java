@@ -31,10 +31,10 @@ public class UserRestController {
 
 
     @Cache(key = "permission:u{1}")
-    @RequestMapping(value = "/user/un/{userName}/permissions", method = RequestMethod.GET)
+    @RequestMapping(value = "/user/un/{username}/permissions", method = RequestMethod.GET)
     public @ResponseBody
-    List<PermissionInfo> getPermissionByUserName(@PathVariable("username") String userName) {
-        return permissionService.getPermissionByUserName(userName);
+    List<PermissionInfo> getPermissionByUsername(@PathVariable("username") String username) {
+        return permissionService.getPermissionByUsername(username);
     }
 
     @RequestMapping(value = "/user/validate", method = RequestMethod.POST)

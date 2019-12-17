@@ -17,5 +17,4 @@ public interface UserMapper extends Mapper<User> {
 
     public List<User> selectLeaderByGroupId(@Param("groupId") int groupId);
 
-    public User selectUser(String username);
 }

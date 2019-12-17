@@ -51,9 +51,9 @@ public class PermissionService {
     /**
      * 通过用户名来获取用户
      */
-    public UserInfo getUserByUsername(String userName) {
+    public UserInfo getUserByUsername(String username) {
         UserInfo info = new UserInfo();
-        User user = userBiz.getUserByUsername(userName);
+        User user = userBiz.getUserByUsername(username);
         BeanUtils.copyProperties(user, info);
         info.setId(user.getId().toString());
         return info;
@@ -62,9 +62,9 @@ public class PermissionService {
     /**
      * 校验用户名和密码
      */
-    public UserInfo validate(String userName, String password) {
+    public UserInfo validate(String username, String password) {
         UserInfo info = new UserInfo();
-        User user = userBiz.getUserByUsername(userName);
+        User user = userBiz.getUserByUsername(username);
         if (encoder.matches(password, user.getPassword())) {
             BeanUtils.copyProperties(user, info);
             info.setId(user.getId().toString());
@@ -124,8 +124,8 @@ public class PermissionService {
     /**
      * 通过用户获取相应的元素(组件)
      */
-    public List<PermissionInfo> getPermissionByUserName(String userName) {
-        User user = userBiz.getUserByUsername(userName);
+    public List<PermissionInfo> getPermissionByUsername(String username) {
+        User user = userBiz.getUserByUsername(username);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         List<PermissionInfo> result = new ArrayList<PermissionInfo>();
         PermissionInfo info = null;
@@ -151,16 +151,16 @@ public class PermissionService {
      */
     public FrontUser getUserInfo(String token) throws Exception {
         //获取用户名
-        String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
-        if (userName == null) {
+        String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
+        if (username == null) {
             return null;
         }
-        UserInfo user = this.getUserByUsername(userName);
+        UserInfo user = this.getUserByUsername(username);
         FrontUser frontUser = new FrontUser();
         BeanUtils.copyProperties(user, frontUser);
 
         //根据用户名的权限获取用户权限列表
-        List<PermissionInfo> permissionInfos = this.getPermissionByUserName(userName);
+        List<PermissionInfo> permissionInfos = this.getPermissionByUsername(username);
         //返回menu菜单
         Stream<PermissionInfo> menus = permissionInfos.parallelStream().filter((permission) -> {
             return permission.getType().equals(CommonConstant.RESOURCE_TYPE_MENU);
@@ -178,11 +178,13 @@ public class PermissionService {
      * 根据用户名获取相应的menu
      */
     public List<MenuTree> getMenusByUseName(String token) throws Exception {
-        String userName = userAuthUtil.getInfoFromToken(token).getUniqueName();
-        if (userName == null) {
+        //从token中获取用户名
+        String username = userAuthUtil.getInfoFromToken(token).getUniqueName();
+        if (username == null) {
             return null;
         }
-        User user = userBiz.getUserByUsername(userName);
+        //根据用户名获取用户信息
+        User user = userBiz.getUserByUsername(username);
         List<Menu> menus = menuBiz.getUserAuthorityMenuByUserId(user.getId());
         return getMenuTree(menus, AdminCommonConstant.ROOT);
     }
