@@ -132,7 +132,7 @@ public class PermissionService {
         menu2permission(menus, result);
         List<Element> elements = elementBiz.getAuthorityElementByUserId(user.getId() + "");
         element2permission(result, elements);
-        return result;
+         return result;
     }
 
     private List<MenuTree> getMenuTree(List<Menu> menus, int root) {
