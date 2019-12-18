@@ -38,7 +38,7 @@ public class EntityUtil {
         if (request != null) {
             id = StringUtils.trimToEmpty(request.getHeader("userId"));
             hostIp = StringUtils.defaultIfBlank(request.getHeader("userHost"), ClientUtil.getClientIp(request));
-            name = StringUtils.trimToEmpty(request.getHeader("userame"));
+            name = StringUtils.trimToEmpty(request.getHeader("username"));
             name = URLDecoder.decode(name);
         }
         //isBlank判断某字符串是否为空或长度为0或由空白符(whitespace)构成
@@ -107,6 +107,17 @@ public class EntityUtil {
                 ReflectionUtil.invokeSetter(entity, field, value[i]);
             }
         }
+    }
+
+    /**
+     * 根据主键属性，判断主键是否值为空
+     */
+    public static <T> boolean isPKNotNull(T entity,String field){
+        if(!ReflectionUtil.hasField(entity, field)) {
+            return false;
+        }
+        Object value = ReflectionUtil.getFieldValue(entity, field);
+        return value!=null&&!"".equals(value);
     }
 
 
