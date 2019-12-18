@@ -48,13 +48,16 @@ public class ReflectionUtil {
     public static void invokeSetter(Object obj, String propertyName, Object value) {
         Object object = obj;
         String[] names = StringUtils.split(propertyName, ".");
-        for (int i = 0; i < names.length; i++) {
-            if (i < names.length - 1) {
-                String getterMethodName = GETTER_PREFIX + StringUtils.capitalize(names[i]);
-                object = invokeMethod(object, getterMethodName, new Class[]{}, new Object[]{});
-            } else {
-                String setterMethodName = SETTER_PREFIX + StringUtils.capitalize(names[i]);
-                invokeMethodByName(object, setterMethodName, new Object[]{value});
+        //非空校验
+        if (!StringUtils.isEmpty(names)) {
+            for (int i = 0; i < names.length; i++) {
+                if (i < names.length - 1) {
+                    String getterMethodName = GETTER_PREFIX + StringUtils.capitalize(names[i]);
+                    object = invokeMethod(object, getterMethodName, new Class[]{}, new Object[]{});
+                } else {
+                    String setterMethodName = SETTER_PREFIX + StringUtils.capitalize(names[i]);
+                    invokeMethodByName(object, setterMethodName, new Object[]{value});
+                }
             }
         }
     }
