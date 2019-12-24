@@ -46,21 +46,10 @@ public class ReflectionUtil {
      * 支持多级，如：对象名.对象名.方法
      */
     public static void invokeSetter(Object obj, String propertyName, Object value) {
-        Object object = obj;
-        String[] names = StringUtils.split(propertyName, ".");
-        //非空校验
-        if (!StringUtils.isEmpty(names)) {
-            for (int i = 0; i < names.length; i++) {
-                if (i < names.length - 1) {
-                    String getterMethodName = GETTER_PREFIX + StringUtils.capitalize(names[i]);
-                    object = invokeMethod(object, getterMethodName, new Class[]{}, new Object[]{});
-                } else {
-                    String setterMethodName = SETTER_PREFIX + StringUtils.capitalize(names[i]);
-                    invokeMethodByName(object, setterMethodName, new Object[]{value});
-                }
-            }
-        }
+        String setterMethodName = SETTER_PREFIX + StringUtils.capitalize(propertyName);
+        invokeMethodByName(obj, setterMethodName, new Object[]{value});
     }
+
 
     /**
      * 直接读取对象属性值, 无视private/protected修饰符, 不经过getter函数.
