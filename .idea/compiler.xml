@@ -28,11 +28,9 @@
       <module name="ace-auth-common" options="-parameters" />
       <module name="ace-auth-server" options="-parameters" />
       <module name="ace-common" options="-parameters" />
-      <module name="ace-control" options="" />
       <module name="ace-gate" options="-parameters" />
       <module name="ace-generator" options="-parameters" />
       <module name="ace-interface" options="-parameters" />
-      <module name="ace-modules" options="" />
       <module name="ace-monitor" options="-parameters" />
       <module name="ace-sidecar-client-demo" options="-parameters" />
       <module name="ace-sidecar-server" options="-parameters" />

@@ -5,11 +5,6 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-auth/ace-auth-server/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-control/ace-monitor/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-modules/ace-admin/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-auth/ace-auth-common/pom.xml" />
-        <option value="$PROJECT_DIR$/ace-gate/pom.xml" />
       </list>
     </option>
   </component>
