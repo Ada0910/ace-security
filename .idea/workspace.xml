@@ -6,7 +6,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0224d8ca-6ccd-49cc-ba0a-f6d4dcc302b7" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java" beforeDir="false" afterPath="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ace-common/target/classes/com/ada/common/biz/BaseBiz.class" beforeDir="false" afterPath="$PROJECT_DIR$/ace-common/target/classes/com/ada/common/biz/BaseBiz.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/ace-sidecar/ace-sidecar-server/target/" />
     <ignored path="$PROJECT_DIR$/ace-auth/ace-auth-server/target/" />
@@ -34,58 +35,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/EntityUtil.java">
+        <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/controller/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3255">
-              <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/java/com/ada/server/controller/AuthController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="837">
-              <caret line="38" column="27" selection-start-line="38" selection-start-column="27" selection-end-line="38" selection-end-column="27" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/java/com/ada/server/service/impl/AuthServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1023">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/java/com/ada/server/feign/IUserServiceFeign.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="434">
-              <caret line="20" column="20" selection-start-line="20" selection-start-column="20" selection-end-line="20" selection-end-column="20" />
+            <state relative-caret-position="329">
+              <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/service/PermissionService.java">
+        <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
+            <state relative-caret-position="302">
+              <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/EntityUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="860">
+              <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -94,19 +65,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-crypto/5.1.3.RELEASE/spring-security-crypto-5.1.3.RELEASE.jar!/org/springframework/security/crypto/bcrypt/BCryptPasswordEncoder.class">
+        <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/ReflectionUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1302">
-              <caret line="53" column="19" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserRestController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="992">
-              <caret line="42" selection-start-line="42" selection-end-line="42" />
+            <state relative-caret-position="116">
+              <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
             </state>
           </provider>
         </entry>
@@ -125,9 +87,6 @@
       <find>encoder</find>
     </findStrings>
   </component>
-  <component name="Git.Rebase.Settings">
-    <option name="ONTO" value="refs/remotes/origin/ada" />
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -144,6 +103,8 @@
         <option value="$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/entity/Menu.java" />
         <option value="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/ReflectionUtil.java" />
         <option value="$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/controller/BaseController.java" />
+        <option value="$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java" />
       </list>
     </option>
   </component>
@@ -170,9 +131,120 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -182,12 +254,13 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="F:/WildDarts/cloud-platform-ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="Errors" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -201,7 +274,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.AdminApplication">
+  <component name="RunManager" selected="Spring Boot.GateApplication">
     <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="ace-admin" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.admin.AdminApplication" />
@@ -351,7 +424,9 @@
       <workItem from="1576673262263" duration="7703000" />
       <workItem from="1577200086748" duration="1007000" />
       <workItem from="1577281612563" duration="5684000" />
-      <workItem from="1577367981766" duration="1635000" />
+      <workItem from="1577367981766" duration="3496000" />
+      <workItem from="1577538583855" duration="446000" />
+      <workItem from="1577540729148" duration="4780000" />
     </task>
     <task id="LOCAL-00001" summary="update">
       <created>1576163047280</created>
@@ -374,11 +449,18 @@
       <option name="project" value="LOCAL" />
       <updated>1576683431043</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update">
+      <created>1577369843418</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1577369843418</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29955000" />
+    <option name="totallyTimeSpent" value="37042000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -393,7 +475,7 @@
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21159029" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.11927224" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -402,7 +484,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3483965" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.1122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
@@ -426,7 +508,7 @@
       <window_info anchor="right" id="Bean Validation" order="9" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.40161726" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2708895" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -435,7 +517,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31195337" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.1122449" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32944608" />
@@ -554,13 +636,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-186">
-          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.4.RELEASE/spring-webmvc-5.1.4.RELEASE.jar!/org/springframework/web/servlet/FrameworkServlet.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
@@ -621,20 +696,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.4.0/mapper-3.4.0.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/controller/BaseController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="33" column="23" lean-forward="true" selection-start-line="33" selection-start-column="23" selection-end-line="33" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/constant/CommonConstant.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="196">
@@ -691,13 +752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1085">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/biz/UserBiz.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="868">
@@ -705,13 +759,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/ReflectionUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1240">
-          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
         </state>
       </provider>
     </entry>
@@ -753,23 +800,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/EntityUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3255">
-          <caret line="113" column="5" selection-start-line="113" selection-start-column="5" selection-end-line="113" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/java/com/ada/server/controller/AuthController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="837">
@@ -807,11 +837,63 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/service/PermissionService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
+        <state relative-caret-position="1457">
           <caret line="71" column="20" lean-forward="true" selection-start-line="71" selection-start-column="20" selection-end-line="71" selection-end-column="20" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="403">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.4.0/mapper-3.4.0.jar!/tk/mybatis/mapper/common/base/insert/InsertSelectiveMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-906">
+          <caret line="27" column="61" lean-forward="true" selection-start-line="27" selection-start-column="61" selection-end-line="27" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/ReflectionUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="47" column="23" selection-start-line="47" selection-start-column="23" selection-end-line="47" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/controller/BaseController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="34" column="48" lean-forward="true" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/util/EntityUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="860">
+          <caret line="101" column="28" selection-start-line="101" selection-start-column="28" selection-end-line="101" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="76" column="41" selection-start-line="76" selection-start-column="41" selection-end-line="76" selection-end-column="41" />
         </state>
       </provider>
     </entry>
