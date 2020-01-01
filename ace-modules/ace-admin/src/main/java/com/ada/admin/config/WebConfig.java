@@ -68,4 +68,5 @@ public class WebConfig implements WebMvcConfigurer {
         Collections.addAll(list, urls);
         return list;
     }
+
 }
