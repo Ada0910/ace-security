@@ -29,14 +29,16 @@ public class UserAuthRestInterceptor extends HandlerInterceptorAdapter {
 
     @Override
     public boolean preHandle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        HandlerMethod handlerMethod = (HandlerMethod) handler;
-        // 配置该注解，说明不进行用户拦截
-        IgnoreUserToken annotation = handlerMethod.getBeanType().getAnnotation(IgnoreUserToken.class);
-        if (annotation == null) {
-            annotation = handlerMethod.getMethodAnnotation(IgnoreUserToken.class);
-        }
-        if (annotation != null) {
-            return super.preHandle(request, response, handler);
+        if(handler instanceof HandlerMethod) {
+            HandlerMethod handlerMethod = (HandlerMethod) handler;
+            // 配置该注解，说明不进行用户拦截
+            IgnoreUserToken annotation = handlerMethod.getBeanType().getAnnotation(IgnoreUserToken.class);
+            if (annotation == null) {
+                annotation = handlerMethod.getMethodAnnotation(IgnoreUserToken.class);
+            }
+            if (annotation != null) {
+                return super.preHandle(request, response, handler);
+            }
         }
         String token = request.getHeader(userAuthConfig.getTokenHeader());
         if (StringUtils.isEmpty(token)) {
@@ -48,6 +50,7 @@ public class UserAuthRestInterceptor extends HandlerInterceptorAdapter {
                 }
             }
         }
+
         IJWTInfoUtil infoFromToken = userAuthUtil.getInfoFromToken(token);
         BaseContext.setUsername(infoFromToken.getUniqueName());
         BaseContext.setName(infoFromToken.getName());
@@ -60,4 +63,5 @@ public class UserAuthRestInterceptor extends HandlerInterceptorAdapter {
         BaseContext.remove();
         super.afterCompletion(request, response, handler, ex);
     }
+
 }
