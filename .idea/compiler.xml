@@ -20,6 +20,14 @@
         <module name="ace-tool" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="ace-gate" target="1.8" />
+      <module name="ace-generator" target="1.8" />
+      <module name="ace-sidecar" target="1.8" />
+      <module name="ace-sidecar-client-demo" target="1.8" />
+      <module name="ace-sidecar-server" target="1.8" />
+      <module name="ace-tool" target="1.8" />
+    </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
