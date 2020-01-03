@@ -34,7 +34,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/controller/BaseController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
+            <state relative-caret-position="1334">
               <caret line="71" selection-start-line="71" selection-end-line="71" />
             </state>
           </provider>
@@ -43,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="246">
+            <state relative-caret-position="1518">
               <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
             </state>
           </provider>
@@ -52,8 +52,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/GateLogController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+            <state relative-caret-position="373">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,18 +62,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/entity/GateLog.java">
+        <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="90">
+              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="230">
+              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/entity/GateLog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="27" selection-start-line="27" selection-end-line="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/resources/mapper/GateLogMapper.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="176">
+            <state relative-caret-position="138">
               <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
             </state>
           </provider>
@@ -98,6 +117,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
+    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -163,37 +185,12 @@
             <path>
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-control" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
               <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-common" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="ace-gate" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
@@ -205,213 +202,6 @@
               <item name="ace-security" type="462c0819:PsiDirectoryNode" />
               <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
               <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-admin" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-generator" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-interface" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-interface" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-tool" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ace-security" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-modules" type="462c0819:PsiDirectoryNode" />
-              <item name="ace-tool" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ace-security" type="b2602c69:ProjectViewProjectNode" />
@@ -431,6 +221,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1578025284651" />
     <property name="last_opened_file_path" value="F:/WildDarts/cloud-platform-ui" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -453,63 +244,6 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.AdminApplication">
-    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-admin" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.admin.AdminApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-auth-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.server.ServerApplication" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-gate" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.gate.GateApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-generator" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.generator.GeneratorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-monitor" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.monitor.MonitorApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SidecarClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-sidecar-client-demo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.sidecar.client.SidecarClientApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="SidecarServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-sidecar-server" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.sidecar.server.SidecarServerApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ToolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="ace-tool" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.tool.ToolApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration default="true" type="tests" factoryName="Nosetests">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -571,6 +305,63 @@
       <option name="_new_target" value="&quot;&quot;" />
       <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AuthApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-auth-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.server.ServerApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GateApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-gate" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.gate.GateApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GeneratorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-generator" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.generator.GeneratorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MonitorApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-monitor" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.monitor.MonitorApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidecarClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-sidecar-client-demo" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.sidecar.client.SidecarClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SidecarServerApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-sidecar-server" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.sidecar.server.SidecarServerApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ToolApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="ace-tool" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.ada.tool.ToolApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <list>
       <item itemvalue="Spring Boot.AdminApplication" />
@@ -649,7 +440,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70740000" />
+    <option name="totallyTimeSpent" value="71016000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -661,9 +452,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.36792454" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.29538906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
@@ -682,7 +473,7 @@
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
       <window_info anchor="bottom" id="Java Enterprise" order="11" weight="0.32944608" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="13" visible="true" weight="0.50145775" />
+      <window_info anchor="bottom" id="Version Control" order="13" visible="true" weight="0.50145775" />
       <window_info anchor="bottom" id="Messages" order="14" weight="0.32944608" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -764,8 +555,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-auth/ace-auth-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        <state relative-caret-position="90">
+          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -895,13 +686,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="403">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_211/src.zip!/java/lang/Object.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper/3.4.0/mapper-3.4.0.jar!/tk/mybatis/mapper/entity/Example.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="249">
@@ -1055,8 +840,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/controller/GateLogController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="19" column="70" lean-forward="true" selection-start-line="19" selection-start-column="70" selection-end-line="19" selection-end-column="70" />
+        <state relative-caret-position="373">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1079,14 +864,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/biz/BaseBiz.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="246">
+        <state relative-caret-position="1518">
           <caret line="99" column="38" selection-start-line="99" selection-start-column="38" selection-end-line="99" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-common/src/main/java/com/ada/common/controller/BaseController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
+        <state relative-caret-position="1334">
           <caret line="71" selection-start-line="71" selection-end-line="71" />
         </state>
       </provider>
@@ -1100,14 +885,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/java/com/ada/admin/entity/GateLog.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="460">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ace-modules/ace-admin/src/main/resources/mapper/GateLogMapper.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
+        <state relative-caret-position="138">
           <caret line="6" column="23" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
         </state>
       </provider>
