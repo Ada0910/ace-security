@@ -26,6 +26,7 @@
         <module>ace-common</module>
         <module>ace-gate</module>
         <module>ace-sidecar</module>
+        <module>ace-generator</module>
     </modules>
     <!--5.配置-->
     <properties>
@@ -76,7 +77,7 @@
                 <artifactId>httpclient</artifactId>
                 <version>4.5.8</version>
             </dependency>
-            
+
         </dependencies>
     </dependencyManagement>
 
